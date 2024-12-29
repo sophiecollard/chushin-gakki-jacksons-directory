@@ -1,0 +1,93 @@
+{
+    "brand": "Jackson Stars",
+    "model": "ASL-TN01 (2007 Limited Series)",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Mother of Pearl"
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": "1/8\" Flame Maple Top",
+            "binding": {
+                "colour": "Natural"
+            }
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "TB-4"
+            }
+        },
+        "hardware": {
+            "colour": "Chrome",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "NAT (Natural)",
+            "TA (Transparent Amber)",
+            "TBK (Transparent Black)",
+            "TBL (Transparent Blue)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 304,500",
+            "source": {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2007 ASL-TN01 in Transparent Black",
+                "url": "https://reverb.com/item/42250877-jackson-stars-soloist-asl-tn01-2000s-transparent-black"
+            },
+            {
+                "label": "2008 ASL-TN01 in Transparent Amber",
+                "url": "https://reverb.com/item/72023356-2008-made-jackson-stars-soloist-asl-tn01-through-neck-ebony-made-in-japan-w-hc"
+            },
+            {
+                "label": "2008 ASL-TN01 in Transparent Blue",
+                "url": "https://reverb.com/item/72191332-jackson-asl-tn01-ltd-see-through-blue-used"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2008
+        },
+        "limited_series": "2007 Limited Series"
+    }
+}

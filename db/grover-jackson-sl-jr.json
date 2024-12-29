@@ -1,0 +1,81 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Soloist Jr",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "24.75\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Reverse Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Mid Boost, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Jackson J-200",
+                "bridge": "J-50B",
+                "active_electronics": "JE-1200 Mid Boost"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "Metallic Black",
+            "Pearl Blue White"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 170,000",
+            "source": {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_13.html"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "1990 Soloist Jr in Metallic Black",
+                "url": "https://reverb.com/uk/item/29814405-grover-jackson-soloist-jr-1990-metallic-black-short-scale"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1990,
+            "until": 1991
+        }
+    }
+}

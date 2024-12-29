@@ -1,0 +1,115 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Soloist Custom",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 1x Mid Boost, 5-Way Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "HH Configuration",
+                    "value": {
+                        "neck": "Jackson J-50BC",
+                        "bridge": "J-80C",
+                        "active_electronics": "JE-1200 Mid Boost"
+                    }
+                },
+                {
+                    "variant": "SSH Configuration",
+                    "value": {
+                        "neck": "Jackson J-200",
+                        "middle": "J-200",
+                        "bridge": "J-50BC",
+                        "active_electronics": "JE-1200 Mid Boost"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "MB (Metallic Black)",
+            "PBW (Pearl Blue White)",
+            "PPU (Platinium Purple, 1991-1992 only)",
+            "PPC (Platinium Pearl Crackle, 1991-1992 only)",
+            "WB (Wizard Blue, from 1992 or 1993)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 185,000",
+            "source": {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "Soloist Custom HH in WB",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-sl-custom-hh.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "1992 Soloist Custom HH in Pearl Blue White",
+                "url": "https://reverb.com/item/71194718-grover-jackson-soloist-custom-1990-s-made-in-japan-mij-sl"
+            },
+            {
+                "label": "1994 Soloist Custom SSH in Wizard Blue",
+                "url": "https://reverb.com/uk/item/38336253-jackson-soloist-custom-wizard-blue"
+            },
+            {
+                "label": "1994 Soloist Custom HH in Wizard Blue",
+                "url": "https://reverb.com/uk/item/30684058-jackson-grover-jackson-1994-iceberg"
+            },
+            {
+                "label": "199X Soloist Custom in Metallic Black",
+                "url": "https://reverb.com/uk/item/82853999-1990s-grover-jackson-soloist-custom-hh-metallic-black-japan"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1991,
+            "until": 1994
+        }
+    }
+}

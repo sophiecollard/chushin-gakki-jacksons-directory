@@ -1,0 +1,84 @@
+{
+    "brand": "Jackson",
+    "model": "SLS3",
+    "specs": {
+        "neck": {
+            "material": "Mahogany",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid and Abalone",
+                "type": "Shark Eyes"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular_3_and_3",
+            "finish": "Matching (Black on Swirl finishes)",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Mahogany"
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "SH-1b"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Tune-O-Matic (w/ string-thru-body)"
+        },
+        "finishes": [
+            "Satin Black (2009-2011)",
+            "Black (2009-2011)",
+            "Snow White (2009-2011)",
+            "Green Swirl (2009)"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "SLS3 in Snow White",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-sls3-white.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "February 2009 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/1UjsBa6bKYQQEuyqmmGGWe/eff4c7dc5327dc305c9d685c9d8047dc/Jackson-Price-List-2009.pdf"
+            },
+            {
+                "label": "January 2010 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2010.pdf"
+            },
+            {
+                "label": "January 2011 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2011.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2009 SLS3 in Green Swirl",
+                "url": "https://reverb.com/item/20253650-jackson-sls3-soloist-green-swirl"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide",
+        "years_of_manufacture": {
+            "from": 2009,
+            "until": 2011
+        }
+    }
+}

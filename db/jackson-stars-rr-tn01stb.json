@@ -1,0 +1,84 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-TN01STB",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Mother of Pearl"
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "TB-4"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Gotoh Tune-O-Matic (w/ string-through-body)"
+        },
+        "finishes": [
+            "BLK (Black)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 252,000",
+            "source": {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "RR-TN01STB",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn01stb.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2008 RR-TN01STB in Black",
+                "url": "https://reverb.com/uk/item/68237520-jackson-stars-rr-tn01-black-sn-080225-04-20"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2009
+        }
+    }
+}

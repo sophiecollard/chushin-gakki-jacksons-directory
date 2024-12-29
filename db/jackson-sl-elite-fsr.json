@@ -1,0 +1,79 @@
+{
+    "brand": "Jackson",
+    "model": "Soloist Elite FSR",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24,
+                "fret_material": "Stainless Steel"
+            },
+            "inlays": {
+                "material": "Alumiloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Flame Maple Veneer on Transparent Finishes"
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-2n",
+                "bridge": "TB-4",
+                "active_electronics": "2-band Active Preamp"
+            }
+        },
+        "hardware": {
+            "colour": "Chrome",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "Black",
+            "Absynthe Frost",
+            "Transparent Black",
+            "Amber Sunburst",
+            "Dragon Graphic"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "Soloist Elite FSR in Dragon Graphic",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-sl-elite-fsr-dragon.png"
+        }
+    },
+    "links": {
+        "catalogues": [],
+        "reverb_listings": [
+            {
+                "label": "2011 Soloist Elite FSR in Transparent Black",
+                "url": "https://reverb.com/uk/item/43658193-jackson-elite-soloist-2011-trans-black"
+            },
+            {
+                "label": "2011 Soloist Elite FSR in Dragon Graphic",
+                "url": "https://reverb.com/item/12698005-new-jackson-soloist-elite-fsr-limited-edition-w-dragon-graphic-very-rare"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide",
+        "years_of_manufacture": {
+            "from": 2011
+        },
+        "limited_series": "2011 Limited Edition"
+    }
+}

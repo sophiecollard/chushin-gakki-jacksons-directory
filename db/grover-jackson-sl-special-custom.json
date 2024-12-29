@@ -1,0 +1,81 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Soloist Special Custom",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Ash",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Parametric EQ/Mid Boost, 1x Mode Select Mini Switch, 5-Way Switch",
+            "pickup_configuration": {
+                "neck": "Jackson J-200 & S-6F",
+                "bridge": "J-95",
+                "active_electronics": "JE-1550"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "TPB (Trans Prim Black)",
+            "TPBL (Trans Prim Blue)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 200,000",
+            "source": {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "Soloist Special Custom in TPBL",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-sl-special-custom.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        ],
+        "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1992,
+            "until": 1994
+        }
+    }
+}

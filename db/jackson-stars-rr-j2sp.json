@@ -1,0 +1,103 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-J2SP",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.625\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, Boost switch",
+            "pickup_configuration": {
+                "neck": null,
+                "bridge": "EMG-H3 with EMG-PA2 boost"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Schaller tremolo (recessed)"
+        },
+        "finishes": [
+            "BK (Black)",
+            "BK/BV YL (Black w/ Yellow Bevels)",
+            "BK/BV PN GD (Black w/ Gold Pinstripes)"
+        ]
+    },
+    "prices": [
+        {
+            "values": [
+                {
+                    "variant": "BLK",
+                    "value": "JPY 173,250"
+                },
+                {
+                    "variant": "BK/BV YL",
+                    "value": "JPY 225,750"
+                },
+                {
+                    "variant": "BK/BV PN GD",
+                    "value": "JPY 225,750"
+                }
+            ],
+            "source": {
+                "label": "Jackson Stars Ad",
+                "url": "https://i.imgur.com/X2W7nia.png"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "RR-J2SP",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-j2sp.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "Jackson Stars Ad",
+                "url": "https://i.imgur.com/X2W7nia.png"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2006 RR-J2SP in Black",
+                "url": "https://reverb.com/item/84653077-jackson-jackson-stars-rr-j2sp-gloss-black-2006-made-in-japan-alexi-laiho-sig-model"
+            },
+            {
+                "label": "2007 RR-J2SP in Black w/ Yellow Bevels",
+                "url": "https://reverb.com/item/85047946-jackson-stars-j2sp-2007-alexi-wild-child-laiho-model-minty-condition"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2005,
+            "until": 2007
+        }
+    }
+}

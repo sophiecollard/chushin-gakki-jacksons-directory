@@ -1,0 +1,79 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Soloist",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 1x Mid Boost, 5-Way Switch",
+            "pickup_configuration": {
+                "neck": "Jackson J-200",
+                "middle": "J-200",
+                "bridge": "J-50B",
+                "active_electronics": "JE-1200 Mid Boost"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "Metallic Black",
+            "Pearl Blue White",
+            "Light Electric Blue",
+            "Orange"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 185,000",
+            "source": {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_13.html"
+            }
+        ],
+        "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1990,
+            "until": 1991
+        }
+    }
+}

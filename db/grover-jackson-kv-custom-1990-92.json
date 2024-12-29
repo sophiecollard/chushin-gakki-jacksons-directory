@@ -1,0 +1,121 @@
+{
+    "brand": "Grover Jackson",
+    "model": "King V Custom (1990-1992)",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "As of early 1991",
+                    "value": {
+                        "neck": "Jackson J-50N",
+                        "bridge": "J-90"
+                    }
+                },
+                {
+                    "variant": "As of late 1991",
+                    "value": {
+                        "neck": "Jackson J-50BC",
+                        "bridge": "J-90C"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "MB (Metallic Black)",
+            "PBW (Pearl Blue White)",
+            "PR (Pearl Red)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 195,000",
+            "source": {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "King V Custom in Pearl Red",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-kv-custom-1990-92.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "1991 King V Custom in Pearl Red",
+                "url": "https://reverb.com/uk/item/33984926-grover-jackson-king-v-custom-kv-mij-1991-pearl-red"
+            },
+            {
+                "label": "1991 King V Custom in Metallic Black",
+                "url": "https://reverb.com/uk/item/64258890-grover-jackson-king-v-custom-metallic-black-s-n-j101486-12-21"
+            },
+            {
+                "label": "1992 King V Custom in Pearl Blue White",
+                "url": "https://reverb.com/uk/item/85446598-1992-grover-jackson-king-v-mij-white"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1990,
+            "until": 1992
+        },
+        "identification_guide": [
+            "Serial number starting with J0, J1 or J2 followed by 5 digits",
+            "Headstock decal w/ large \"Jackson\" logo followed by \"GROVER JACKSON\" in smaller print",
+            "22 frets (later models have 24)",
+            "Mother of pearl inlays",
+            "Ebony fretboard"
+        ],
+        "additional_sections": [
+            {
+                "title": "Misc Information",
+                "contents": [
+                    "Later versions of this model (made around 1992-1994) have 24 frets."
+                ]
+            }
+        ]
+    }
+}

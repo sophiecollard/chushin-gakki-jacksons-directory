@@ -1,0 +1,158 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-J1",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.625\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Mother of Pearl"
+        },
+        "body": {
+            "material": "Ash",
+            "top": "5A Flame Maple Veneer on Transparent Finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "RR-J1/J1K/J1B",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5/SH-5"
+                    }
+                },
+                {
+                    "variant": "RR-J1E/J1EK/J1BE",
+                    "value": {
+                        "neck": "EMG 81",
+                        "bridge": "EMG 81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": [
+                {
+                    "variant": "RR-J1/J1E",
+                    "value": "Floyd Rose Original (recessed)"
+                },
+                {
+                    "variant": "RR-J1K/J1EK",
+                    "value": "Kahler (w/ Schaller locking nut)"
+                },
+                {
+                    "variant": "RR-J1B/J1BE",
+                    "value": "Gotoh Tune-O-Matic (w/ string-through-body)"
+                }
+            ]
+        },
+        "finishes": [
+            "BK (Black)",
+            "TBKS (Transparent Black)",
+            "TSWS (Transparent Snow White)",
+            "TRS (Transparent Red)",
+            "TBLS (Transparent Blue)"
+        ]
+    },
+    "prices": [
+        {
+            "values": [
+                {
+                    "variant": "RR-J1",
+                    "value": "JPY 231,000"
+                },
+                {
+                    "variant": "RR-J1E",
+                    "value": "JPY 236,250"
+                },
+                {
+                    "variant": "RR-J1K",
+                    "value": "JPY 252,000"
+                },
+                {
+                    "variant": "RR-J1EK",
+                    "value": "JPY 257,250"
+                },
+                {
+                    "variant": "RR-J1B",
+                    "value": "JPY 178,500"
+                },
+                {
+                    "variant": "RR-J1BE",
+                    "value": "JPY 183,750"
+                }
+            ],
+            "source": {
+                "label": "2005 Jackson Stars Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "RR-J1BE in TRS",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-j1be.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "2004 Jackson Stars Catalog",
+                "url": "https://assets.contentful.com/4jcppgetbqrc/3iCpjrv77GoSGUikC4e20C/95ff2e8c8340c1bfa1941eafd488a3ae/JacksonSTARS-2004-Japan-catalog.pdf"
+            },
+            {
+                "label": "2005 Jackson Stars Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2004 RR-J1E in Black",
+                "url": "https://reverb.com/uk/item/85535349-jackson-stars-rr-j1e-randy-rhoads-rrv?show_sold=true"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2004,
+            "until": 2006
+        },
+        "variants": [
+            "RR-J1",
+            "RR-J1E",
+            "RR-J1K",
+            "RR-J1EK",
+            "RR-J1B",
+            "RR-J1EB"
+        ],
+        "additional_sections": [
+            {
+                "title": "Misc Information",
+                "contents": [
+                    "The Kahler equipped models (RR-J1K and RR-J1EK) only became available from 2005."
+                ]
+            }
+        ]
+    }
+}

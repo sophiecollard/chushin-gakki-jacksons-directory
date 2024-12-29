@@ -1,0 +1,107 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Randy Rhoads Custom (1991-1994)",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Jackson J-50BC",
+                "bridge": "J-90C"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "MB (Metallic Black)",
+            "PBW (Pearl Blue White)",
+            "DB (Dark Blue)",
+            "PY (Pearl Yellow, 1991-1992 only)",
+            "AL (Aluminium, from 1992 or 1993)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 200,000",
+            "source": {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "Randy Rhoads Custom in Dark Blue",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-rr-custom-1991-94.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "1994 Randy Rhoads Custom in Metallic Black",
+                "url": "https://reverb.com/uk/item/31408421-vintage-1991-grover-jackson-randy-rhoads-custom-hh-metallic-black-rr-cs-mb"
+            },
+            {
+                "label": "1994 Randy Rhoads Custom in Metallic Black",
+                "url": "https://reverb.com/uk/item/25100995-grover-jackson-randy-rhoads-custom-v-rrv-1994-metallic-black"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1991,
+            "until": 1994
+        },
+        "identification_guide": [
+            "Serial number starting with J1, J2, J3 or J4 followed by 5 digits",
+            "Headstock decal w/ large \"Jackson\" logo followed by \"GROVER JACKSON\" in smaller print",
+            "24 frets (earlier models had 22)",
+            "Mother of pearl inlays",
+            "Ebony fretboard"
+        ],
+        "additional_sections": [
+            {
+                "title": "Misc Information",
+                "contents": [
+                    "Earlier versions of this model (made around 1990-1991) had 22 frets and J-50N/J-50B pickups."
+                ]
+            }
+        ]
+    }
+}

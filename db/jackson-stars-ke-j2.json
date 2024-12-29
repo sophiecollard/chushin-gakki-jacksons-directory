@@ -1,0 +1,150 @@
+{
+    "brand": "Jackson Stars",
+    "model": "KE-J2",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.625\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "KE-J2/J2K",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5"
+                    }
+                },
+                {
+                    "variant": "KE-J2E/J2EK",
+                    "value": {
+                        "neck": "EMG 81",
+                        "bridge": "EMG 81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": [
+                {
+                    "variant": "KE-J2/J2E",
+                    "value": "Schaller Tremolo (recessed)"
+                },
+                {
+                    "variant": "KE-J2K/J2EK",
+                    "value": "Kahler (w/ Schaller locking nut)"
+                }
+            ]
+        },
+        "finishes": [
+            "BK (Black)",
+            "SBK (Satin Black)",
+            "DMB (Dark Metallic Blue)",
+            "DMR (Dark Metallic Red)",
+            "PT (Pewter, 2004 only)",
+            "CBL (Cobalt Blue, 2004 only)",
+            "SW (Snow White, from 2005)",
+            "HRF (Hot Rod Flames, JPY 57,750 upcharge as of 2005)",
+            "EDS (Eerie Dess Swirl, JPY 42,000 upcharge as of 2005)",
+            "CS (Crimson Swirl, JPY 42,000 upcharge as of 2005)",
+            "CBS (Cobalt Blue Swirl, JPY 42,000 upcharge as of 2005)",
+            "BK/WPD (Black w/ White Polka Dots, JPY 78,750 upcharge as of 2005)",
+            "BS (Blood Splatter, JPY 42,000 upcharge as of 2005)",
+            "D.CAMO (Desert Camo, JPY 73,500 upcharge as of 2005)",
+            "STS (Stars and Stripes, JPY 68,250 upcharge as of 2005)",
+            "RS (Rising Sun, JPY 63,000 upcharge as of 2005)",
+            "BOF (Blue Orange Flame, JPY 84,000 upcharge as of 2005)",
+            "PSKL (Pile O'Skulls, JPY 78,750 upcharge as of 2005)",
+            "LTG (Lightning Sky, JPY 52,500 upcharge as of 2005)",
+            "SW/PN BK (Snow White w/ Black Pinstripes, JPY 36,750 upcharge as of 2005)",
+            "BK/BV Red (Black w/ Red Bevels, JPY 52,500 upcharge as of 2005)"
+        ]
+    },
+    "prices": [
+        {
+            "values": [
+                {
+                    "variant": "KE-J2",
+                    "value": "JPY 168,000"
+                },
+                {
+                    "variant": "KE-J2E",
+                    "value": "JPY 173,250"
+                },
+                {
+                    "variant": "KE-J2K",
+                    "value": "JPY 199,500"
+                },
+                {
+                    "variant": "KE-J2EK",
+                    "value": "JPY 204,750"
+                }
+            ],
+            "source": {
+                "label": "2005 Jackson Stars Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "2004 Jackson Stars Catalog",
+                "url": "https://assets.contentful.com/4jcppgetbqrc/3iCpjrv77GoSGUikC4e20C/95ff2e8c8340c1bfa1941eafd488a3ae/JacksonSTARS-2004-Japan-catalog.pdf"
+            },
+            {
+                "label": "2005 Jackson Stars Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
+            }
+        ],
+        "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2004,
+            "until": 2006
+        },
+        "variants": [
+            "KE-J2",
+            "KE-J2E",
+            "KE-J2K",
+            "KE-J2EK"
+        ],
+        "additional_sections": [
+            {
+                "title": "Misc Information",
+                "contents": [
+                    "The Kahler equipped models (KE-J2K and KE-J2EK) only became available from 2005."
+                ]
+            }
+        ]
+    }
+}

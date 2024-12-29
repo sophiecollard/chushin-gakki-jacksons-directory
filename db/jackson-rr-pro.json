@@ -1,0 +1,138 @@
+{
+    "brand": "Jackson",
+    "model": "Rhoads Pro",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Mother of Pearl"
+        },
+        "body": {
+            "material": "Poplar"
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 1x Mid Boost, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "1990-91",
+                    "value": {
+                        "neck": "Jackson J-50N",
+                        "bridge": "J-50B",
+                        "active_electronics": "JE-1200 Mid Boost"
+                    }
+                },
+                {
+                    "variant": "1992-95",
+                    "value": {
+                        "neck": "Jackson J-50N",
+                        "bridge": "J-50M",
+                        "active_electronics": "JE-1200 Mid Boost"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Schaller JT-590 (recessed)"
+        },
+        "finishes": [
+            "Midnight Black (1990-91)",
+            "Black (1992-95)",
+            "Pearl White (1991)",
+            "Snow White (1992-93)",
+            "Pearl Yellow (1990-92)",
+            "Ferrari Red (1990-92)",
+            "Dark Metallic Red (1993)",
+            "Black Cherry (1994-95)",
+            "Dark Metallic Blue (1992-95)",
+            "Snow White Pearl w/ Black Bevels (1990-91)",
+            "Pearl Yellow w/ Black Bevels (1990-91)",
+            "Radiant Red w/ Black Bevels (1990-91)"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "Rhoads Pro in Radiant Red w/ Black Bevels",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-rr-pro-red-black.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "1990-91 Charvette, Charvel & Jackson Catalog",
+                "url": "https://downloads.ctfassets.net/4jcppgetbqrc/5QN6bCrY8oMssYgsmmMEiq/6a4478c93992e19a66c45c455285525c/JacksonCharvel-1990-91-catalog.pdf"
+            },
+            {
+                "label": "Summer 1992 Jackson & Charvel Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/3TzMNJDdSMC6S8ecCcOQIM/1029acb6a3182c3e2a9a0e457979af1e/JacksonCharvel-1992-2-catalog.pdf"
+            },
+            {
+                "label": "Winter 1992 Jackson & Charvel Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/3DUJ6IEiHKYMoAGSysegOI/8b54e840670c574959daf2d6d4ebef95/JacksonCharvel-1992-catalog.pdf"
+            },
+            {
+                "label": "1993 Jackson & Charvel Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/6GAOHdjahOI0sYu4gEe2o0/0a4fb547d52993b7dbe248121b84dda1/JacksonCharvel-1993-catalog.pdf"
+            },
+            {
+                "label": "1994-95 Jackson Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/7J8nVLdQkwKYmaYu6sqm4m/132000759b9d4e60c143f84e3b37954a/Jackson-1994-95-catalog.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "1990 Rhoads Pro in Midnight Black",
+                "url": "https://reverb.com/uk/item/38724420-jackson-rhoads-rr1-pro-1990-black?show_sold=true"
+            },
+            {
+                "label": "1990 Rhoads Pro in Snow White Pearl w/ Black Bevels",
+                "url": "https://reverb.com/uk/item/429363-jackson-randy-rhoads-pro-1990-white?show_sold=true"
+            },
+            {
+                "label": "1990 Rhoads Pro in Snow White Pearl w/ Black Bevels",
+                "url": "https://reverb.com/uk/item/43667260-jackson-randy-rhoads-professional-1990-ivory-electric-guitar?show_sold=true"
+            },
+            {
+                "label": "1990 Rhoads Pro in Pearl Yellow w/ Black Bevels",
+                "url": "https://reverb.com/uk/item/30467486-jackson-randy-rhoads-flying-v-1990-yellow-n-black?show_sold=true"
+            },
+            {
+                "label": "1990 Rhoads Pro in Pearl Yellow w/ Black Bevels",
+                "url": "https://reverb.com/uk/item/6559123-jackson-professional-rhoads-pro-1990-yellow-w-black-bevels?show_sold=true"
+            },
+            {
+                "label": "1991 Rhoads Pro in Midnight Black",
+                "url": "https://reverb.com/uk/item/32076701-1991-jackson-rhoads-pro-flying-v-professional-case-chushin-gakki-mij-japan-fresh-service?show_sold=true"
+            },
+            {
+                "label": "1993 Rhoads Pro in Dark Metallic Red",
+                "url": "https://reverb.com/uk/item/3327448-jackson-professional-randy-rhoads-pro-1993?show_sold=true"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide_excl_japan",
+        "years_of_manufacture": {
+            "from": 1990,
+            "until": 1995
+        }
+    }
+}

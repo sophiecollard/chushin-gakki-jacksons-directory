@@ -1,0 +1,84 @@
+{
+    "brand": "Jackson",
+    "model": "King V Elite FSR",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24,
+                "fret_material": "Stainless Steel"
+            },
+            "inlays": {
+                "material": "Alumiloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Flame Maple Veneer on Transparent Finishes"
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-2n",
+                "bridge": "TB-4",
+                "active_electronics": "2-band Active Preamp"
+            }
+        },
+        "hardware": {
+            "colour": "Chrome",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "Black",
+            "Quick Silver",
+            "Absynthe Frost",
+            "Amber Sunburst",
+            "White w/ Absynthe Pinstripes",
+            "Absynthe Frost w/ Quicksilver Pinstripes"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "King V Elite FSR in Amber Sunburst",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-king-v-elite-fsr-amber-sunburst.png"
+        }
+    },
+    "links": {
+        "catalogues": [],
+        "reverb_listings": [
+            {
+                "label": "2011 King V Elite FSR in Quick Silver",
+                "url": "https://reverb.com/item/49013397-jackson-king-v-elite-fsr-limited-2012-mij-2012-silver"
+            },
+            {
+                "label": "2011 King V Elite FSR in Absynthe Frost",
+                "url": "https://reverb.com/item/66071954-jackson-king-v-limited-fsr"
+            },
+            {
+                "label": "2011 King V Elite FSR in Absynthe Frost w/ Quicksilver Pinstripes",
+                "url": "https://reverb.com/item/73788013-jackson-elite-king-v-absinthe-frost-with-quicksilver-pinstripes-2011-limited-edition"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide",
+        "years_of_manufacture": {
+            "from": 2011
+        },
+        "limited_series": "2011 Limited Edition"
+    }
+}

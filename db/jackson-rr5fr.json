@@ -1,0 +1,92 @@
+{
+    "brand": "Jackson",
+    "model": "RR5FR",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Rosewood",
+                "radius": "12_to_16_inches",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Flame Maple Veneer on Transparent Finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-4",
+                "bridge": "TB-4"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Floyd Rose FRT-O 2000 (recessed)"
+        },
+        "finishes": [
+            "Black (2008-2010)",
+            "Transparent Red (2008)",
+            "Black w/ White Bullseye (2008)",
+            "Ivory w/ Black Pinstripes (2008-2010)",
+            "Metallic Pink w/ Silver Bevels (2008-2009)"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "RR5FR in Ivory w/ Black Pinstripes",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-rr5fr.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "June 2008 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/1OxTyATehmCM8uoWsY6S0q/8afe6fd10a865464e6113051d8b49ce1/Jackson-Price-List-2008.pdf"
+            },
+            {
+                "label": "July 2008 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/2RLzAMhwA8Sy8gm2cYwGmk/59ffb2aea3969bf906253d1213c0eda7/Jackson-Price-List-2008-Color.pdf"
+            },
+            {
+                "label": "February 2009 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/1UjsBa6bKYQQEuyqmmGGWe/eff4c7dc5327dc305c9d685c9d8047dc/Jackson-Price-List-2009.pdf"
+            },
+            {
+                "label": "January 2010 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2010.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2008 RR5FR in Black w/ White Bullseye",
+                "url": "https://reverb.com/uk/item/81311872-jackson-pro-series-rr5fr-rhoads-2008-black-white-bullseye"
+            },
+            {
+                "label": "2008 RR5FR in Metallic Pink w/ Silver Bevels",
+                "url": "https://reverb.com/uk/item/87074844-jackson-rr5fr-rhoads-pink-pro"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide_excl_japan",
+        "years_of_manufacture": {
+            "from": 2008,
+            "until": 2010
+        }
+    }
+}

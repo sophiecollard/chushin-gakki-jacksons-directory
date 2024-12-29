@@ -1,0 +1,85 @@
+{
+    "brand": "Jackson Stars",
+    "model": "SL-TN01 (2007 Limited Series)",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Mother of Pearl"
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": "1/8\" Flame Maple Top",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "TB-4"
+            }
+        },
+        "hardware": {
+            "colour": "Chrome",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "NAT (Natural)",
+            "TA (Transparent Amber)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 283,500",
+            "source": {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2007 SL-TN01 in Natural",
+                "url": "https://reverb.com/item/42252436-jackson-stars-soloist-sl-tn01-2000s-natural"
+            },
+            {
+                "label": "2008 SL-TN01 in Transparent Amber (mislabelled as 1998)",
+                "url": "https://reverb.com/uk/item/82854076-1998-jackson-stars-soloist-limited-edition-sl-tn01-ltd-trans-amber-w-case"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2008
+        },
+        "limited_series": "2007 Limited Series"
+    }
+}

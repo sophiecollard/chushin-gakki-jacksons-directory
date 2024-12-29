@@ -1,0 +1,107 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Dan Spitz Professional",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Reverse Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "EMG 81",
+                "bridge": "EMG 85"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "Black"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 230,000",
+            "source": {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "Dan Spitz Professional",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-dan-spitz.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "1992 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/6434814-jackson-dan-spitz-professional-free-shipping"
+            },
+            {
+                "label": "1992 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/33505791-jackson-randy-rhoads-dan-spitz-professional-1992-black"
+            },
+            {
+                "label": "1993 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/43819798-1993-jackson-professional-randy-rhoads-pro-electric-guitar-with-ohsc-black"
+            },
+            {
+                "label": "1994 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/86478299-grover-jackson-dan-spitz-signature-rhoads-rr-professional-1994-black"
+            },
+            {
+                "label": "1994 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/13922631-grover-jackson-dan-spitz-signature-rhoads-rr-professional-1994-black"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1991,
+            "until": 1994
+        },
+        "identification_guide": [
+            "Serial number starting with J1, J2, J3 or J4 followed by 5 digits",
+            "Headstock decal w/ large \"Jackson\" logo followed by \"GROVER JACKSON\" in smaller print",
+            "Mother of pearl reverse sharkfin inlays",
+            "Ebony fretboard",
+            "Rear-loaded electronics (no pickguard)"
+        ]
+    }
+}

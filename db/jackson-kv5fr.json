@@ -1,0 +1,77 @@
+{
+    "brand": "Jackson",
+    "model": "KV5FR",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Rosewood",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder"
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-way Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-2n",
+                "bridge": "TB-4"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Floyd Rose FRT-O 2000 (recessed)"
+        },
+        "finishes": [
+            "Black",
+            "Black w/ Gold Pinstripes",
+            "Snow White w/ Black Bevels",
+            "Bolted Steel"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "KV5FR in Bolted Steel",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/Jackson-kv5fr.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "January 2010 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2010.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2010 KV5FR in Snow White w/ Black Bevels",
+                "url": "https://reverb.com/item/4280901-jackson-kv5fr-white"
+            },
+            {
+                "label": "2010 KV5FR in Bolted Steel",
+                "url": "https://reverb.com/item/49132326-jackson-kv5fr-king-v-neck-through-japan-pro-series-bolted-steel"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide_excl_japan",
+        "years_of_manufacture": {
+            "from": 2009,
+            "until": 2010
+        }
+    }
+}

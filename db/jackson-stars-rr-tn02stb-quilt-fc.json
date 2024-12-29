@@ -1,0 +1,60 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-TN02STB QUILT FC (2009 Limited Series)",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Maple",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Quilted Maple Veneer",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-2n",
+                "bridge": "SH-5"
+            }
+        },
+        "hardware": {
+            "colour": "Chrome",
+            "bridge_configuration": "Gotoh Tune-O-Matic (w/ string-through-body)"
+        },
+        "finishes": [
+            "FC (Faded Cherry)"
+        ]
+    },
+    "pictures" : null,
+    "links": {
+        "catalogues": [],
+        "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2009
+        },
+        "limited_series": "2009 Limited Series"
+    }
+}

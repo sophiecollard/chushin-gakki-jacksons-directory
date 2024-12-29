@@ -1,0 +1,80 @@
+{
+    "brand": "Jackson Stars",
+    "model": "KE-TN02STB/EMG QUILT (2009 Limited Series)",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Quilted Maple Veneer",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "EMG 81",
+                "bridge": "EMG 81"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Gotoh Tune-O-Matic (w/ string-through-body)"
+        },
+        "finishes": [
+            "Transparent Purple"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 199,500",
+            "source": {
+                "label": "www.barks.jp",
+                "url": "https://www.barks.jp/news/?id=1000046259&page=3"
+            }
+        }
+    ],
+    "pictures": {
+        "mugshot": {
+            "label": "KE-TN02STB/EMG QUILT",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-ke-tn02stb-emg-quilt.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [],
+        "reverb_listings": [
+            {
+                "label": "2008 KE-TN02STB/EMG QUILT in Transparent Purple",
+                "url": "https://reverb.com/uk/item/948809-jackson-stars-kelly-2008-quilt-purple"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2008,
+            "until": 2009
+        },
+        "limited_series": "2009 Limited Series"
+    }
+}

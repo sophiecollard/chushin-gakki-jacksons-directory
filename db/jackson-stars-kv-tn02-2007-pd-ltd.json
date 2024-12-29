@@ -1,0 +1,75 @@
+{
+    "brand": "Jackson Stars",
+    "model": "KV-TN02 LTD \"Polka Dots\" (2007 Limited Series)",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Painted"
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "TB-6"
+            }
+        },
+        "hardware": {
+            "colour": "Chrome",
+            "bridge_configuration": "Floyd Rose FRT-O 1000 (recessed)"
+        },
+        "finishes": [
+            "Black w/ White Polka Dots"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 231,000",
+            "source": {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        ],
+        "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2008
+        },
+        "limited_series": "2007 Limited Series"
+    }
+}

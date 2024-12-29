@@ -1,0 +1,116 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-TN02",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching (on solid finishes) or Black (on Transparent Finishes)",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Flame Maple Veneer on Transparent Finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "RR-TN02",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-4"
+                    }
+                },
+                {
+                    "variant": "RR-TN02EMG",
+                    "value": {
+                        "neck": "EMG 81",
+                        "bridge": "EMG 81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Floyd Rose FRT-O 2000 (recessed)"
+        },
+        "finishes": [
+            "BLK (Black)",
+            "DMR (Dark Metallic Red)",
+            "TBK (Transparent Black)",
+            "TBL (Transparent Blue)",
+            "TRD (Transparent Red)"
+        ]
+    },
+    "prices": [
+        {
+            "values": [
+                {
+                    "variant": "RR-TN02 (in BLK or DMR finish)",
+                    "value": "JPY 178,500"
+                },
+                {
+                    "variant": "RR-TN02 (in TBK, TBL or TRD finish)",
+                    "value": "JPY 189,000"
+                },
+                {
+                    "variant": "RR-TN02EMG (in BLK or DMR finish)",
+                    "value": "JPY 183,750"
+                },
+                {
+                    "variant": "RR-TN02EMG (in TBK, TBL or TRD finish)",
+                    "value": "JPY 194,250"
+                }
+            ],
+            "source": {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "https://www.dropbox.com/scl/fi/6vdri7e6wg7v8m2x9ov82/2008-Jackson-Catalog-Japan.pdf?rlkey=tn0x8vag640wq4fxfcy5z1jy4&e=1&st=q4fdf0hl&dl=0"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2008 RR-TN02 in Transparent Red",
+                "url": "https://reverb.com/item/22183113-jackson-stars-rr-tn02-neckthrough-randy-rhoads-mij-2008-transparent-red"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2009
+        },
+        "variants": [
+            "RR-TN02",
+            "RR-TN02EMG"
+        ]
+    }
+}

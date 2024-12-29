@@ -1,0 +1,100 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Randy Rhoads Custom (1990-1991)",
+    "specs": {
+        "neck": {
+            "material": "Quartersawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Jackson J-50N",
+                "bridge": "J-50B"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted w/ cavity)"
+        },
+        "finishes": [
+            "MB (Metallic Black)",
+            "PBW (Pearl Blue White)",
+            "PG (Pearl Gold)"
+        ]
+    },
+    "prices": [
+        {
+            "value": "JPY 195,000",
+            "source": {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
+            }
+        }
+    ],
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "1990 Randy Rhoads Custom in Pearl Gold",
+                "url": "https://reverb.com/uk/item/5400478-grover-jackson-rhoads-custom-1990-pearl-gold"
+            },
+            {
+                "label": "1990 Randy Rhoads Custom in Pearl Gold",
+                "url": "https://reverb.com/item/74951916-jackson-randy-rhoads-custom-neckthrough-japan-90-s"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 1990,
+            "until": 1991
+        },
+        "identification_guide": [
+            "Serial number starting with J0 or J1 followed by 5 digits",
+            "Headstock decal w/ large \"Jackson\" logo followed by \"GROVER JACKSON\" in smaller print",
+            "22 frets (later models have 24)",
+            "Mother of pearl inlays",
+            "Ebony fretboard"
+        ],
+        "additional_sections": [
+            {
+                "title": "Misc Information",
+                "contents": [
+                    "Later versions of this model (1991-1994) have 24 frets and J-50BC/J-90C pickups"
+                ]
+            }
+        ]
+    }
+}

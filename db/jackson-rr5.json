@@ -1,0 +1,112 @@
+{
+    "brand": "Jackson",
+    "model": "RR5",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Rosewood",
+                "radius": "12_to_16_inches",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Flame Maple Veneer on Transparent Finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-4",
+                "bridge": "Seymour Duncan SH-4"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Tune-O-Matic (w/ string-thru-body)"
+        },
+        "finishes": [
+            "Black (2001-2011)",
+            "Natural (2001-2008)",
+            "Transparent Black (2009)",
+            "Transparent Blue (2001-2008)",
+            "Transparent Red (2001-2008)",
+            "Violin Brown (2003)",
+            "Ivory w/ Black Pinstripes (2001-2011)",
+            "Black w/ Gold Pinstripes (2009-2011)",
+            "White w/ Black Bevels (2009-2011)",
+            "Metallic Pink w/ Silver Bevels (2009-2011)"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "RR5 in Ivory w/ Black Pinstripes",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-rr5.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "2001 Jackson Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/wZpOU6uBTE40UACcImwyu/2971ef4242a67e7359ae53f1e2219fa9/Jackson-2001-catalog.pdf"
+            },
+            {
+                "label": "2002 Jackson Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/4oyofeweZqMyWwsec2oE0u/55865626f075caf838d1c7b3973160f2/Jackson-2002-catalog.pdf"
+            },
+            {
+                "label": "2003 Jackson Catalog",
+                "url": "https://downloads.contentful.com/4jcppgetbqrc/Em0BkitNWSsSMWwc68Gyg/6821b20b495fe11e077ec655390d7832/Jackson-2003-catalog.pdf"
+            },
+            {
+                "label": "2006 Jackson Catalog",
+                "url": "https://downloads.ctfassets.net/4jcppgetbqrc/3MZumti05qsgaM4CAky0yS/6a8b88ef8bb0daa01355d4e4f8908971/Jackson-2006-catalog.pdf"
+            },
+            {
+                "label": "February 2007 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2007.pdf"
+            },
+            {
+                "label": "June 2008 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/1OxTyATehmCM8uoWsY6S0q/8afe6fd10a865464e6113051d8b49ce1/Jackson-Price-List-2008.pdf"
+            },
+            {
+                "label": "July 2008 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/2RLzAMhwA8Sy8gm2cYwGmk/59ffb2aea3969bf906253d1213c0eda7/Jackson-Price-List-2008-Color.pdf"
+            },
+            {
+                "label": "February 2009 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/1UjsBa6bKYQQEuyqmmGGWe/eff4c7dc5327dc305c9d685c9d8047dc/Jackson-Price-List-2009.pdf"
+            },
+            {
+                "label": "January 2010 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2010.pdf"
+            },
+            {
+                "label": "January 2011 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2011.pdf"
+            }
+        ],
+        "reverb_listings": []
+    },
+    "misc": {
+        "availability": "worldwide_excl_japan",
+        "years_of_manufacture": {
+            "from": 2001,
+            "until": 2011
+        }
+    }
+}

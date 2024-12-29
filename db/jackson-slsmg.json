@@ -1,0 +1,130 @@
+{
+    "brand": "Jackson",
+    "model": "SLSMG",
+    "specs": {
+        "neck": {
+            "material": "Mahogany",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "radius": "12_to_16_inches",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Piranha Teeth"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular_3_and_3",
+            "finish": "Matching (Black on Swirl finishes)",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Mahogany"
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "2002-2005",
+                    "value": {
+                        "neck": "EMG HZ",
+                        "bridge": "EMG HZ"
+                    }
+                },
+                {
+                    "variant": "2006-2011",
+                    "value": {
+                        "neck": "EMG 85",
+                        "bridge": "EMG 81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Tune-O-Matic (w/ string-thru-body)"
+        },
+        "finishes": [
+            "Satin Black (2002-2011)",
+            "Black (2004-2011)",
+            "Dark Metallic Red (2006)",
+            "Inferno Red (2007-2008)",
+            "Snow White (2009-2011)",
+            "Violin Brown (2003)",
+            "Eerie Dess Swirl (2005)",
+            "Green Swirl (2009)",
+            "Transparent Red (w/ Flame Maple Veneer, Limited Edition)",
+            "Transparent Black (w/ Flame Maple Veneer, Limited Edition)"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "SLSMG in Satin Black",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-slsmg-satin-black.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "2002 Jackson Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/4oyofeweZqMyWwsec2oE0u/55865626f075caf838d1c7b3973160f2/Jackson-2002-catalog.pdf"
+            },
+            {
+                "label": "2003 Jackson Catalog",
+                "url": "https://downloads.contentful.com/4jcppgetbqrc/Em0BkitNWSsSMWwc68Gyg/6821b20b495fe11e077ec655390d7832/Jackson-2003-catalog.pdf"
+            },
+            {
+                "label": "2006 Jackson Catalog",
+                "url": "https://downloads.ctfassets.net/4jcppgetbqrc/3MZumti05qsgaM4CAky0yS/6a8b88ef8bb0daa01355d4e4f8908971/Jackson-2006-catalog.pdf"
+            },
+            {
+                "label": "February 2007 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2007.pdf"
+            },
+            {
+                "label": "June 2008 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/1OxTyATehmCM8uoWsY6S0q/8afe6fd10a865464e6113051d8b49ce1/Jackson-Price-List-2008.pdf"
+            },
+            {
+                "label": "July 2008 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/2RLzAMhwA8Sy8gm2cYwGmk/59ffb2aea3969bf906253d1213c0eda7/Jackson-Price-List-2008-Color.pdf"
+            },
+            {
+                "label": "February 2009 Jackson Price List",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/1UjsBa6bKYQQEuyqmmGGWe/eff4c7dc5327dc305c9d685c9d8047dc/Jackson-Price-List-2009.pdf"
+            },
+            {
+                "label": "January 2010 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2010.pdf"
+            },
+            {
+                "label": "January 2011 Jackson Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2011.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2003 SLSMG in Violin Brown",
+                "url": "https://reverb.com/item/73069919-jackson-slsmg-2003-natural"
+            },
+            {
+                "label": "2005 SLSMG in Eerie Dess Swirl",
+                "url": "https://reverb.com/item/41119047-jackson-slsmg-1990s-eerie-dess"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide",
+        "years_of_manufacture": {
+            "from": 2002,
+            "until": 2011
+        }
+    }
+}
