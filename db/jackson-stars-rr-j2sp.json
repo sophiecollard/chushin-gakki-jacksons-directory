@@ -1,0 +1,71 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-J2SP",
+    "variants": null,
+    "years_of_production": {
+        "from": 2005,
+        "until": 2006
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, Boost switch",
+            "pickup_configuration": {
+                "neck": null,
+                "bridge": "EMG-H3 with EMG-PA2 boost"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Schaller tremolo (recessed)"
+        },
+        "finishes": [
+            "Black",
+            "Black with Yellow Bevels",
+            "Black with Gold Pinstripes"
+        ]
+    },
+    "price": {
+        "year": 2005,
+        "values": [
+            {
+                "variant": "Black",
+                "value": "JPY 165,000"
+            },
+            {
+                "variant": "Black with Yellow Bevels",
+                "value": "JPY 215,000"
+            },
+            {
+                "variant": "Black with Gold Pinstripes",
+                "value": "JPY 215,000"
+            }
+        ]
+    },
+    "notes": null
+}

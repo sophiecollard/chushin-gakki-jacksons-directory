@@ -1,0 +1,56 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-TN02STB LTD (2007 Limited Series)",
+    "variants": null,
+    "years_of_production": {
+        "from": 2007,
+        "until": 2008
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "SH-4"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
+        },
+        "finishes": [
+            "BLK (Black)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "value": "JPY 168,000"
+    },
+    "notes": null
+}

@@ -1,0 +1,133 @@
+{
+    "brand": "Jackson Stars",
+    "model": "SL-J2",
+    "variants": [
+        "SL-J2",
+        "SL-J2E",
+        "SL-J2K",
+        "SL-J2EK",
+        "SL-J2B",
+        "SL-J2EB"
+    ],
+    "years_of_production": {
+        "from": 2004,
+        "until": 2006
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Matching",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "SL-J2/J2K/J2B",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5/SH-5"
+                    }
+                },
+                {
+                    "variant": "SL-J2E/J2EK/J2BE",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": [
+                {
+                    "variant": "SL-J2/J2E",
+                    "value": "Schaller double locking tremolo (recessed)"
+                },
+                {
+                    "variant": "SL-J2K/J2EK",
+                    "value": "Kahler with Schaller Locking Nut"
+                },
+                {
+                    "variant": "SL-J2B/J2BE",
+                    "value": "Tune-o-matic Gotoh bridge with string-through-body"
+                }
+            ]
+        },
+        "finishes": [
+            "BK (Black)",
+            "SBK (Satin Black)",
+            "DMB (Dark Metallic Blue)",
+            "DMR (Dark Metallic Red)",
+            "PT (Pewter, 2004 only)",
+            "CBL (Cobalt Blue, 2004 only)",
+            "SW (Snow White, from 2005)",
+            "HRF (Hot Rod Flames, JPY 57,750 upcharge as of 2005)",
+            "EDS (Eerie Dess Swirl, JPY 42,000 upcharge as of 2005)",
+            "CS (Crimson Swirl, JPY 42,000 upcharge as of 2005)",
+            "CBS (Cobalt Blue Swirl, JPY 42,000 upcharge as of 2005)",
+            "BK/WPD (Black w/ White Polka Dots, JPY 78,750 upcharge as of 2005)",
+            "BS (Blood Splatter, JPY 42,000 upcharge as of 2005)",
+            "D.CAMO (Desert Camo, JPY 73,500 upcharge as of 2005)",
+            "STS (Stars and Stripes, JPY 68,250 upcharge as of 2005)",
+            "RS (Rising Sun, JPY 63,000 upcharge as of 2005)",
+            "BOF (Blue Orange Flame, JPY 84,000 upcharge as of 2005)",
+            "PSKL (Pile O'Skulls, JPY 78,750 upcharge as of 2005)",
+            "LTG (Lightning Sky, JPY 52,500 upcharge as of 2005)"
+        ]
+    },
+    "price": {
+        "year": 2005,
+        "values": [
+            {
+                "variant": "SL-J2",
+                "value": "JPY 157,500"
+            },
+            {
+                "variant": "SL-J2E",
+                "value": "JPY 162,750"
+            },
+            {
+                "variant": "SL-J2K",
+                "value": "JPY 189,000"
+            },
+            {
+                "variant": "SL-J2EK",
+                "value": "JPY 194,250"
+            },
+            {
+                "variant": "SL-J2B",
+                "value": "JPY 126,000"
+            },
+            {
+                "variant": "SL-J2BE",
+                "value": "JPY 131,250"
+            }
+        ]
+    },
+    "notes": [
+        "The Kahler equipped models (SL-J2K and SL-J2EK) only became available from 2005"
+    ]
+}

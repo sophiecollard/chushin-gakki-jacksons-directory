@@ -1,0 +1,56 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-TN01STB",
+    "variants": null,
+    "years_of_production": {
+        "from": 2007,
+        "until": 2009
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Mother of Pearl"
+            }
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "TB-4"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
+        },
+        "finishes": [
+            "BLK (Black)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "value": "JPY 252,000"
+    },
+    "notes": null
+}

@@ -1,0 +1,80 @@
+{
+    "brand": "Jackson Stars",
+    "model": "SL-TN02STB",
+    "variants": [
+        "SL-TN02STB",
+        "SL-TN02STB/EMG"
+    ],
+    "years_of_production": {
+        "from": 2007,
+        "until": 2009
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "SL-TN02STB",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "SH-4"
+                    }
+                },
+                {
+                    "variant": "SL-TN02STB/EMG",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
+        },
+        "finishes": [
+            "BLK (Black)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "values": [
+            {
+                "variant": "SL-TN02STB",
+                "value": "JPY 147,000"
+            },
+            {
+                "variant": "SL-TN02STB/EMG",
+                "value": "JPY 152,250"
+            }
+        ]
+    },
+    "notes": null
+}

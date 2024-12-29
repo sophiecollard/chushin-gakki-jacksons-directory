@@ -1,0 +1,81 @@
+{
+    "brand": "Jackson Stars",
+    "model": "WR-TN02",
+    "variants": [
+        "WR-TN02",
+        "WR-TN02EMG"
+    ],
+    "years_of_production": {
+        "from": 2007,
+        "until": 2009
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "WR-TN02",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-4"
+                    }
+                },
+                {
+                    "variant": "WR-TN02EMG",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "FRT-O 2000 (recessed)"
+        },
+        "finishes": [
+            "BLK (Black)",
+            "GMG (Gun Metallic Grey)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "values": [
+            {
+                "variant": "WR-TN02",
+                "value": "JPY 178,500"
+            },
+            {
+                "variant": "WR-TN02EMG",
+                "value": "JPY 183,750"
+            }
+        ]
+    },
+    "notes": null
+}

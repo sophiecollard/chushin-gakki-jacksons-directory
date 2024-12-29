@@ -1,0 +1,86 @@
+{
+    "brand": "Jackson Stars",
+    "model": "ASL-J1",
+    "variants": [
+        "ASL-J1",
+        "ASL-J1E"
+    ],
+    "years_of_production": {
+        "from": 2004,
+        "until": 2006
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Mother of Pearl"
+            }
+        },
+        "body": {
+            "material": "Ash",
+            "top": "5A quilt maple top on transparent finishes",
+            "binding": {
+                "colour": "Natural"
+            }
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "ASL-J1",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5"
+                    }
+                },
+                {
+                    "variant": "ASL-J1E",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "BK (Black)",
+            "TBKS (Transparent Black)",
+            "TSWS (Transparent Snow White)",
+            "TRS (Transparent Red)",
+            "TBLS (Transparent Blue)"
+        ]
+    },
+    "price": {
+        "year": 2005,
+        "values": [
+            {
+                "variant": "ASL-J1",
+                "value": "JPY 241,500"
+            },
+            {
+                "variant": "ASL-J1E",
+                "value": "JPY 246,750"
+            }
+        ]
+    },
+    "notes": null
+}

@@ -1,0 +1,91 @@
+{
+    "brand": "Jackson Stars",
+    "model": "KS-J2",
+    "variants": [
+        "KS-J2",
+        "KS-J2E",
+        "KS-J2K",
+        "KS-J2EK"
+    ],
+    "years_of_production": 2004,
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Matching",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "KS-J2",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5"
+                    }
+                },
+                {
+                    "variant": "KS-J2E",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Schaller double locking tremolo (recessed)"
+        },
+        "finishes": [
+            "BK (Black)",
+            "SBK (Satin Black)",
+            "DMB (Dark Metallic Blue)",
+            "DMR (Dark Metallic Red)",
+            "PT (Pewter)",
+            "CBL (Cobalt Blue)",
+            "HRF (Hot Rod Flames, JPY 40,000 upcharge as of 2004)",
+            "EDS (Eerie Dess Swirl, JPY 20,000 upcharge as of 2004)",
+            "BS (Blood Splatter, JPY 20,000 upcharge as of 2004)",
+            "STS (Stars and Stripes, JPY 35,000 upcharge as of 2004)",
+            "RS (Rising Sun, JPY 30,000 upcharge as of 2004)",
+            "BOF (Blue Orange Flame, JPY 70,000 upcharge as of 2004)",
+            "SW/PN BK (Snow White w/ Black Pinstripes, JPY 25,000 upcharge as of 2004)"
+        ]
+    },
+    "price": {
+        "year": 2004,
+        "values": [
+            {
+                "variant": "KS-J2",
+                "value": "JPY 145,000"
+            },
+            {
+                "variant": "KS-J2E",
+                "value": "JPY 160,000"
+            }
+        ]
+    },
+    "notes": null
+}

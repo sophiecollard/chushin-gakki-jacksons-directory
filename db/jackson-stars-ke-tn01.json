@@ -1,0 +1,80 @@
+{
+    "brand": "Jackson Stars",
+    "model": "KE-TN01",
+    "variants": [
+        "KE-TN01",
+        "KE-TN01EMG"
+    ],
+    "years_of_production": {
+        "from": 2007,
+        "until": 2009
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Mother of Pearl"
+            }
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "KE-TN01",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-4"
+                    }
+                },
+                {
+                    "variant": "KE-TN01EMG",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "BLK (Black)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "values": [
+            {
+                "variant": "KE-TN01",
+                "value": "JPY 273,000"
+            },
+            {
+                "variant": "KE-TN01EMG",
+                "value": "JPY 278,250"
+            }
+        ]
+    },
+    "notes": null
+}

@@ -1,0 +1,92 @@
+{
+    "brand": "Jackson Stars",
+    "model": "KE-TN02",
+    "variants": [
+        "KE-TN02",
+        "KE-TN02EMG"
+    ],
+    "years_of_production": {
+        "from": 2007,
+        "until": 2009
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Matching (on solid finishes) or black (on transparent finishes)",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": "Flame maple veneer on transparent finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "KE-TN02",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-4"
+                    }
+                },
+                {
+                    "variant": "KE-TN02EMG",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "FRT-O 2000 (recessed)"
+        },
+        "finishes": [
+            "BLK (Black)",
+            "DMR (Dark Metallic Red)",
+            "TBK (Transparent Black)",
+            "TBL (Transparent Blue)",
+            "TRD (Transparent Red)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "values": [
+            {
+                "variant": "KE-TN02 (in BLR or DMR finish)",
+                "value": "JPY 178,500"
+            },
+            {
+                "variant": "KE-TN02 (in TBK, TBL or TRD finish)",
+                "value": "JPY 189,000"
+            },
+            {
+                "variant": "KE-TN02EMG (in BLR or DMR finish)",
+                "value": "JPY 183,750"
+            },
+            {
+                "variant": "KE-TN02EMG (in TBK, TBL or TRD finish)",
+                "value": "JPY 194,250"
+            }
+        ]
+    },
+    "notes": null
+}

@@ -1,0 +1,57 @@
+{
+    "brand": "Jackson Stars",
+    "model": "SL-TN01 Quilt (2008 Limited Series)",
+    "variants": null,
+    "years_of_production": 2008,
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "reverse",
+                "finish": "Black",
+                "logo_material": "Mother of Pearl"
+            }
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": "Quilt maple top",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": {
+                "neck": "Seymour Duncan SH-1n",
+                "bridge": "TB-4"
+            }
+        },
+        "hardware": {
+            "colour": "Gold",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "NAT (Natural)",
+            "TA (Transparent Amber)",
+            "TBL (Transparent Blue)",
+            "TBK (Transparent Black)",
+            "TRD (Transparent Red)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "value": "JPY 304,500"
+    },
+    "notes": null
+}

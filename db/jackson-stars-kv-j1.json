@@ -1,0 +1,105 @@
+{
+    "brand": "Jackson Stars",
+    "model": "KV-J1",
+    "variants": [
+        "KV-J1",
+        "KV-J1E",
+        "KV-J1K",
+        "KV-J1EK"
+    ],
+    "years_of_production": {
+        "from": 2004,
+        "until": 2006
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Mother of Pearl"
+            }
+        },
+        "body": {
+            "material": "Ash",
+            "top": "5A flame maple veneer on transparent finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "KV-J1/J1K",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5"
+                    }
+                },
+                {
+                    "variant": "KV-J1E/J1EK",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": [
+                {
+                    "variant": "KV-J1/J1E",
+                    "value": "Floyd Rose Original (recessed)"
+                },
+                {
+                    "variant": "KV-J1K/J1EK",
+                    "value": "Kahler with Schaller Locking Nut"
+                }
+            ]
+        },
+        "finishes": [
+            "BK (Black)",
+            "TBKS (Transparent Black)",
+            "TSWS (Transparent Snow White)",
+            "TRS (Transparent Red)",
+            "TBLS (Transparent Blue)"
+        ]
+    },
+    "price": {
+        "year": 2005,
+        "values": [
+            {
+                "variant": "KV-J1",
+                "value": "JPY 231,000"
+            },
+            {
+                "variant": "KV-J1E",
+                "value": "JPY 236,250"
+            },
+            {
+                "variant": "KV-J1K",
+                "value": "JPY 252,000"
+            },
+            {
+                "variant": "KV-J1EK",
+                "value": "JPY 257,250"
+            }
+        ]
+    },
+    "notes": [
+        "The Kahler equipped models (KV-J1K and KV-J1EK) only became available from 2005"
+    ]
+}

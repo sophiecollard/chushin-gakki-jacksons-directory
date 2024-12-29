@@ -1,0 +1,91 @@
+{
+    "brand": "Jackson Stars",
+    "model": "SL-TN01",
+    "variants": [
+        "SL-TN01",
+        "SL-TN01EMG"
+    ],
+    "years_of_production": {
+        "from": 2007,
+        "until": 2009
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Mother of Pearl"
+            }
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": "1/8\" flame maple top on transparent finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "SL-TN01",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-4"
+                    }
+                },
+                {
+                    "variant": "SL-TN01EMG",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "BLK (Black)",
+            "TBK (Transparent Black)",
+            "TBL (Transparent Blue)",
+            "TRD (Transparent Red)"
+        ]
+    },
+    "price": {
+        "year": 2008,
+        "values": [
+            {
+                "variant": "SL-TN01 (in BLK finish)",
+                "value": "JPY 252,000"
+            },
+            {
+                "variant": "SL-TN01 (in TBK, TBL or TRD finish)",
+                "value": "JPY 273,000"
+            },
+            {
+                "variant": "SL-TN01EMG (in BLK finish)",
+                "value": "JPY 257,250"
+            },
+            {
+                "variant": "SL-TN01EMG (in TBK, TBL or TRD finish)",
+                "value": "JPY 278,250"
+            }
+        ]
+    },
+    "notes": null
+}

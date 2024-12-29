@@ -1,0 +1,135 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-J2",
+    "variants": [
+        "RR-J2",
+        "RR-J2E",
+        "RR-J2K",
+        "RR-J2EK",
+        "RR-J2B",
+        "RR-J2EB"
+    ],
+    "years_of_production": {
+        "from": 2004,
+        "until": 2006
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Striped Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Matching",
+                "logo_material": "Decal"
+            }
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "RR-J2/J2K/J2B",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5/SH-5"
+                    }
+                },
+                {
+                    "variant": "RR-J2E/J2EK/J2BE",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": [
+                {
+                    "variant": "RR-J2/J2E",
+                    "value": "Schaller double locking tremolo (recessed)"
+                },
+                {
+                    "variant": "RR-J2K/J2EK",
+                    "value": "Kahler with Schaller Locking Nut"
+                },
+                {
+                    "variant": "RR-J2B/J2BE",
+                    "value": "Tune-o-matic Gotoh bridge with string-through-body"
+                }
+            ]
+        },
+        "finishes": [
+            "BK (Black)",
+            "SBK (Satin Black)",
+            "DMB (Dark Metallic Blue)",
+            "DMR (Dark Metallic Red)",
+            "PT (Pewter, 2004 only)",
+            "CBL (Cobalt Blue, 2004 only)",
+            "SW (Snow White, from 2005)",
+            "HRF (Hot Rod Flames, JPY 57,750 upcharge as of 2005)",
+            "EDS (Eerie Dess Swirl, JPY 42,000 upcharge as of 2005)",
+            "CS (Crimson Swirl, JPY 42,000 upcharge as of 2005)",
+            "CBS (Cobalt Blue Swirl, JPY 42,000 upcharge as of 2005)",
+            "BK/WPD (Black w/ White Polka Dots, JPY 78,750 upcharge as of 2005)",
+            "BS (Blood Splatter, JPY 42,000 upcharge as of 2005)",
+            "D.CAMO (Desert Camo, JPY 73,500 upcharge as of 2005)",
+            "STS (Stars and Stripes, JPY 68,250 upcharge as of 2005)",
+            "RS (Rising Sun, JPY 63,000 upcharge as of 2005)",
+            "BOF (Blue Orange Flame, JPY 84,000 upcharge as of 2005)",
+            "PSKL (Pile O'Skulls, JPY 78,750 upcharge as of 2005)",
+            "LTG (Lightning Sky, JPY 52,500 upcharge as of 2005)",
+            "SW/PN BK (Snow White w/ Black Pinstripes, JPY 36,750 upcharge as of 2005)",
+            "BK/BV Red (Black w/ Red Bevels, JPY 52,500 upcharge as of 2005)"
+        ]
+    },
+    "price": {
+        "year": 2005,
+        "values": [
+            {
+                "variant": "RR-J2",
+                "value": "JPY 168,000"
+            },
+            {
+                "variant": "RR-J2E",
+                "value": "JPY 173,250"
+            },
+            {
+                "variant": "RR-J2K",
+                "value": "JPY 199,500"
+            },
+            {
+                "variant": "RR-J2EK",
+                "value": "JPY 204,750"
+            },
+            {
+                "variant": "RR-J2B",
+                "value": "JPY 136,500"
+            },
+            {
+                "variant": "RR-J2BE",
+                "value": "JPY 141,750"
+            }
+        ]
+    },
+    "notes": [
+        "The Kahler equipped models (RR-J2K and RR-J2EK) only became available from 2005"
+    ]
+}

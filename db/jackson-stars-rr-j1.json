@@ -1,0 +1,119 @@
+{
+    "brand": "Jackson Stars",
+    "model": "RR-J1",
+    "variants": [
+        "RR-J1",
+        "RR-J1E",
+        "RR-J1K",
+        "RR-J1EK",
+        "RR-J1B",
+        "RR-J1EB"
+    ],
+    "years_of_production": {
+        "from": 2004,
+        "until": 2006
+    },
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            },
+            "headstock": {
+                "type": "regular",
+                "finish": "Black",
+                "logo_material": "Mother of Pearl"
+            }
+        },
+        "body": {
+            "material": "Ash",
+            "top": "5A flame maple veneer on transparent finishes",
+            "binding": null
+        },
+        "electronics": {
+            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "pickup_configuration": [
+                {
+                    "variant": "RR-J1/J1K/J1B",
+                    "value": {
+                        "neck": "Seymour Duncan SH-1n",
+                        "bridge": "TB-5/SH-5"
+                    }
+                },
+                {
+                    "variant": "RR-J1E/J1EK/J1BE",
+                    "value": {
+                        "neck": "EMG-81",
+                        "bridge": "EMG-81"
+                    }
+                }
+            ]
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": [
+                {
+                    "variant": "RR-J1/J1E",
+                    "value": "Floyd Rose Original (recessed)"
+                },
+                {
+                    "variant": "RR-J1K/J1EK",
+                    "value": "Kahler with Schaller Locking Nut"
+                },
+                {
+                    "variant": "RR-J1B/J1BE",
+                    "value": "Tune-o-matic Gotoh bridge with string-through-body"
+                }
+            ]
+        },
+        "finishes": [
+            "BK (Black)",
+            "TBKS (Transparent Black)",
+            "TSWS (Transparent Snow White)",
+            "TRS (Transparent Red)",
+            "TBLS (Transparent Blue)"
+        ]
+    },
+    "price": {
+        "year": 2005,
+        "values": [
+            {
+                "variant": "RR-J1",
+                "value": "JPY 231,000"
+            },
+            {
+                "variant": "RR-J1E",
+                "value": "JPY 236,250"
+            },
+            {
+                "variant": "RR-J1K",
+                "value": "JPY 252,000"
+            },
+            {
+                "variant": "RR-J1EK",
+                "value": "JPY 257,250"
+            },
+            {
+                "variant": "RR-J1B",
+                "value": "JPY 178,500"
+            },
+            {
+                "variant": "RR-J1BE",
+                "value": "JPY 183,750"
+            }
+        ]
+    },
+    "notes": [
+        "The Kahler equipped models (RR-J1K and RR-J1EK) only became available from 2005"
+    ]
+}
