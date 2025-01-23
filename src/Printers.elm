@@ -49,6 +49,16 @@ printScaleLength scaleLength =
             "25.5\" (648mm)"
 
 
+printNutWidth : NutWidth -> String
+printNutWidth nutWidth =
+    case nutWidth of
+        Inches1_625 ->
+            "1.625\" (41.30 mm)"
+
+        Inches1_6875 ->
+            "1.6875 (42.85 mm)"
+
+
 printHeadstockType : HeadstockType -> String
 printHeadstockType type_ =
     case type_ of

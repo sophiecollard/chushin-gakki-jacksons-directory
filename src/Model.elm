@@ -36,6 +36,7 @@ type alias NeckSpecs =
     { material : String
     , construction : Construction
     , scaleLength : ScaleLength
+    , nutWidth : NutWidth
     , fretboard : FretboardSpecs
     , inlays : InlaysSpecs
     , binding : BindingSpecs
@@ -50,8 +51,13 @@ type Construction
 
 
 type ScaleLength
-    = Inches24_75
-    | Inches25_5
+    = Inches24_75 -- 628 mm
+    | Inches25_5 -- 648 mm
+
+
+type NutWidth
+    = Inches1_625 -- 41.30 mm
+    | Inches1_6875 -- 42.85 mm
 
 
 type alias FretboardSpecs =

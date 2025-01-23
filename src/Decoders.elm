@@ -1,6 +1,6 @@
 module Decoders exposing (..)
 
-import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map5, map6, map7, maybe, oneOf, string, succeed)
+import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map5, map7, map8, maybe, oneOf, string, succeed)
 import Model exposing (..)
 
 
@@ -57,10 +57,11 @@ specsDecoder =
 
 neckSpecsDecoder : Decoder NeckSpecs
 neckSpecsDecoder =
-    map7 NeckSpecs
+    map8 NeckSpecs
         (field "material" string)
         (field "construction" constructionDecoder)
         (field "scale_length" scaleLengthDecoder)
+        (field "nut_width" nutWidthDecoder)
         (field "fretboard" fretboardSpecsDecoder)
         (field "inlays" inlaysSpecsDecoder)
         (field "binding" bindingSpecsDecoder)
@@ -155,6 +156,37 @@ scaleLengthDecoder =
 
                 other ->
                     fail ("Not a valid scale length value: " ++ other)
+    in
+    oneOf
+        [ string |> andThen f ]
+
+
+nutWidthDecoder : Decoder NutWidth
+nutWidthDecoder =
+    let
+        f : String -> Decoder NutWidth
+        f str =
+            case str of
+                "1.625\"" ->
+                    succeed Inches1_625
+
+                "41.30mm" ->
+                    succeed Inches1_625
+
+                "42mm" ->
+                    succeed Inches1_625
+
+                "1.6875\"" ->
+                    succeed Inches1_6875
+
+                "42.85mm" ->
+                    succeed Inches1_6875
+
+                "43mm" ->
+                    succeed Inches1_6875
+
+                other ->
+                    fail ("Not a valid nut width value: " ++ other)
     in
     oneOf
         [ string |> andThen f ]

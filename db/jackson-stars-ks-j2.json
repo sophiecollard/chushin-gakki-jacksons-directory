@@ -13,6 +13,7 @@
             "material": "Maple",
             "construction": "neck_through",
             "scale_length": "25.5\"",
+            "nut_width": "1.625\"",
             "fretboard": {
                 "material": "Striped Ebony",
                 "fret_count": 24

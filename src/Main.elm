@@ -8,14 +8,13 @@
 module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
 
 import Browser
-import Debug exposing (log)
 import Decoders exposing (entryDecoder)
 import Html exposing (Html, a, br, div, h1, h2, h3, i, li, p, strong, text, ul)
 import Html.Attributes exposing (class, style)
 import Html.Events exposing (onClick)
 import Http
 import Model exposing (..)
-import Printers exposing (printBrand, printContruction, printHeadstockType, printScaleLength, printYearsOfProduction)
+import Printers exposing (..)
 
 
 
@@ -363,6 +362,10 @@ viewNeckSpecs neck =
     , p []
         [ strong [] [ text "Scale length: " ]
         , text (printScaleLength neck.scaleLength)
+        ]
+    , p []
+        [ strong [] [ text "Nut width: " ]
+        , text (printNutWidth neck.nutWidth)
         ]
     , p []
         [ strong [] [ text "Binding: " ]
