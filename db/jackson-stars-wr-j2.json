@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "WR-J2",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2005-2006"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "WR-J2",
         "WR-J2E",

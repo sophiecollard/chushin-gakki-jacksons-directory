@@ -4,6 +4,7 @@ module Model exposing (..)
 type alias Entry =
     { brand : Brand
     , model : String
+    , tags : List Tag
     , variants : Maybe (List String)
     , yearsOfProduction : YearsOfProduction
     , specs : Specs
@@ -16,6 +17,22 @@ type Brand
     = GroverJackson
     | Jackson
     | JacksonStars
+
+
+type Tag
+    = SimpleTag TagColour String
+    | DoubleTag TagColour String TagColour String
+
+
+type TagColour
+    = Dark
+    | Light
+    | Primary
+    | Link
+    | Info
+    | Success
+    | Warning
+    | Danger
 
 
 type YearsOfProduction

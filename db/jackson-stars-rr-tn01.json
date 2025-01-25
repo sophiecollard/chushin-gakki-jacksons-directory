@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "RR-TN01",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2007-2009"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "RR-TN01",
         "RR-TN01EMG"

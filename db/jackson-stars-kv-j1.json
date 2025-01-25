@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "KV-J1",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2004-2006"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "KV-J1",
         "KV-J1E",

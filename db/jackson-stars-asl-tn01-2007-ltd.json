@@ -1,6 +1,24 @@
 {
     "brand": "Jackson Stars",
     "model": "ASL-TN01 (2007 Limited Series)",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2007"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        },
+        {
+            "colour": "warning",
+            "text": "Limited Edition"
+        }
+    ],
     "variants": null,
     "years_of_production": {
         "from": 2007,

@@ -1,14 +1,15 @@
 module Decoders exposing (..)
 
-import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map6, map7, maybe, oneOf, string, succeed)
+import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map4, map6, map7, map8, maybe, oneOf, string, succeed)
 import Model exposing (..)
 
 
 entryDecoder : Decoder Entry
 entryDecoder =
-    map7 Entry
+    map8 Entry
         (field "brand" brandDecoder)
         (field "model" string)
+        (field "tags" (list tagDecoder))
         (field "variants" (maybe (list string)))
         (field "years_of_production" yearsOfProductionDecoder)
         (field "specs" specsDecoder)
@@ -33,6 +34,56 @@ brandDecoder =
 
                 _ ->
                     fail "Not a valid brand"
+    in
+    string |> andThen f
+
+
+tagDecoder : Decoder Tag
+tagDecoder =
+    oneOf
+        [ map2 SimpleTag
+            (field "colour" tagColourDecoder)
+            (field "text" string)
+        , map4 DoubleTag
+            (field "leftColour" tagColourDecoder)
+            (field "leftContent" string)
+            (field "rightColour" tagColourDecoder)
+            (field "rightContent" string)
+        ]
+
+
+tagColourDecoder : Decoder TagColour
+tagColourDecoder =
+    let
+        f : String -> Decoder TagColour
+        f str =
+            case str of
+                "dark" ->
+                    succeed Dark
+
+                "light" ->
+                    succeed Light
+
+                "primary" ->
+                    succeed Primary
+
+                "link" ->
+                    succeed Link
+
+                "info" ->
+                    succeed Info
+
+                "success" ->
+                    succeed Success
+
+                "warning" ->
+                    succeed Warning
+
+                "danger" ->
+                    succeed Danger
+
+                _ ->
+                    fail "Not a valid tag colour"
     in
     string |> andThen f
 

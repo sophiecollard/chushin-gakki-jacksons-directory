@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "SL-TN01 Quilt (2008 Limited Series)",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2008"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": null,
     "years_of_production": 2008,
     "specs": {

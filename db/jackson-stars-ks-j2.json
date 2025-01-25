@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "KS-J2",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2004"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "KS-J2",
         "KS-J2E",

@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "RR-TN02STB",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2007-2009"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "RR-TN02STB",
         "RR-TN02STB/EMG"

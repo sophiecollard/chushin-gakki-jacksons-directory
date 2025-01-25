@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "SL-TN02",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2007-2009"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "SL-TN02",
         "SL-TN02EMG"

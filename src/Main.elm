@@ -10,7 +10,7 @@ module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
 import Browser
 import Debug exposing (log)
 import Decoders exposing (entryDecoder)
-import Html exposing (Html, a, br, div, h1, h2, h3, i, li, p, strong, text, ul)
+import Html exposing (Html, a, br, div, h1, h2, h3, i, li, p, span, strong, text, ul)
 import Html.Attributes exposing (class, style)
 import Html.Events exposing (onClick)
 import Http
@@ -169,6 +169,7 @@ view model =
                 LoadedEntry entry ->
                     [ h1 [ class "title is-2" ] [ text (printBrand entry.brand ++ " " ++ entry.model) ]
                     , h2 [ class "subtitle is-4" ] [ text (printYearsOfProduction entry.yearsOfProduction) ]
+                    , viewTags entry.tags
                     , viewSpecs entry.specs
                     , viewPrice entry.price
                     , viewNotes entry.notes
@@ -333,6 +334,34 @@ viewUnlessHidden html show =
 
     else
         div [] []
+
+
+viewTags : List Tag -> Html msg
+viewTags tags =
+    div [ class "field is-grouped is-grouped-multiline" ]
+        (List.map viewTag tags)
+
+
+viewTag : Tag -> Html msg
+viewTag tag =
+    case tag of
+        SimpleTag colour content ->
+            div [ class "control" ]
+                [ div [ class "tags" ]
+                    [ span [ class ("tag is-" ++ printTagColour colour) ]
+                        [ text content ]
+                    ]
+                ]
+
+        DoubleTag leftColour leftContent rightColour rightContent ->
+            div [ class "control" ]
+                [ div [ class "tags has-addons" ]
+                    [ span [ class ("tag is-" ++ printTagColour leftColour) ]
+                        [ text leftContent ]
+                    , span [ class ("tag is-" ++ printTagColour rightColour) ]
+                        [ text rightContent ]
+                    ]
+                ]
 
 
 viewSpecs : Specs -> Html msg

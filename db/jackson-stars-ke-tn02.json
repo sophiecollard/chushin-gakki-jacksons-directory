@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "KE-TN02",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2007-2009"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "KE-TN02",
         "KE-TN02EMG"

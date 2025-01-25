@@ -1,6 +1,20 @@
 {
     "brand": "Jackson Stars",
     "model": "KV-TN01",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "2007-2009"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
     "variants": [
         "KV-TN01",
         "KV-TN01EMG"

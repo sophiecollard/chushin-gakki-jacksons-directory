@@ -16,6 +16,34 @@ printBrand brand =
             "Jackson Stars"
 
 
+printTagColour : TagColour -> String
+printTagColour colour =
+    case colour of
+        Dark ->
+            "dark"
+
+        Light ->
+            "light"
+
+        Primary ->
+            "primary"
+
+        Link ->
+            "link"
+
+        Info ->
+            "info"
+
+        Success ->
+            "success"
+
+        Warning ->
+            "warning"
+
+        Danger ->
+            "danger"
+
+
 printYearsOfProduction : YearsOfProduction -> String
 printYearsOfProduction yop =
     case yop of
