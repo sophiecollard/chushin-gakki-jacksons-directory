@@ -8,6 +8,7 @@
 module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
 
 import Browser
+import Debug exposing (log)
 import Decoders exposing (entryDecoder)
 import Html exposing (Html, a, br, div, h1, h2, h3, i, li, p, strong, text, ul)
 import Html.Attributes exposing (class, style)
@@ -102,7 +103,11 @@ update msg model =
                 Ok entry ->
                     ( { model | mainContent = LoadedEntry entry }, Cmd.none )
 
-                Err _ ->
+                Err error ->
+                    let
+                        _ =
+                            log "error: " error
+                    in
                     ( { model | mainContent = Failure "Failed to load file as entry" }, Cmd.none )
 
         ToggleKellyMenuList ->
@@ -337,7 +342,7 @@ viewSpecs specs =
             [ [ h2 [ class "title is-4" ] [ text "Specs" ]
               ]
             , viewNeckSpecs specs.neck
-            , viewHeadstockSpecs specs.neck.headstock
+            , viewHeadstockSpecs specs.headstock
             , viewBodySpecs specs.body
             , viewElectronicsSpecs specs.electronics
             , viewHardwareSpecs specs.hardware

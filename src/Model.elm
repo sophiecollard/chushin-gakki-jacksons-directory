@@ -25,6 +25,7 @@ type YearsOfProduction
 
 type alias Specs =
     { neck : NeckSpecs
+    , headstock : HeadstockSpecs
     , body : BodySpecs
     , electronics : ElectronicsSpecs
     , hardware : HardwareSpecs
@@ -40,7 +41,6 @@ type alias NeckSpecs =
     , fretboard : FretboardSpecs
     , inlays : InlaysSpecs
     , binding : BindingSpecs
-    , headstock : HeadstockSpecs
     }
 
 

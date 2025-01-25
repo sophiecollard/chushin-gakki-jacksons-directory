@@ -1,6 +1,6 @@
 module Decoders exposing (..)
 
-import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map5, map7, map8, maybe, oneOf, string, succeed)
+import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map6, map7, maybe, oneOf, string, succeed)
 import Model exposing (..)
 
 
@@ -47,8 +47,9 @@ yearsOfProductionDecoder =
 
 specsDecoder : Decoder Specs
 specsDecoder =
-    map5 Specs
+    map6 Specs
         (field "neck" neckSpecsDecoder)
+        (field "headstock" headstockSpecsDecoder)
         (field "body" bodySpecsDecoder)
         (field "electronics" electronicsSpecsDecoder)
         (field "hardware" hardwareSpecsDecoder)
@@ -57,7 +58,7 @@ specsDecoder =
 
 neckSpecsDecoder : Decoder NeckSpecs
 neckSpecsDecoder =
-    map8 NeckSpecs
+    map7 NeckSpecs
         (field "material" string)
         (field "construction" constructionDecoder)
         (field "scale_length" scaleLengthDecoder)
@@ -65,7 +66,6 @@ neckSpecsDecoder =
         (field "fretboard" fretboardSpecsDecoder)
         (field "inlays" inlaysSpecsDecoder)
         (field "binding" bindingSpecsDecoder)
-        (field "headstock" headstockSpecsDecoder)
 
 
 fretboardSpecsDecoder : Decoder FretboardSpecs

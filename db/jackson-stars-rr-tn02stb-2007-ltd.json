@@ -22,12 +22,12 @@
             },
             "binding": {
                 "colour": "Ivory"
-            },
-            "headstock": {
-                "type": "regular",
-                "finish": "Black",
-                "logo_material": "Decal"
             }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
         },
         "body": {
             "material": "Alder",

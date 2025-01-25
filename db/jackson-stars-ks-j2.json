@@ -24,13 +24,13 @@
             },
             "binding": {
                 "colour": "Ivory"
-            },
-            "headstock": {
+            }
+        },
+        "headstock": {
                 "type": "regular",
                 "finish": "Matching",
                 "logo_material": "Decal"
-            }
-        },
+            },
         "body": {
             "material": "Alder",
             "top": null,

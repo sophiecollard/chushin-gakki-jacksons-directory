@@ -25,12 +25,12 @@
             },
             "binding": {
                 "colour": "Ivory"
-            },
-            "headstock": {
-                "type": "regular",
-                "finish": "Black",
-                "logo_material": "Mother of Pearl"
             }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Mother of Pearl"
         },
         "body": {
             "material": "Mahogany",
