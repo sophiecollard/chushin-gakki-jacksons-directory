@@ -44,16 +44,6 @@ printTagColour colour =
             "danger"
 
 
-printYearsOfProduction : YearsOfProduction -> String
-printYearsOfProduction yop =
-    case yop of
-        SingleYear year ->
-            String.fromInt year
-
-        MultipleYears from until ->
-            String.fromInt from ++ "-" ++ String.fromInt until
-
-
 printContruction : Construction -> String
 printContruction construction =
     case construction of

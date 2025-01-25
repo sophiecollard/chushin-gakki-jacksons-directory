@@ -1,17 +1,16 @@
 module Decoders exposing (..)
 
-import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map4, map6, map7, map8, maybe, oneOf, string, succeed)
+import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map4, map6, map7, maybe, oneOf, string, succeed)
 import Model exposing (..)
 
 
 entryDecoder : Decoder Entry
 entryDecoder =
-    map8 Entry
+    map7 Entry
         (field "brand" brandDecoder)
         (field "model" string)
         (field "tags" (list tagDecoder))
         (field "variants" (maybe (list string)))
-        (field "years_of_production" yearsOfProductionDecoder)
         (field "specs" specsDecoder)
         (field "price" priceDecoder)
         (field "notes" (maybe (list string)))
@@ -86,14 +85,6 @@ tagColourDecoder =
                     fail "Not a valid tag colour"
     in
     string |> andThen f
-
-
-yearsOfProductionDecoder : Decoder YearsOfProduction
-yearsOfProductionDecoder =
-    oneOf
-        [ map2 MultipleYears (field "from" int) (field "until" int)
-        , map SingleYear int
-        ]
 
 
 specsDecoder : Decoder Specs

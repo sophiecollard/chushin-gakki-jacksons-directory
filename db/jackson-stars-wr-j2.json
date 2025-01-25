@@ -21,10 +21,6 @@
         "WR-J2K",
         "WR-J2EK"
     ],
-    "years_of_production": {
-        "from": 2005,
-        "until": 2006
-    },
     "specs": {
         "neck": {
             "material": "Maple",

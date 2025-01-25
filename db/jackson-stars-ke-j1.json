@@ -21,10 +21,6 @@
         "KE-J1K",
         "KE-J1EK"
     ],
-    "years_of_production": {
-        "from": 2004,
-        "until": 2006
-    },
     "specs": {
         "neck": {
             "material": "Maple",

@@ -23,10 +23,6 @@
         "RR-J2B",
         "RR-J2EB"
     ],
-    "years_of_production": {
-        "from": 2004,
-        "until": 2006
-    },
     "specs": {
         "neck": {
             "material": "Maple",

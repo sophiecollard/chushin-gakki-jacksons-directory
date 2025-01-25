@@ -6,7 +6,6 @@ type alias Entry =
     , model : String
     , tags : List Tag
     , variants : Maybe (List String)
-    , yearsOfProduction : YearsOfProduction
     , specs : Specs
     , price : Price
     , notes : Maybe (List String)
@@ -33,11 +32,6 @@ type TagColour
     | Success
     | Warning
     | Danger
-
-
-type YearsOfProduction
-    = SingleYear Int
-    | MultipleYears Int Int
 
 
 type alias Specs =

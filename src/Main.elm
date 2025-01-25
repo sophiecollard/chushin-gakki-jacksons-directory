@@ -168,7 +168,6 @@ view model =
 
                 LoadedEntry entry ->
                     [ h1 [ class "title is-2" ] [ text (printBrand entry.brand ++ " " ++ entry.model) ]
-                    , h2 [ class "subtitle is-4" ] [ text (printYearsOfProduction entry.yearsOfProduction) ]
                     , viewTags entry.tags
                     , viewSpecs entry.specs
                     , viewPrice entry.price
