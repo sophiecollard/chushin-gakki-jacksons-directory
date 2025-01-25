@@ -136,8 +136,8 @@ type BridgeConfiguration
 
 
 type Price
-    = SimplePrice { value : String, year : Int }
-    | ComplexPrice { values : List (Variants String), year : Int }
+    = SimplePrice { value : String, year : Int, source : String }
+    | ComplexPrice { values : List (Variants String), year : Int, source : String }
 
 
 type Variants a

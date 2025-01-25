@@ -622,19 +622,17 @@ viewPrice price =
                         ]
     in
     case price of
-        SimplePrice { value, year } ->
+        SimplePrice { value, year, source } ->
             div [ style "margin-top" "2rem" ]
                 [ h2 [ class "title is-4" ] [ text "Price" ]
-                , p []
-                    [ strong [] [ text ("In " ++ String.fromInt year ++ ": ") ]
-                    , viewValue value
-                    ]
+                , p [] [ strong [] [ text ("Source: " ++ source) ] ]
+                , p [] [ viewValue value ]
                 ]
 
-        ComplexPrice { values, year } ->
+        ComplexPrice { values, year, source } ->
             div [ style "margin-top" "2rem" ]
                 (h2 [ class "title is-4" ] [ text "Price" ]
-                    :: p [] [ strong [] [ text ("In " ++ String.fromInt year ++ ": ") ] ]
+                    :: p [] [ strong [] [ text ("Source: " ++ source) ] ]
                     :: List.map viewVariants values
                 )
 

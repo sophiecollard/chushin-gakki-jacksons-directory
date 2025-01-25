@@ -79,6 +79,7 @@
     },
     "price": {
         "year": 2008,
+        "source": "2008 Jackson Stars Catalogue",
         "values": [
             {
                 "variant": "SL-TN01 (in BLK finish)",

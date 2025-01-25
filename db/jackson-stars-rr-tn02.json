@@ -80,6 +80,7 @@
     },
     "price": {
         "year": 2008,
+        "source": "2008 Jackson Stars Catalogue",
         "values": [
             {
                 "variant": "RR-TN02 (in BLR or DMR finish)",

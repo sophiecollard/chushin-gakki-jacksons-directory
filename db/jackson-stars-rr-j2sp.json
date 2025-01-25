@@ -63,6 +63,7 @@
     },
     "price": {
         "year": 2005,
+        "source": "Unknown",
         "values": [
             {
                 "variant": "Black",

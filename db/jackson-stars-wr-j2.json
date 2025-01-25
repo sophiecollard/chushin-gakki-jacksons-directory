@@ -105,6 +105,7 @@
     },
     "price": {
         "year": 2005,
+        "source": "2005 Jackson Stars Catalogue",
         "values": [
             {
                 "variant": "WR-J2",

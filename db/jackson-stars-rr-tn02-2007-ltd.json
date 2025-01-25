@@ -65,6 +65,7 @@
     },
     "price": {
         "year": 2008,
+        "source": "2008 Jackson Stars Catalogue",
         "value": "JPY 210,000"
     },
     "notes": null

@@ -77,6 +77,7 @@
     },
     "price": {
         "year": 2008,
+        "source": "2008 Jackson Stars Catalogue",
         "values": [
             {
                 "variant": "WR-TN02",

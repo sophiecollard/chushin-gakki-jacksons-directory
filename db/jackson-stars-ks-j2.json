@@ -90,6 +90,7 @@
     },
     "price": {
         "year": 2004,
+        "source": "2004 Jackson Stars Catalogue",
         "values": [
             {
                 "variant": "KS-J2",

@@ -282,12 +282,14 @@ bridgeConfigurationDecoder =
 priceDecoder : Decoder Price
 priceDecoder =
     oneOf
-        [ map2 (\v y -> SimplePrice { value = v, year = y })
+        [ map3 (\v y s -> SimplePrice { value = v, year = y, source = s })
             (field "value" string)
             (field "year" int)
-        , map2 (\v y -> ComplexPrice { values = v, year = y })
+            (field "source" string)
+        , map3 (\v y s -> ComplexPrice { values = v, year = y, source = s })
             (field "values" (string |> variantsDecoder |> list))
             (field "year" int)
+            (field "source" string)
         ]
 
 
