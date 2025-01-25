@@ -3,6 +3,10 @@
     "model": "SL-TN01 Quilt (2008 Limited Series)",
     "tags": [
         {
+            "colour": "dark",
+            "text": "2008 Limited Series"
+        },
+        {
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",

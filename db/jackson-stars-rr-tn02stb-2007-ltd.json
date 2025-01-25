@@ -3,6 +3,10 @@
     "model": "RR-TN02STB LTD (2007 Limited Series)",
     "tags": [
         {
+            "colour": "dark",
+            "text": "2007 Limited Series"
+        },
+        {
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
@@ -13,10 +17,6 @@
             "leftContent": "Availability",
             "rightColour": "danger",
             "rightContent": "Japan"
-        },
-        {
-            "colour": "warning",
-            "text": "Limited Edition"
         }
     ],
     "variants": null,
