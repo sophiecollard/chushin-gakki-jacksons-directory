@@ -207,18 +207,19 @@ viewMenu menu =
     case menu.brand of
         GroverJackson ->
             div [ class "menu" ]
-                [ p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
+                [ p [ class "menu-label" ] [ text "Grover Jackson models" ]
+                , p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
                 , viewUnlessHidden viewGroverJacksonKellyMenuList (menu.shape == Kelly)
                 , p [ class "menu-label", onClick (SelectShape KingV) ] [ a [] [ text "King V" ] ]
                 , viewUnlessHidden viewGroverJacksonKingVMenuList (menu.shape == KingV)
                 , p [ class "menu-label", onClick (SelectShape Rhoads) ] [ a [] [ text "Rhoads" ] ]
                 , viewUnlessHidden viewGroverJacksonRhoadsMenuList (menu.shape == Rhoads)
-                , p [ class "menu-label", onClick (SelectShape Soloist) ] [ a [] [ text "Soloist" ] ]
                 ]
 
         JacksonStars ->
             div [ class "menu" ]
-                [ p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
+                [ p [ class "menu-label" ] [ text "Jackson Stars models" ]
+                , p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
                 , viewUnlessHidden viewJacksonStarsKellyMenuList (menu.shape == Kelly)
                 , p [ class "menu-label", onClick (SelectShape KellyStar) ] [ a [] [ text "Kelly Star" ] ]
                 , viewUnlessHidden viewJacksonStarsKellyStarMenuList (menu.shape == KellyStar)
@@ -247,7 +248,7 @@ viewGroverJacksonKellyMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-ke-custom.json") ]
-            [ a [] [ text "Grover Jackson Kelly Custom" ] ]
+            [ a [] [ text "Kelly Custom" ] ]
         ]
 
 
@@ -256,10 +257,10 @@ viewGroverJacksonKingVMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-kv-custom-1990-91.json") ]
-            [ a [] [ text "Grover Jackson King V Custom (1990-1991)" ] ]
+            [ a [] [ text "King V Custom (1990-1991)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-kv-custom-1992-94.json") ]
-            [ a [] [ text "Grover Jackson King V Custom (1992-1994)" ] ]
+            [ a [] [ text "King V Custom (1992-1994)" ] ]
         ]
 
 
@@ -268,16 +269,16 @@ viewGroverJacksonRhoadsMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-rr-professional.json") ]
-            [ a [] [ text "Grover Jackson Randy Rhoads Professional" ] ]
+            [ a [] [ text "Randy Rhoads Professional" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-rr-custom-1990-91.json") ]
-            [ a [] [ text "Grover Jackson Randy Rhoads Custom (1990-1991)" ] ]
+            [ a [] [ text "Randy Rhoads Custom (1990-1991)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-rr-custom-1991-94.json") ]
-            [ a [] [ text "Grover Jackson Randy Rhoads Custom (1991-1994)" ] ]
+            [ a [] [ text "Randy Rhoads Custom (1991-1994)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-dan-spitz.json") ]
-            [ a [] [ text "Grover Jackson Dan Spitz Professional" ] ]
+            [ a [] [ text "Dan Spitz Professional" ] ]
         ]
 
 
@@ -286,28 +287,28 @@ viewJacksonStarsKellyMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-j1.json") ]
-            [ a [] [ text "Jackson Stars KE-J1" ] ]
+            [ a [] [ text "KE-J1" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-j2.json") ]
-            [ a [] [ text "Jackson Stars KE-J2" ] ]
+            [ a [] [ text "KE-J2" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn01.json") ]
-            [ a [] [ text "Jackson Stars KE-TN01" ] ]
+            [ a [] [ text "KE-TN01" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02.json") ]
-            [ a [] [ text "Jackson Stars KE-TN02" ] ]
+            [ a [] [ text "KE-TN02" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02-2007-gf-ltd.json") ]
-            [ a [] [ text "Jackson Stars KE-TN02 LTD \"Ghost Flame\" (2007 Limited)" ] ]
+            [ a [] [ text "KE-TN02 LTD \"Ghost Flame\" (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02-2007-swirl-ltd.json") ]
-            [ a [] [ text "Jackson Stars KE-TN02 LTD \"Swirl\" (2007 Limited)" ] ]
+            [ a [] [ text "KE-TN02 LTD \"Swirl\" (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02stb-emg-flame.json") ]
-            [ a [] [ text "Jackson Stars KE-TN02STB/EMG FLAME (2009 Limited)" ] ]
+            [ a [] [ text "KE-TN02STB/EMG FLAME (2009 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02stb-emg-quilt.json") ]
-            [ a [] [ text "Jackson Stars KE-TN02STB/EMG QUILT (2009 Limited)" ] ]
+            [ a [] [ text "KE-TN02STB/EMG QUILT (2009 Limited)" ] ]
         ]
 
 
@@ -316,7 +317,7 @@ viewJacksonStarsKellyStarMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ks-j2.json") ]
-            [ a [] [ text "Jackson Stars KS-J2" ] ]
+            [ a [] [ text "KS-J2" ] ]
         ]
 
 
@@ -325,22 +326,22 @@ viewJacksonStarsKingVMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-j1.json") ]
-            [ a [] [ text "Jackson Stars KV-J1" ] ]
+            [ a [] [ text "KV-J1" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-j2.json") ]
-            [ a [] [ text "Jackson Stars KV-J2" ] ]
+            [ a [] [ text "KV-J2" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-tn01.json") ]
-            [ a [] [ text "Jackson Stars KV-TN01" ] ]
+            [ a [] [ text "KV-TN01" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-tn02.json") ]
-            [ a [] [ text "Jackson Stars KV-TN02" ] ]
+            [ a [] [ text "KV-TN02" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-tn02-2007-pd-ltd.json") ]
-            [ a [] [ text "Jackson Stars KV-TN02 LTD \"Polka Dots\" (2007 Limited)" ] ]
+            [ a [] [ text "KV-TN02 LTD \"Polka Dots\" (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-tn02-2007-gf-ltd.json") ]
-            [ a [] [ text "Jackson Stars KV-TN02 LTD \"Ghost Flame\" (2007 Limited)" ] ]
+            [ a [] [ text "KV-TN02 LTD \"Ghost Flame\" (2007 Limited)" ] ]
         ]
 
 
@@ -349,43 +350,43 @@ viewJacksonStarsRhoadsMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-j1.json") ]
-            [ a [] [ text "Jackson Stars RR-J1" ] ]
+            [ a [] [ text "RR-J1" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-j2.json") ]
-            [ a [] [ text "Jackson Stars RR-J2" ] ]
+            [ a [] [ text "RR-J2" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-j2sp.json") ]
-            [ a [] [ text "Jackson Stars RR-J2SP" ] ]
+            [ a [] [ text "RR-J2SP" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn01.json") ]
-            [ a [] [ text "Jackson Stars RR-TN01" ] ]
+            [ a [] [ text "RR-TN01" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn01stb.json") ]
-            [ a [] [ text "Jackson Stars RR-TN01STB" ] ]
+            [ a [] [ text "RR-TN01STB" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02" ] ]
+            [ a [] [ text "RR-TN02" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02STB" ] ]
+            [ a [] [ text "RR-TN02STB" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02 LTD (2007 Limited)" ] ]
+            [ a [] [ text "RR-TN02 LTD (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02STB LTD (2007 Limited)" ] ]
+            [ a [] [ text "RR-TN02STB LTD (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-2007-swirl-ltd.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02STB LTD \"Swirl\" (2007 Limited)" ] ]
+            [ a [] [ text "RR-TN02STB LTD \"Swirl\" (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-ash.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02STB ASH (2009 Limited)" ] ]
+            [ a [] [ text "RR-TN02STB ASH (2009 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-wal.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02STB WALNUT (2009 Limited)" ] ]
+            [ a [] [ text "RR-TN02STB WALNUT (2009 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-quilt-fc.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02STB QUILT FC (2009 Limited)" ] ]
+            [ a [] [ text "RR-TN02STB QUILT FC (2009 Limited)" ] ]
         ]
 
 
@@ -394,34 +395,34 @@ viewJacksonStarsSoloistMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-asl-j1.json") ]
-            [ a [] [ text "Jackson Stars ASL-J1" ] ]
+            [ a [] [ text "ASL-J1" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-j1.json") ]
-            [ a [] [ text "Jackson Stars SL-J1" ] ]
+            [ a [] [ text "SL-J1" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-j2.json") ]
-            [ a [] [ text "Jackson Stars SL-J2" ] ]
+            [ a [] [ text "SL-J2" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn01.json") ]
-            [ a [] [ text "Jackson Stars SL-TN01" ] ]
+            [ a [] [ text "SL-TN01" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-asl-tn01-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars ASL-TN01 (2007 Limited)" ] ]
+            [ a [] [ text "ASL-TN01 (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn01-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars SL-TN01 (2007 Limited)" ] ]
+            [ a [] [ text "SL-TN01 (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn01-2008-ltd.json") ]
-            [ a [] [ text "Jackson Stars SL-TN01 (2008 Limited)" ] ]
+            [ a [] [ text "SL-TN01 (2008 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn01-quilt.json") ]
-            [ a [] [ text "Jackson Stars SL-TN01 Quilt (2008 Limited)" ] ]
+            [ a [] [ text "SL-TN01 Quilt (2008 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn02.json") ]
-            [ a [] [ text "Jackson Stars SL-TN02" ] ]
+            [ a [] [ text "SL-TN02" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn02stb.json") ]
-            [ a [] [ text "Jackson Stars SL-TN02STB" ] ]
+            [ a [] [ text "SL-TN02STB" ] ]
         ]
 
 
@@ -430,10 +431,10 @@ viewJacksonStarsWarriorMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-wr-j2.json") ]
-            [ a [] [ text "Jackson Stars WR-J2" ] ]
+            [ a [] [ text "WR-J2" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-wr-tn02.json") ]
-            [ a [] [ text "Jackson Stars WR-TN02" ] ]
+            [ a [] [ text "WR-TN02" ] ]
         ]
 
 
