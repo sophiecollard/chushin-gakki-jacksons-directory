@@ -42,13 +42,17 @@ type alias Model =
 
 
 type alias Menu =
-    { showKellyMenuList : Bool
-    , showKellyStarMenuList : Bool
-    , showKingVMenuList : Bool
-    , showRhoadsMenuList : Bool
-    , showSoloistMenuList : Bool
-    , showWarriorMenuList : Bool
+    { showMenuListFor : Shape
     }
+
+
+type Shape
+    = Kelly
+    | KellyStar
+    | KingV
+    | Rhoads
+    | Soloist
+    | Warrior
 
 
 type MainContent
@@ -61,12 +65,7 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     getEntry
         { menu =
-            { showKellyMenuList = False
-            , showKellyStarMenuList = False
-            , showKingVMenuList = False
-            , showRhoadsMenuList = True
-            , showSoloistMenuList = False
-            , showWarriorMenuList = False
+            { showMenuListFor = Rhoads
             }
         , mainContent = Loading
         }
@@ -80,12 +79,7 @@ init _ =
 type Msg
     = GetEntry String
     | GotEntry (Result Http.Error Entry)
-    | ToggleKellyMenuList
-    | ToggleKellyStarMenuList
-    | ToggleKingVMenuList
-    | ToggleRhoadsMenuList
-    | ToggleSoloistMenuList
-    | ToggleWarriorMenuList
+    | ShowMenuListFor Shape
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -110,23 +104,8 @@ update msg model =
                     in
                     ( { model | mainContent = Failure "Failed to load file as entry" }, Cmd.none )
 
-        ToggleKellyMenuList ->
-            ( { model | menu = { menu | showKellyMenuList = not menu.showKellyMenuList } }, Cmd.none )
-
-        ToggleKellyStarMenuList ->
-            ( { model | menu = { menu | showKellyStarMenuList = not menu.showKellyStarMenuList } }, Cmd.none )
-
-        ToggleKingVMenuList ->
-            ( { model | menu = { menu | showKingVMenuList = not menu.showKingVMenuList } }, Cmd.none )
-
-        ToggleRhoadsMenuList ->
-            ( { model | menu = { menu | showRhoadsMenuList = not menu.showRhoadsMenuList } }, Cmd.none )
-
-        ToggleSoloistMenuList ->
-            ( { model | menu = { menu | showSoloistMenuList = not menu.showSoloistMenuList } }, Cmd.none )
-
-        ToggleWarriorMenuList ->
-            ( { model | menu = { menu | showWarriorMenuList = not menu.showWarriorMenuList } }, Cmd.none )
+        ShowMenuListFor shape ->
+            ( { model | menu = { menu | showMenuListFor = shape } }, Cmd.none )
 
 
 getEntry : Model -> String -> ( Model, Cmd Msg )
@@ -192,18 +171,18 @@ view model =
 viewMenu : Menu -> Html Msg
 viewMenu menu =
     div [ class "menu" ]
-        [ p [ class "menu-label", onClick ToggleKellyMenuList ] [ a [] [ text "Kelly" ] ]
-        , viewUnlessHidden viewKellyMenuList menu.showKellyMenuList
-        , p [ class "menu-label", onClick ToggleKellyStarMenuList ] [ a [] [ text "Kelly Star" ] ]
-        , viewUnlessHidden viewKellyStarMenuList menu.showKellyStarMenuList
-        , p [ class "menu-label", onClick ToggleKingVMenuList ] [ a [] [ text "King V" ] ]
-        , viewUnlessHidden viewKingVMenuList menu.showKingVMenuList
-        , p [ class "menu-label", onClick ToggleRhoadsMenuList ] [ a [] [ text "Rhoads" ] ]
-        , viewUnlessHidden viewRhoadsMenuList menu.showRhoadsMenuList
-        , p [ class "menu-label", onClick ToggleSoloistMenuList ] [ a [] [ text "Soloist" ] ]
-        , viewUnlessHidden viewSoloistMenuList menu.showSoloistMenuList
-        , p [ class "menu-label", onClick ToggleWarriorMenuList ] [ a [] [ text "Warrior" ] ]
-        , viewUnlessHidden viewWarriorMenuList menu.showWarriorMenuList
+        [ p [ class "menu-label", onClick (ShowMenuListFor Kelly) ] [ a [] [ text "Kelly" ] ]
+        , viewUnlessHidden viewKellyMenuList (menu.showMenuListFor == Kelly)
+        , p [ class "menu-label", onClick (ShowMenuListFor KellyStar) ] [ a [] [ text "Kelly Star" ] ]
+        , viewUnlessHidden viewKellyStarMenuList (menu.showMenuListFor == KellyStar)
+        , p [ class "menu-label", onClick (ShowMenuListFor KingV) ] [ a [] [ text "King V" ] ]
+        , viewUnlessHidden viewKingVMenuList (menu.showMenuListFor == KingV)
+        , p [ class "menu-label", onClick (ShowMenuListFor Rhoads) ] [ a [] [ text "Rhoads" ] ]
+        , viewUnlessHidden viewRhoadsMenuList (menu.showMenuListFor == Rhoads)
+        , p [ class "menu-label", onClick (ShowMenuListFor Soloist) ] [ a [] [ text "Soloist" ] ]
+        , viewUnlessHidden viewSoloistMenuList (menu.showMenuListFor == Soloist)
+        , p [ class "menu-label", onClick (ShowMenuListFor Warrior) ] [ a [] [ text "Warrior" ] ]
+        , viewUnlessHidden viewWarriorMenuList (menu.showMenuListFor == Warrior)
         ]
 
 
