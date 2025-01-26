@@ -64,8 +64,8 @@
                 {
                     "variant": "RR-J1E/J1EK/J1BE",
                     "value": {
-                        "neck": "EMG-81",
-                        "bridge": "EMG-81"
+                        "neck": "EMG 81",
+                        "bridge": "EMG 81"
                     }
                 }
             ]
@@ -131,7 +131,7 @@
     "pictures" : {
         "mugshot": {
             "label": "RR-J1BE in TRS",
-            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-j1be.png"
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-j1be.png"
         }
     },
     "links": {

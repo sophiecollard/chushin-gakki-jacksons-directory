@@ -60,8 +60,8 @@
                 {
                     "variant": "KE-TN02EMG",
                     "value": {
-                        "neck": "EMG-81",
-                        "bridge": "EMG-81"
+                        "neck": "EMG 81",
+                        "bridge": "EMG 81"
                     }
                 }
             ]
@@ -112,7 +112,7 @@
         "reverb_listings": [
             {
                 "label": "KE-TN02EMG in BLK",
-                "url": "https://reverb.com/uk/item/85110405-2008-jackson-stars-kelly-ke-tn02emg-neck-through-black-w-emg-81-floyd-rose-japan"
+                "url": "https://reverb.com/uk/item/85110405-2008-jackson-stars-kelly-ke-tn02emg-neck-through-black-w-EMG 81-floyd-rose-japan"
             }
         ]
     }

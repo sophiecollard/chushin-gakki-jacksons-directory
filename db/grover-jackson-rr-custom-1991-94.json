@@ -1,16 +1,12 @@
 {
-    "brand": "Jackson Stars",
-    "model": "RR-TN02STB LTD \"Swirl\" (2007 Limited Series)",
+    "brand": "Grover Jackson",
+    "model": "Randy Rhoads Custom (1991-1994)",
     "tags": [
-        {
-            "colour": "dark",
-            "text": "2007 Limited Series"
-        },
         {
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "2007-2008"
+            "rightContent": "1991-1994"
         },
         {
             "leftColour": "light",
@@ -22,16 +18,16 @@
     "variants": null,
     "specs": {
         "neck": {
-            "material": "Maple",
+            "material": "Quarter Sawn Maple",
             "construction": "neck_through",
             "scale_length": "25.5\"",
             "nut_width": "1.6875\"",
             "fretboard": {
-                "material": "Striped Ebony",
+                "material": "Ebony",
                 "fret_count": 24
             },
             "inlays": {
-                "material": "Pearloid",
+                "material": "Mother of Pearl",
                 "type": "Sharkfins"
             },
             "binding": {
@@ -44,43 +40,48 @@
             "logo_material": "Decal"
         },
         "body": {
-            "material": "Alder",
+            "material": "Yellow Poplar",
             "top": null,
             "binding": null
         },
         "electronics": {
             "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
             "pickup_configuration": {
-                "neck": "Seymour Duncan SH-1n",
-                "bridge": "SH-4"
+                "neck": "J-50BC",
+                "bridge": "J-90C"
             }
         },
         "hardware": {
-            "colour": "Chrome",
-            "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
+            "colour": "Black",
+            "bridge_configuration": "Schaller Tremolo (top-mounted, w/ cavity)"
         },
         "finishes": [
-            "BS (Blue Swirl)",
-            "CS (Crimson Swirl)"
+            "MB (Metallic Black)",
+            "PBW (Pearl Blue White)",
+            "DB (Dark Blue)",
+            "PY (Pearl Yellow, 1991-1992 only)",
+            "AL (Aluminium, from 1992 or 1993)"
         ]
     },
     "price": {
-        "year": 2008,
-        "source": "2008 Jackson Stars Catalog",
-        "value": "JPY 168,000"
+        "year": 1993,
+        "source": "1993 Jackson & Charvel Catalog (Japan)",
+        "value": "JPY 200,000"
     },
-    "notes": null,
-    "pictures" : {
+    "notes": [
+        "Earlier versions of this model (1990-1991) have 22 frets and J-50N/J-50B pickups"
+    ],
+    "pictures": {
         "mugshot": {
-            "label": "RR-TN02STB LTD in BS",
-            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn02-stb-ltd-bs.jpg"
+            "label": "Randy Rhoads Custom in DB",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-rr-custom.png"
         }
     },
     "links": {
         "catalogues": [
             {
-                "label": "2008 Jackson Stars Catalog",
-                "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
+                "label": "1993 Jackson & Charvel Catalog (Japan)",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
             }
         ],
         "reverb_listings": []

@@ -1,12 +1,12 @@
 {
-    "brand": "Jackson Stars",
-    "model": "KE-TN01",
+    "brand": "Grover Jackson",
+    "model": "King V Custom (1990-1991)",
     "tags": [
         {
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "2007-2009"
+            "rightContent": "1990-1991"
         },
         {
             "leftColour": "light",
@@ -15,19 +15,16 @@
             "rightContent": "Japan"
         }
     ],
-    "variants": [
-        "KE-TN01",
-        "KE-TN01EMG"
-    ],
+    "variants": null,
     "specs": {
         "neck": {
-            "material": "Maple",
+            "material": "Quarter Sawn Maple",
             "construction": "neck_through",
             "scale_length": "25.5\"",
             "nut_width": "1.6875\"",
             "fretboard": {
                 "material": "Ebony",
-                "fret_count": 24
+                "fret_count": 22
             },
             "inlays": {
                 "material": "Mother of Pearl",
@@ -40,10 +37,10 @@
         "headstock": {
             "type": "regular",
             "finish": "Black",
-            "logo_material": "Mother of Pearl"
+            "logo_material": "Decal"
         },
         "body": {
-            "material": "Mahogany",
+            "material": "Yellow Poplar",
             "top": null,
             "binding": null
         },
@@ -51,50 +48,45 @@
             "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
             "pickup_configuration": [
                 {
-                    "variant": "KE-TN01",
+                    "variant": "As of early 1991",
                     "value": {
-                        "neck": "Seymour Duncan SH-1n",
-                        "bridge": "TB-4"
+                        "neck": "J-50N",
+                        "bridge": "J-90"
                     }
                 },
                 {
-                    "variant": "KE-TN01EMG",
+                    "variant": "As of late 1991",
                     "value": {
-                        "neck": "EMG 81",
-                        "bridge": "EMG 81"
+                        "neck": "J-50BC",
+                        "bridge": "J-90C"
                     }
                 }
             ]
         },
         "hardware": {
             "colour": "Black",
-            "bridge_configuration": "Floyd Rose Original (recessed)"
+            "bridge_configuration": "Schaller Tremolo (top-mounted, w/ cavity)"
         },
         "finishes": [
-            "BLK (Black)"
+            "MB (Metallic Black)",
+            "PBW (Pearl Blue White)",
+            "PR (Pearl Red)"
         ]
     },
     "price": {
-        "year": 2008,
-        "source": "2008 Jackson Stars Catalog",
-        "values": [
-            {
-                "variant": "KE-TN01",
-                "value": "JPY 273,000"
-            },
-            {
-                "variant": "KE-TN01EMG",
-                "value": "JPY 278,250"
-            }
-        ]
+        "year": 1991,
+        "source": "1991 Charvel & Grover Jackson Catalog (Japan)",
+        "value": "JPY 195,000"
     },
-    "notes": null,
-    "pictures" : null,
+    "notes": [
+        "Later versions of this model (1992-1994) have 24 frets"
+    ],
+    "pictures": null,
     "links": {
         "catalogues": [
             {
-                "label": "2008 Jackson Stars Catalog",
-                "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
             }
         ],
         "reverb_listings": []

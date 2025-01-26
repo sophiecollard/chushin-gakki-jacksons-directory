@@ -208,10 +208,12 @@ viewMenu menu =
         GroverJackson ->
             div [ class "menu" ]
                 [ p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
+                , viewUnlessHidden viewGroverJacksonKellyMenuList (menu.shape == Kelly)
                 , p [ class "menu-label", onClick (SelectShape KingV) ] [ a [] [ text "King V" ] ]
+                , viewUnlessHidden viewGroverJacksonKingVMenuList (menu.shape == KingV)
                 , p [ class "menu-label", onClick (SelectShape Rhoads) ] [ a [] [ text "Rhoads" ] ]
+                , viewUnlessHidden viewGroverJacksonRhoadsMenuList (menu.shape == Rhoads)
                 , p [ class "menu-label", onClick (SelectShape Soloist) ] [ a [] [ text "Soloist" ] ]
-                , p [ class "menu-label", onClick (SelectShape Warrior) ] [ a [] [ text "Warrior" ] ]
                 ]
 
         JacksonStars ->
@@ -238,6 +240,45 @@ viewMenu menu =
                 , p [ class "menu-label", onClick (SelectShape Soloist) ] [ a [] [ text "Soloist" ] ]
                 , p [ class "menu-label", onClick (SelectShape Warrior) ] [ a [] [ text "Warrior" ] ]
                 ]
+
+
+viewGroverJacksonKellyMenuList : Html Msg
+viewGroverJacksonKellyMenuList =
+    ul [ class "menu-list" ]
+        [ li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-ke-custom.json") ]
+            [ a [] [ text "Grover Jackson Kelly Custom" ] ]
+        ]
+
+
+viewGroverJacksonKingVMenuList : Html Msg
+viewGroverJacksonKingVMenuList =
+    ul [ class "menu-list" ]
+        [ li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-kv-custom-1990-91.json") ]
+            [ a [] [ text "Grover Jackson King V Custom (1990-1991)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-kv-custom-1992-94.json") ]
+            [ a [] [ text "Grover Jackson King V Custom (1992-1994)" ] ]
+        ]
+
+
+viewGroverJacksonRhoadsMenuList : Html Msg
+viewGroverJacksonRhoadsMenuList =
+    ul [ class "menu-list" ]
+        [ li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-rr-professional.json") ]
+            [ a [] [ text "Grover Jackson Randy Rhoads Professional" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-rr-custom-1990-91.json") ]
+            [ a [] [ text "Grover Jackson Randy Rhoads Custom (1990-1991)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-rr-custom-1991-94.json") ]
+            [ a [] [ text "Grover Jackson Randy Rhoads Custom (1991-1994)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-dan-spitz.json") ]
+            [ a [] [ text "Grover Jackson Dan Spitz Professional" ] ]
+        ]
 
 
 viewJacksonStarsKellyMenuList : Html Msg

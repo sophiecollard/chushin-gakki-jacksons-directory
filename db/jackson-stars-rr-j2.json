@@ -64,8 +64,8 @@
                 {
                     "variant": "RR-J2E/J2EK/J2BE",
                     "value": {
-                        "neck": "EMG-81",
-                        "bridge": "EMG-81"
+                        "neck": "EMG 81",
+                        "bridge": "EMG 81"
                     }
                 }
             ]
@@ -147,7 +147,7 @@
     "pictures" : {
         "mugshot": {
             "label": "RR-J2BE in SW/PN BK",
-            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-j2be.png"
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-j2be.png"
         }
     },
     "links": {

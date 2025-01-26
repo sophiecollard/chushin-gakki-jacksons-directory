@@ -72,7 +72,7 @@
     "pictures": {
         "mugshot": {
             "label": "RR-TN02STB ASH",
-            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn02stb-ash.png"
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn02stb-ash.png"
         }
     },
     "links": null

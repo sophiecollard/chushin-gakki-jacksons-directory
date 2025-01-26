@@ -62,8 +62,8 @@
                 {
                     "variant": "ASL-J1E",
                     "value": {
-                        "neck": "EMG-81",
-                        "bridge": "EMG-81"
+                        "neck": "EMG 81",
+                        "bridge": "EMG 81"
                     }
                 }
             ]

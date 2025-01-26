@@ -79,7 +79,7 @@
     "pictures" : {
         "mugshot": {
             "label": "RR-J2SP",
-            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-j2sp.png"
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-j2sp.png"
         }
     },
     "links": {

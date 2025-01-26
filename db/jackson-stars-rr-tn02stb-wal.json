@@ -70,7 +70,7 @@
     "pictures": {
         "mugshot": {
             "label": "RR-TN02STB WALNUT",
-            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn02stb-wal.png"
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn02stb-wal.png"
         }
     },
     "links": {
