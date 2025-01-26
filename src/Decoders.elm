@@ -267,9 +267,19 @@ pickupConfigurationDecoder =
 
 pickupConfigurationValueDecoder : Decoder PickupConfigurationValue
 pickupConfigurationValueDecoder =
-    map2 PickupConfigurationValue
+    map4 PickupConfigurationValue
         (field "neck" (maybe string))
+        (maybeFieldDecoder "middle" string)
         (field "bridge" string)
+        (maybeFieldDecoder "active_electronics" string)
+
+
+maybeFieldDecoder : String -> Decoder a -> Decoder (Maybe a)
+maybeFieldDecoder fieldName decoder =
+    oneOf
+        [ field fieldName (maybe decoder)
+        , succeed Nothing
+        ]
 
 
 bridgeConfigurationDecoder : Decoder BridgeConfiguration

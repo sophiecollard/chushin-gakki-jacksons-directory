@@ -136,7 +136,9 @@ type PickupConfiguration
 
 type alias PickupConfigurationValue =
     { neck : Maybe String
+    , middle : Maybe String
     , bridge : String
+    , activeElectronics : Maybe String
     }
 
 

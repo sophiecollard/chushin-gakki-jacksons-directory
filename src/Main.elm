@@ -214,6 +214,8 @@ viewMenu menu =
                 , viewUnlessHidden viewGroverJacksonKingVMenuList (menu.shape == KingV)
                 , p [ class "menu-label", onClick (SelectShape Rhoads) ] [ a [] [ text "Rhoads" ] ]
                 , viewUnlessHidden viewGroverJacksonRhoadsMenuList (menu.shape == Rhoads)
+                , p [ class "menu-label", onClick (SelectShape Soloist) ] [ a [] [ text "Soloist" ] ]
+                , viewUnlessHidden viewGroverJacksonSoloistMenuList (menu.shape == Soloist)
                 ]
 
         JacksonStars ->
@@ -261,6 +263,9 @@ viewGroverJacksonKingVMenuList =
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-kv-custom-1992-94.json") ]
             [ a [] [ text "King V Custom (1992-1994)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-dave-mustaine.json") ]
+            [ a [] [ text "Dave Mustaine Professional" ] ]
         ]
 
 
@@ -279,6 +284,18 @@ viewGroverJacksonRhoadsMenuList =
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-dan-spitz.json") ]
             [ a [] [ text "Dan Spitz Professional" ] ]
+        ]
+
+
+viewGroverJacksonSoloistMenuList : Html Msg
+viewGroverJacksonSoloistMenuList =
+    ul [ class "menu-list" ]
+        [ li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-sl.json") ]
+            [ a [] [ text "Soloist" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-sl-custom.json") ]
+            [ a [] [ text "Soloist Custom" ] ]
         ]
 
 
@@ -640,24 +657,43 @@ viewFinishes finishes =
 viewPickupConfiguration : PickupConfiguration -> List (Html msg)
 viewPickupConfiguration config =
     let
-        viewConfigValue : Maybe String -> String -> Html msg
-        viewConfigValue maybeNeck bridge =
-            case maybeNeck of
-                Just neck ->
-                    if neck == bridge then
-                        text (neck ++ " (neck & bridge)")
+        viewConfigValue : Maybe String -> Maybe String -> String -> Maybe String -> Html msg
+        viewConfigValue maybeNeck maybeMiddle bridge maybeActiveElectronics =
+            let
+                pickupsText =
+                    case ( maybeNeck, maybeMiddle ) of
+                        ( Just neck, Just middle ) ->
+                            if neck == middle then
+                                neck ++ " (neck & middle), " ++ bridge ++ " (bridge)"
 
-                    else
-                        text (neck ++ " (neck), " ++ bridge ++ " (bridge)")
+                            else
+                                neck ++ " (neck), " ++ middle ++ " (middle), " ++ bridge ++ " (bridge)"
 
-                Nothing ->
-                    text (bridge ++ " (bridge)")
+                        ( Just neck, Nothing ) ->
+                            if neck == bridge then
+                                neck ++ " (neck & bridge)"
+
+                            else
+                                neck ++ " (neck), " ++ bridge ++ " (bridge)"
+
+                        ( Nothing, _ ) ->
+                            bridge ++ " (bridge)"
+
+                activeElectronicsText =
+                    case maybeActiveElectronics of
+                        Just activeElectronics ->
+                            ", " ++ activeElectronics
+
+                        Nothing ->
+                            ""
+            in
+            text (pickupsText ++ activeElectronicsText)
     in
     case config of
         SimplePickupConfiguration simple ->
             [ p []
                 [ strong [] [ text "Pickups: " ]
-                , viewConfigValue simple.neck simple.bridge
+                , viewConfigValue simple.neck simple.middle simple.bridge simple.activeElectronics
                 ]
             ]
 
@@ -669,13 +705,13 @@ viewPickupConfiguration config =
                         SingleVariant { variant, value } ->
                             p []
                                 [ i [] [ text (variant ++ ": ") ]
-                                , viewConfigValue value.neck value.bridge
+                                , viewConfigValue value.neck value.middle value.bridge value.activeElectronics
                                 ]
 
                         MultipleVariants { variants, value } ->
                             p []
                                 [ i [] [ variants |> List.intersperse ", " |> String.concat |> (\s -> s ++ ": ") |> text ]
-                                , viewConfigValue value.neck value.bridge
+                                , viewConfigValue value.neck value.middle value.bridge value.activeElectronics
                                 ]
             in
             p [] [ strong [] [ text "Pickups: " ] ] :: List.map viewVariants complex

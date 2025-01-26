@@ -1,0 +1,83 @@
+{
+    "brand": "Grover Jackson",
+    "model": "Soloist",
+    "tags": [
+        {
+            "leftColour": "light",
+            "leftContent": "Years of Production",
+            "rightColour": "primary",
+            "rightContent": "1990-1991"
+        },
+        {
+            "leftColour": "light",
+            "leftContent": "Availability",
+            "rightColour": "danger",
+            "rightContent": "Japan"
+        }
+    ],
+    "variants": null,
+    "specs": {
+        "neck": {
+            "material": "Quarter Sawn Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Mother of Pearl",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Yellow Poplar",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume, 1x Tone, 1x Mid Boost, 5-Way Switch",
+            "pickup_configuration": {
+                "neck": "J-200",
+                "middle": "J-200",
+                "bridge": "J-50B",
+                "active_electronics": "JE-1200 Mid Boost"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Schaller Tremolo (top-mounted, w/ cavity)"
+        },
+        "finishes": [
+            "Metallic Black",
+            "Pearl Blue White",
+            "Light Electric Blue",
+            "Orange"
+        ]
+    },
+    "price": {
+        "year": 1991,
+        "source": "1991 Charvel & Grover Jackson Catalog (Japan)",
+        "value": "JPY 185,000"
+    },
+    "notes": null,
+    "pictures": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_13.html"
+            }
+        ],
+        "reverb_listings": []
+    }
+}
