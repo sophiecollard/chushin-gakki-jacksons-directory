@@ -41,17 +41,9 @@ type alias Model =
 
 
 type alias Menu =
-    { showMenuListFor : Shape
+    { brand : Brand
+    , shape : Shape
     }
-
-
-type Shape
-    = Kelly
-    | KellyStar
-    | KingV
-    | Rhoads
-    | Soloist
-    | Warrior
 
 
 type MainContent
@@ -64,7 +56,8 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     getEntry
         { menu =
-            { showMenuListFor = Rhoads
+            { brand = JacksonStars
+            , shape = Rhoads
             }
         , mainContent = Loading
         }
@@ -78,7 +71,8 @@ init _ =
 type Msg
     = GetEntry String
     | GotEntry (Result Http.Error Entry)
-    | ShowMenuListFor Shape
+    | SelectBrand Brand
+    | SelectShape Shape
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -99,8 +93,11 @@ update msg model =
                 Err _ ->
                     ( { model | mainContent = Failure "Failed to load file as entry" }, Cmd.none )
 
-        ShowMenuListFor shape ->
-            ( { model | menu = { menu | showMenuListFor = shape } }, Cmd.none )
+        SelectBrand brand ->
+            ( { model | menu = { menu | brand = brand } }, Cmd.none )
+
+        SelectShape shape ->
+            ( { model | menu = { menu | shape = shape } }, Cmd.none )
 
 
 getEntry : Model -> String -> ( Model, Cmd Msg )
@@ -166,7 +163,7 @@ view model =
         ]
 
 
-viewHeader : Html msg
+viewHeader : Html Msg
 viewHeader =
     div [ class "hero is-white is-small" ]
         [ div [ class "hero-head" ]
@@ -178,7 +175,13 @@ viewHeader =
                             ]
                         ]
                     , div [ class "navbar-menu" ]
-                        [ div [ class "navbar-end" ]
+                        [ div [ class "navbar-start" ]
+                            [ a [ class "navbar-item", onClick (SelectBrand GroverJackson) ]
+                                [ text "Grover Jackson" ]
+                            , a [ class "navbar-item", onClick (SelectBrand JacksonStars) ]
+                                [ text "Jackson Stars" ]
+                            ]
+                        , div [ class "navbar-end" ]
                             [ span [ class "navbar-item" ]
                                 [ a
                                     [ class "button is-link is-outlined"
@@ -201,24 +204,44 @@ viewHeader =
 
 viewMenu : Menu -> Html Msg
 viewMenu menu =
-    div [ class "menu" ]
-        [ p [ class "menu-label", onClick (ShowMenuListFor Kelly) ] [ a [] [ text "Kelly" ] ]
-        , viewUnlessHidden viewKellyMenuList (menu.showMenuListFor == Kelly)
-        , p [ class "menu-label", onClick (ShowMenuListFor KellyStar) ] [ a [] [ text "Kelly Star" ] ]
-        , viewUnlessHidden viewKellyStarMenuList (menu.showMenuListFor == KellyStar)
-        , p [ class "menu-label", onClick (ShowMenuListFor KingV) ] [ a [] [ text "King V" ] ]
-        , viewUnlessHidden viewKingVMenuList (menu.showMenuListFor == KingV)
-        , p [ class "menu-label", onClick (ShowMenuListFor Rhoads) ] [ a [] [ text "Rhoads" ] ]
-        , viewUnlessHidden viewRhoadsMenuList (menu.showMenuListFor == Rhoads)
-        , p [ class "menu-label", onClick (ShowMenuListFor Soloist) ] [ a [] [ text "Soloist" ] ]
-        , viewUnlessHidden viewSoloistMenuList (menu.showMenuListFor == Soloist)
-        , p [ class "menu-label", onClick (ShowMenuListFor Warrior) ] [ a [] [ text "Warrior" ] ]
-        , viewUnlessHidden viewWarriorMenuList (menu.showMenuListFor == Warrior)
-        ]
+    case menu.brand of
+        GroverJackson ->
+            div [ class "menu" ]
+                [ p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
+                , p [ class "menu-label", onClick (SelectShape KingV) ] [ a [] [ text "King V" ] ]
+                , p [ class "menu-label", onClick (SelectShape Rhoads) ] [ a [] [ text "Rhoads" ] ]
+                , p [ class "menu-label", onClick (SelectShape Soloist) ] [ a [] [ text "Soloist" ] ]
+                , p [ class "menu-label", onClick (SelectShape Warrior) ] [ a [] [ text "Warrior" ] ]
+                ]
+
+        JacksonStars ->
+            div [ class "menu" ]
+                [ p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
+                , viewUnlessHidden viewJacksonStarsKellyMenuList (menu.shape == Kelly)
+                , p [ class "menu-label", onClick (SelectShape KellyStar) ] [ a [] [ text "Kelly Star" ] ]
+                , viewUnlessHidden viewJacksonStarsKellyStarMenuList (menu.shape == KellyStar)
+                , p [ class "menu-label", onClick (SelectShape KingV) ] [ a [] [ text "King V" ] ]
+                , viewUnlessHidden viewJacksonStarsKingVMenuList (menu.shape == KingV)
+                , p [ class "menu-label", onClick (SelectShape Rhoads) ] [ a [] [ text "Rhoads" ] ]
+                , viewUnlessHidden viewJacksonStarsRhoadsMenuList (menu.shape == Rhoads)
+                , p [ class "menu-label", onClick (SelectShape Soloist) ] [ a [] [ text "Soloist" ] ]
+                , viewUnlessHidden viewJacksonStarsSoloistMenuList (menu.shape == Soloist)
+                , p [ class "menu-label", onClick (SelectShape Warrior) ] [ a [] [ text "Warrior" ] ]
+                , viewUnlessHidden viewJacksonStarsWarriorMenuList (menu.shape == Warrior)
+                ]
+
+        Jackson ->
+            div [ class "menu" ]
+                [ p [ class "menu-label", onClick (SelectShape Kelly) ] [ a [] [ text "Kelly" ] ]
+                , p [ class "menu-label", onClick (SelectShape KingV) ] [ a [] [ text "King V" ] ]
+                , p [ class "menu-label", onClick (SelectShape Rhoads) ] [ a [] [ text "Rhoads" ] ]
+                , p [ class "menu-label", onClick (SelectShape Soloist) ] [ a [] [ text "Soloist" ] ]
+                , p [ class "menu-label", onClick (SelectShape Warrior) ] [ a [] [ text "Warrior" ] ]
+                ]
 
 
-viewKellyMenuList : Html Msg
-viewKellyMenuList =
+viewJacksonStarsKellyMenuList : Html Msg
+viewJacksonStarsKellyMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-j1.json") ]
@@ -247,8 +270,8 @@ viewKellyMenuList =
         ]
 
 
-viewKellyStarMenuList : Html Msg
-viewKellyStarMenuList =
+viewJacksonStarsKellyStarMenuList : Html Msg
+viewJacksonStarsKellyStarMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ks-j2.json") ]
@@ -256,8 +279,8 @@ viewKellyStarMenuList =
         ]
 
 
-viewKingVMenuList : Html Msg
-viewKingVMenuList =
+viewJacksonStarsKingVMenuList : Html Msg
+viewJacksonStarsKingVMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-j1.json") ]
@@ -280,8 +303,8 @@ viewKingVMenuList =
         ]
 
 
-viewRhoadsMenuList : Html Msg
-viewRhoadsMenuList =
+viewJacksonStarsRhoadsMenuList : Html Msg
+viewJacksonStarsRhoadsMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-j1.json") ]
@@ -325,8 +348,8 @@ viewRhoadsMenuList =
         ]
 
 
-viewSoloistMenuList : Html Msg
-viewSoloistMenuList =
+viewJacksonStarsSoloistMenuList : Html Msg
+viewJacksonStarsSoloistMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-asl-j1.json") ]
@@ -361,8 +384,8 @@ viewSoloistMenuList =
         ]
 
 
-viewWarriorMenuList : Html Msg
-viewWarriorMenuList =
+viewJacksonStarsWarriorMenuList : Html Msg
+viewJacksonStarsWarriorMenuList =
     ul [ class "menu-list" ]
         [ li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-wr-j2.json") ]

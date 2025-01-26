@@ -19,6 +19,15 @@ type Brand
     | JacksonStars
 
 
+type Shape
+    = Kelly
+    | KellyStar
+    | KingV
+    | Rhoads
+    | Soloist
+    | Warrior
+
+
 type Tag
     = SimpleTag TagColour String
     | DoubleTag TagColour String TagColour String
