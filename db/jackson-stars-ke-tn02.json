@@ -109,6 +109,11 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "KE-TN02EMG in BLK",
+                "url": "https://reverb.com/uk/item/85110405-2008-jackson-stars-kelly-ke-tn02emg-neck-through-black-w-emg-81-floyd-rose-japan"
+            }
+        ]
     }
 }

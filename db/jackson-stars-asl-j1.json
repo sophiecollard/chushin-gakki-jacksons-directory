@@ -107,6 +107,11 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "ASL-J1 in TBLS",
+                "url": "https://reverb.com/item/74356177-jackson-stars-asl-j1-tbls-sn-042302-10-09"
+            }
+        ]
     }
 }

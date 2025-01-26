@@ -109,6 +109,11 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "RR-TN02 in TRD",
+                "url": "https://reverb.com/item/22183113-jackson-stars-rr-tn02-neckthrough-randy-rhoads-mij-2008-transparent-red"
+            }
+        ]
     }
 }

@@ -11,7 +11,7 @@ import Browser
 import Debug exposing (log)
 import Decoders exposing (entryDecoder)
 import Html exposing (Html, a, br, div, h1, h2, h3, i, img, li, p, span, strong, text, ul)
-import Html.Attributes exposing (class, href, src, style)
+import Html.Attributes exposing (class, href, src, style, target)
 import Html.Events exposing (onClick)
 import Http
 import Model exposing (..)
@@ -160,7 +160,7 @@ view model =
                         ]
                     ]
     in
-    div [ class "container", style "margin-top" "20px" ]
+    div [ class "container", style "margin-top" "2rem" ]
         [ div [ class "columns" ]
             [ div [ class "column is-3" ] [ viewMenu model.menu ]
             , div [ class "column is-9" ] rightColumnContents
@@ -665,6 +665,7 @@ viewLinks maybeLinks =
                 (List.concat
                     [ catalogueLinksTitle
                     , List.map viewLink links.catalogues
+                    , [ br [] [] ]
                     , reverbListingsTitle
                     , List.map viewLink links.reverbListings
                     ]
@@ -673,7 +674,7 @@ viewLinks maybeLinks =
 
 viewLink : Link -> Html msg
 viewLink link =
-    p [] [ a [ href link.url ] [ text link.label ] ]
+    p [] [ a [ href link.url, target "blank" ] [ text link.label ] ]
 
 
 viewMugshot : Maybe Pictures -> List (Html msg)

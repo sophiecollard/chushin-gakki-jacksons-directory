@@ -126,6 +126,15 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "KE-J1 in TBKS",
+                "url": "https://reverb.com/uk/item/71076224-jackson-stars-kelly-ke-j1-made-in-japan"
+            },
+            {
+                "label": "KE-J1 in TRS (w/ upgrades, mislabelled as KE-J1K)",
+                "url": "https://reverb.com/ca/item/76916141-jackson-stars-ke-j1k-trans-red-sunburst-emg-jh-mod-sn-072123-12-08"
+            }
+        ]
     }
 }

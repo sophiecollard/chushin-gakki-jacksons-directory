@@ -142,6 +142,11 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "KV-J2 in BK",
+                "url": "https://reverb.com/item/32760569-jackson-stars-king-v-kv-j2-2004-black"
+            }
+        ]
     }
 }

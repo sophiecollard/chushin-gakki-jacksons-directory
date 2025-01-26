@@ -97,6 +97,11 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "KV-TN01",
+                "url": "https://reverb.com/item/82833258-jackson-stars-king-v-series-kv-tn01-black-2007-w-hardshell-case"
+            }
+        ]
     }
 }

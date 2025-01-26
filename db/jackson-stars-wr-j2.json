@@ -134,6 +134,15 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "WR-J2 in BK",
+                "url": "https://reverb.com/uk/item/4831481-jackson-stars-warrior-wr-j2-2004-black"
+            },
+            {
+                "label": "WR-J2E in DMR",
+                "url": "https://reverb.com/uk/item/3217651-jackson-stars-wr-j2e-dmr-dark-metallic-red"
+            }
+        ]
     }
 }

@@ -89,6 +89,19 @@
                 "url": "https://i.imgur.com/X2W7nia.png"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "RR-J2SP in BK",
+                "url": "https://reverb.com/item/84653077-jackson-jackson-stars-rr-j2sp-gloss-black-2006-made-in-japan-alexi-laiho-sig-model"
+            },
+            {
+                "label": "RR-J2SP in BK/BV YL",
+                "url": "https://reverb.com/item/85047946-jackson-stars-j2sp-2007-alexi-wild-child-laiho-model-minty-condition"
+            },
+            {
+                "label": "RR-J2SP in BK/BV YL",
+                "url": "https://reverb.com/uk/item/83364217-jackson-stars-rr-j2sp-japan"
+            }
+        ]
     }
 }

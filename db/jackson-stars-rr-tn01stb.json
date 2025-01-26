@@ -73,6 +73,11 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "RR-TN01STB",
+                "url": "https://reverb.com/uk/item/68237520-jackson-stars-rr-tn01-black-sn-080225-04-20"
+            }
+        ]
     }
 }

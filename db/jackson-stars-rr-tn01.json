@@ -97,6 +97,11 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "RR-TN01",
+                "url": "https://reverb.com/item/14405562-jackson-stars-rr-tn01-free-shipping"
+            }
+        ]
     }
 }

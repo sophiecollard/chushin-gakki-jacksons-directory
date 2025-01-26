@@ -10,7 +10,7 @@
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "2007"
+            "rightContent": "2007-2008"
         },
         {
             "leftColour": "light",
@@ -78,6 +78,15 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "SL-TN01 in NAT",
+                "url": "https://reverb.com/item/42252436-jackson-stars-soloist-sl-tn01-2000s-natural"
+            },
+            {
+                "label": "SL-TN01 in TA (mislabelled as ASL-TN01)",
+                "url": "https://reverb.com/item/55054480-jackson-stars-asl-tn01-ta347kg-05-15"
+            }
+        ]
     }
 }

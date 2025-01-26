@@ -154,6 +154,11 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "SL-J2EB in DMR (mislabelled as SL-TN02)",
+                "url": "https://reverb.com/item/79778180-jackson-stars-sl-tn02-made-in-japan-through-neck-2005-dmr-dark-metallic-red"
+            }
+        ]
     }
 }

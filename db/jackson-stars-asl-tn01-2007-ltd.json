@@ -10,7 +10,7 @@
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "2007"
+            "rightContent": "2007-2008"
         },
         {
             "leftColour": "light",
@@ -80,6 +80,19 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "ASL-TN01 in TA",
+                "url": "https://reverb.com/item/72023356-2008-made-jackson-stars-soloist-asl-tn01-through-neck-ebony-made-in-japan-w-hc"
+            },
+            {
+                "label": "ASL-TN01 in TBL",
+                "url": "https://reverb.com/item/72191332-jackson-asl-tn01-ltd-see-through-blue-used"
+            },
+            {
+                "label": "ASL-TN01 in TBK",
+                "url": "https://reverb.com/item/42250877-jackson-stars-soloist-asl-tn01-2000s-transparent-black"
+            }
+        ]
     }
 }

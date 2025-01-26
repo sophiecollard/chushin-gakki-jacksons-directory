@@ -109,6 +109,19 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "KV-TN02 in TBK",
+                "url": "https://reverb.com/item/79044132-jackson-stars-king-v-neck-thru-made-in-japan-kv-tn02"
+            },
+            {
+                "label": "KV-TN02 in TRD (mislabelled as KV-J1)",
+                "url": "https://reverb.com/item/72730224-jackson-stars-kv-j1-trans-red-sunburst-2008-sn-080118-08-24"
+            },
+            {
+                "label": "KV-TN02EMG in TBK (mislabelled as KV-J1/2E)",
+                "url": "https://reverb.com/uk/item/3598428-jackson-stars-king-v-k1-2e-2008-black-flametop"
+            }
+        ]
     }
 }
