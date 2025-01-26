@@ -11,7 +11,7 @@ import Browser
 import Debug exposing (log)
 import Decoders exposing (entryDecoder)
 import Html exposing (Html, a, br, div, h1, h2, h3, i, li, p, span, strong, text, ul)
-import Html.Attributes exposing (class, style)
+import Html.Attributes exposing (class, href, style)
 import Html.Events exposing (onClick)
 import Http
 import Model exposing (..)
@@ -172,6 +172,7 @@ view model =
                     , viewSpecs entry.specs
                     , viewPrice entry.price
                     , viewNotes entry.notes
+                    , viewLinks entry.links
                     ]
     in
     div [ class "container", style "margin-top" "20px" ]
@@ -649,3 +650,42 @@ viewNotes maybeNotes =
         Just notes ->
             div [ style "margin-top" "2rem" ]
                 (h2 [ class "title is-4" ] [ text "Misc" ] :: List.map (\n -> p [] [ text n ]) notes)
+
+
+viewLinks : Maybe Links -> Html msg
+viewLinks maybeLinks =
+    case maybeLinks of
+        Nothing ->
+            div [] []
+
+        Just links ->
+            let
+                catalogueLinksTitle =
+                    case links.catalogues of
+                        [] ->
+                            []
+
+                        _ ->
+                            [ h2 [ class "title is-4" ] [ text "Catalog Links" ] ]
+
+                reverbListingsTitle =
+                    case links.reverbListings of
+                        [] ->
+                            []
+
+                        _ ->
+                            [ h2 [ class "title is-4" ] [ text "Past Reverb Listings" ] ]
+            in
+            div [ style "margin-top" "2rem" ]
+                (List.concat
+                    [ catalogueLinksTitle
+                    , List.map viewLink links.catalogues
+                    , reverbListingsTitle
+                    , List.map viewLink links.reverbListings
+                    ]
+                )
+
+
+viewLink : Link -> Html msg
+viewLink link =
+    p [] [ a [ href link.url ] [ text link.label ] ]

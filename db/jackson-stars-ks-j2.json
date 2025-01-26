@@ -90,7 +90,7 @@
     },
     "price": {
         "year": 2004,
-        "source": "2004 Jackson Stars Catalogue",
+        "source": "2004 Jackson Stars Catalog",
         "values": [
             {
                 "variant": "KS-J2",
@@ -102,5 +102,14 @@
             }
         ]
     },
-    "notes": null
+    "notes": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "2004 Jackson Stars Catalog",
+                "url": "https://assets.contentful.com/4jcppgetbqrc/3iCpjrv77GoSGUikC4e20C/95ff2e8c8340c1bfa1941eafd488a3ae/JacksonSTARS-2004-Japan-catalog.pdf"
+            }
+        ],
+        "reverb_listings": []
+    }
 }

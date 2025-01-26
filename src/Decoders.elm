@@ -1,12 +1,12 @@
 module Decoders exposing (..)
 
-import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map4, map6, map7, maybe, oneOf, string, succeed)
+import Json.Decode exposing (Decoder, andThen, fail, field, int, list, map, map2, map3, map4, map6, map7, map8, maybe, oneOf, string, succeed)
 import Model exposing (..)
 
 
 entryDecoder : Decoder Entry
 entryDecoder =
-    map7 Entry
+    map8 Entry
         (field "brand" brandDecoder)
         (field "model" string)
         (field "tags" (list tagDecoder))
@@ -14,6 +14,7 @@ entryDecoder =
         (field "specs" specsDecoder)
         (field "price" priceDecoder)
         (field "notes" (maybe (list string)))
+        (field "links" (maybe linksDecoder))
 
 
 brandDecoder : Decoder Brand
@@ -58,28 +59,28 @@ tagColourDecoder =
         f str =
             case str of
                 "dark" ->
-                    succeed Dark
+                    succeed DarkTag
 
                 "light" ->
-                    succeed Light
+                    succeed LightTag
 
                 "primary" ->
-                    succeed Primary
+                    succeed PrimaryTag
 
                 "link" ->
-                    succeed Link
+                    succeed LinkTag
 
                 "info" ->
-                    succeed Info
+                    succeed InfoTag
 
                 "success" ->
-                    succeed Success
+                    succeed SuccessTag
 
                 "warning" ->
-                    succeed Warning
+                    succeed WarningTag
 
                 "danger" ->
-                    succeed Danger
+                    succeed DangerTag
 
                 _ ->
                     fail "Not a valid tag colour"
@@ -291,6 +292,20 @@ priceDecoder =
             (field "year" int)
             (field "source" string)
         ]
+
+
+linksDecoder : Decoder Links
+linksDecoder =
+    map2 Links
+        (field "catalogues" (list linkDecoder))
+        (field "reverb_listings" (list linkDecoder))
+
+
+linkDecoder : Decoder Link
+linkDecoder =
+    map2 Link
+        (field "label" string)
+        (field "url" string)
 
 
 variantsDecoder : Decoder a -> Decoder (Variants a)

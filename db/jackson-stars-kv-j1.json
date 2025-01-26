@@ -91,7 +91,7 @@
     },
     "price": {
         "year": 2005,
-        "source": "2005 Jackson Stars Catalogue",
+        "source": "2005 Jackson Stars Catalog",
         "values": [
             {
                 "variant": "KV-J1",
@@ -113,5 +113,18 @@
     },
     "notes": [
         "The Kahler equipped models (KV-J1K and KV-J1EK) only became available from 2005"
-    ]
+    ],
+    "links": {
+        "catalogues": [
+            {
+                "label": "2004 Jackson Stars Catalog",
+                "url": "https://assets.contentful.com/4jcppgetbqrc/3iCpjrv77GoSGUikC4e20C/95ff2e8c8340c1bfa1941eafd488a3ae/JacksonSTARS-2004-Japan-catalog.pdf"
+            },
+            {
+                "label": "2005 Jackson Stars Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/5WK9lDAZaM8oQsWkUwmya6/66e2313e506179680c361000b65f17d0/JacksonSTARS-2005-JapanOnly-catalog.pdf"
+            }
+        ],
+        "reverb_listings": []
+    }
 }

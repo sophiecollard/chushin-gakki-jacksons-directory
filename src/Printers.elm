@@ -19,28 +19,28 @@ printBrand brand =
 printTagColour : TagColour -> String
 printTagColour colour =
     case colour of
-        Dark ->
+        DarkTag ->
             "dark"
 
-        Light ->
+        LightTag ->
             "light"
 
-        Primary ->
+        PrimaryTag ->
             "primary"
 
-        Link ->
+        LinkTag ->
             "link"
 
-        Info ->
+        InfoTag ->
             "info"
 
-        Success ->
+        SuccessTag ->
             "success"
 
-        Warning ->
+        WarningTag ->
             "warning"
 
-        Danger ->
+        DangerTag ->
             "danger"
 
 

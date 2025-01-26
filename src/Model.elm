@@ -9,6 +9,7 @@ type alias Entry =
     , specs : Specs
     , price : Price
     , notes : Maybe (List String)
+    , links : Maybe Links
     }
 
 
@@ -24,14 +25,14 @@ type Tag
 
 
 type TagColour
-    = Dark
-    | Light
-    | Primary
-    | Link
-    | Info
-    | Success
-    | Warning
-    | Danger
+    = DarkTag
+    | LightTag
+    | PrimaryTag
+    | LinkTag
+    | InfoTag
+    | SuccessTag
+    | WarningTag
+    | DangerTag
 
 
 type alias Specs =
@@ -138,6 +139,18 @@ type BridgeConfiguration
 type Price
     = SimplePrice { value : String, year : Int, source : String }
     | ComplexPrice { values : List (Variants String), year : Int, source : String }
+
+
+type alias Links =
+    { catalogues : List Link
+    , reverbListings : List Link
+    }
+
+
+type alias Link =
+    { label : String
+    , url : String
+    }
 
 
 type Variants a

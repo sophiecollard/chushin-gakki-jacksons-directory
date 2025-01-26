@@ -79,7 +79,7 @@
     },
     "price": {
         "year": 2008,
-        "source": "2008 Jackson Stars Catalogue",
+        "source": "2008 Jackson Stars Catalog",
         "values": [
             {
                 "variant": "SL-TN01 (in BLK finish)",
@@ -99,5 +99,14 @@
             }
         ]
     },
-    "notes": null
+    "notes": null,
+    "links": {
+        "catalogues": [
+            {
+                "label": "2008 Jackson Stars Catalog",
+                "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
+            }
+        ],
+        "reverb_listings": []
+    }
 }
