@@ -9,7 +9,7 @@ module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
 
 import Browser
 import Decoders exposing (entryDecoder)
-import Html exposing (Html, a, br, div, h1, h2, h3, i, img, li, p, span, strong, text, ul)
+import Html exposing (Html, a, br, div, h1, h2, h3, i, img, li, nav, p, span, strong, text, ul)
 import Html.Attributes exposing (class, href, src, style, target)
 import Html.Events exposing (onClick)
 import Http
@@ -155,10 +155,46 @@ view model =
                         ]
                     ]
     in
-    div [ class "container", style "margin-top" "2rem" ]
-        [ div [ class "columns" ]
-            [ div [ class "column is-3" ] [ viewMenu model.menu ]
-            , div [ class "column is-9" ] rightColumnContents
+    div []
+        [ viewHeader
+        , div [ class "container", style "margin-top" "2rem" ]
+            [ div [ class "columns" ]
+                [ div [ class "column is-3" ] [ viewMenu model.menu ]
+                , div [ class "column is-9" ] rightColumnContents
+                ]
+            ]
+        ]
+
+
+viewHeader : Html msg
+viewHeader =
+    div [ class "hero is-white is-small" ]
+        [ div [ class "hero-head" ]
+            [ nav [ class "navbar" ]
+                [ div [ class "container" ]
+                    [ div [ class "navbar-brand" ]
+                        [ div [ class "navbar-item" ]
+                            [ h1 [ class "title is-4" ] [ text "Chushin Gakki Jacksons Directory" ]
+                            ]
+                        ]
+                    , div [ class "navbar-menu" ]
+                        [ div [ class "navbar-end" ]
+                            [ span [ class "navbar-item" ]
+                                [ a
+                                    [ class "button is-link is-outlined"
+                                    , href "https://github.com/sophiecollard/chushin-gakki-jacksons-directory"
+                                    , target "blank"
+                                    ]
+                                    [ span [ class "icon" ]
+                                        [ i [ class "fab fa-github" ] []
+                                        ]
+                                    , span [] [ text "View on Github" ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
             ]
         ]
 
