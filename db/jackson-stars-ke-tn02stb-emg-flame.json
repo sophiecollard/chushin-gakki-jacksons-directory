@@ -1,16 +1,16 @@
 {
     "brand": "Jackson Stars",
-    "model": "RR-TN02STB LTD (2007 Limited Series)",
+    "model": "KE-TN02STB/EMG FLAME (2009 Limited Series)",
     "tags": [
         {
             "colour": "dark",
-            "text": "2007 Limited Series"
+            "text": "2009 Limited Series"
         },
         {
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "2007-2008"
+            "rightContent": "2009"
         },
         {
             "leftColour": "light",
@@ -28,7 +28,7 @@
             "nut_width": "1.6875\"",
             "fretboard": {
                 "material": "Striped Ebony",
-                "fret_count": 22
+                "fret_count": 24
             },
             "inlays": {
                 "material": "Pearloid",
@@ -45,43 +45,38 @@
         },
         "body": {
             "material": "Alder",
-            "top": null,
+            "top": "Flame maple veneer",
             "binding": null
         },
         "electronics": {
-            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
             "pickup_configuration": {
-                "neck": "Seymour Duncan SH-1n",
-                "bridge": "SH-4"
+                "neck": "EMG 81",
+                "bridge": "EMG 81"
             }
         },
         "hardware": {
-            "colour": "Gold",
+            "colour": "Chrome",
             "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
         },
         "finishes": [
-            "BLK (Black)"
+            "Transparent Pink"
         ]
     },
     "price": {
-        "year": 2008,
-        "source": "2008 Jackson Stars Catalog",
-        "value": "JPY 168,000"
+        "year": 2009,
+        "source": "https://www.barks.jp/news/?id=1000046259&page=4",
+        "value": "JPY 199,500"
     },
     "notes": null,
-    "pictures" : null,
+    "pictures" : {
+        "mugshot": {
+            "label": "KE-TN02STB/EMG FLAME",
+            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-ke-tn02stb-emg-flame.jpg"
+        }
+    },
     "links": {
-        "catalogues": [
-            {
-                "label": "2008 Jackson Stars Catalog",
-                "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
-            }
-        ],
-        "reverb_listings": [
-            {
-                "label": "RR-TN02STB LTD",
-                "url": "https://reverb.com/uk/item/86320149-2008-jackson-stars-randy-rhoads-limited-edition-rr-tn02stb-ltd-neck-thru-v-near-mint-w-tags-japan"
-            }
-        ]
+        "catalogues": [],
+        "reverb_listings": []
     }
 }

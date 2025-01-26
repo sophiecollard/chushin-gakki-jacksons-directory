@@ -6,7 +6,7 @@ type alias Entry =
     , model : String
     , tags : List Tag
     , specs : Specs
-    , price : Price
+    , price : Maybe Price
     , notes : Maybe (List String)
     , pictures : Maybe Pictures
     , links : Maybe Links
@@ -52,7 +52,7 @@ type alias NeckSpecs =
     , nutWidth : NutWidth
     , fretboard : FretboardSpecs
     , inlays : InlaysSpecs
-    , binding : BindingSpecs
+    , binding : Maybe BindingSpecs
     }
 
 

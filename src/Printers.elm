@@ -74,7 +74,7 @@ printNutWidth nutWidth =
             "1.625\" (41.30 mm)"
 
         Inches1_6875 ->
-            "1.6875 (42.85 mm)"
+            "1.6875\" (42.85 mm)"
 
 
 printHeadstockType : HeadstockType -> String

@@ -11,7 +11,7 @@ entryDecoder =
         (field "model" string)
         (field "tags" (list tagDecoder))
         (field "specs" specsDecoder)
-        (field "price" priceDecoder)
+        (field "price" (maybe priceDecoder))
         (field "notes" (maybe (list string)))
         (field "pictures" (maybe picturesDecoder))
         (field "links" (maybe linksDecoder))
@@ -108,7 +108,7 @@ neckSpecsDecoder =
         (field "nut_width" nutWidthDecoder)
         (field "fretboard" fretboardSpecsDecoder)
         (field "inlays" inlaysSpecsDecoder)
-        (field "binding" bindingSpecsDecoder)
+        (field "binding" (maybe bindingSpecsDecoder))
 
 
 fretboardSpecsDecoder : Decoder FretboardSpecs

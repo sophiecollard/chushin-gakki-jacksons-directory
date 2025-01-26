@@ -1,16 +1,16 @@
 {
     "brand": "Jackson Stars",
-    "model": "RR-TN02STB LTD (2007 Limited Series)",
+    "model": "RR-TN02STB WALNUT (2009 Limited Series)",
     "tags": [
         {
             "colour": "dark",
-            "text": "2007 Limited Series"
+            "text": "2009 Limited Series"
         },
         {
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "2007-2008"
+            "rightContent": "2009"
         },
         {
             "leftColour": "light",
@@ -27,32 +27,30 @@
             "scale_length": "25.5\"",
             "nut_width": "1.6875\"",
             "fretboard": {
-                "material": "Striped Ebony",
-                "fret_count": 22
+                "material": "Rosewood",
+                "fret_count": 24
             },
             "inlays": {
                 "material": "Pearloid",
                 "type": "Sharkfins"
             },
-            "binding": {
-                "colour": "Ivory"
-            }
+            "binding": null
         },
         "headstock": {
             "type": "regular",
-            "finish": "Black",
+            "finish": "Natural",
             "logo_material": "Decal"
         },
         "body": {
-            "material": "Alder",
+            "material": "Walnut",
             "top": null,
             "binding": null
         },
         "electronics": {
             "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
             "pickup_configuration": {
-                "neck": "Seymour Duncan SH-1n",
-                "bridge": "SH-4"
+                "neck": "Seymour Duncan SH-2",
+                "bridge": "SH-5"
             }
         },
         "hardware": {
@@ -60,27 +58,27 @@
             "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
         },
         "finishes": [
-            "BLK (Black)"
+            "Natural"
         ]
     },
     "price": {
-        "year": 2008,
-        "source": "2008 Jackson Stars Catalog",
-        "value": "JPY 168,000"
+        "year": 2009,
+        "source": "https://www.barks.jp/news/?id=1000046259",
+        "value": "JPY 199,500"
     },
     "notes": null,
-    "pictures" : null,
+    "pictures": {
+        "mugshot": {
+            "label": "RR-TN02STB WALNUT",
+            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn02stb-wal.png"
+        }
+    },
     "links": {
-        "catalogues": [
-            {
-                "label": "2008 Jackson Stars Catalog",
-                "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
-            }
-        ],
+        "catalogues": [],
         "reverb_listings": [
             {
-                "label": "RR-TN02STB LTD",
-                "url": "https://reverb.com/uk/item/86320149-2008-jackson-stars-randy-rhoads-limited-edition-rr-tn02stb-ltd-neck-thru-v-near-mint-w-tags-japan"
+                "label": "RR-TN02STB WALNUT",
+                "url": "https://reverb.com/item/3569818-jackson-stars-randy-rhoads-rr-tn02-wal-natural-walnut-w-jackson-hardcase"
             }
         ]
     }

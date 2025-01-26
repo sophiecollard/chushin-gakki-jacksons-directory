@@ -1,6 +1,6 @@
 {
     "brand": "Jackson Stars",
-    "model": "RR-TN02STB LTD (2007 Limited Series)",
+    "model": "KV-TN02 LTD \"Ghost Flame\" (2007 Limited Series)",
     "tags": [
         {
             "colour": "dark",
@@ -28,7 +28,7 @@
             "nut_width": "1.6875\"",
             "fretboard": {
                 "material": "Striped Ebony",
-                "fret_count": 22
+                "fret_count": 24
             },
             "inlays": {
                 "material": "Pearloid",
@@ -49,27 +49,28 @@
             "binding": null
         },
         "electronics": {
-            "controls": "2x Volume, 1x Tone, 3-Way Toggle Switch",
+            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
             "pickup_configuration": {
                 "neck": "Seymour Duncan SH-1n",
-                "bridge": "SH-4"
+                "bridge": "TB-4"
             }
         },
         "hardware": {
-            "colour": "Gold",
-            "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
+            "colour": "Chrome",
+            "bridge_configuration": "FRT-O 1000 (recessed)"
         },
         "finishes": [
-            "BLK (Black)"
+            "BGF (Blue Ghost Flame)",
+            "RGF (Red Ghost Flame)"
         ]
     },
     "price": {
         "year": 2008,
         "source": "2008 Jackson Stars Catalog",
-        "value": "JPY 168,000"
+        "value": "JPY 189,000"
     },
     "notes": null,
-    "pictures" : null,
+    "pictures": null,
     "links": {
         "catalogues": [
             {
@@ -79,8 +80,8 @@
         ],
         "reverb_listings": [
             {
-                "label": "RR-TN02STB LTD",
-                "url": "https://reverb.com/uk/item/86320149-2008-jackson-stars-randy-rhoads-limited-edition-rr-tn02stb-ltd-neck-thru-v-near-mint-w-tags-japan"
+                "label": "KV-TN02 LTD in RGF",
+                "url": "https://reverb.com/au/item/31080235-jackson-stars-king-v-kv-tn02-limited-mij-2008-red-ghost-flames"
             }
         ]
     }

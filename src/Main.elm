@@ -8,7 +8,6 @@
 module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
 
 import Browser
-import Debug exposing (log)
 import Decoders exposing (entryDecoder)
 import Html exposing (Html, a, br, div, h1, h2, h3, i, img, li, p, span, strong, text, ul)
 import Html.Attributes exposing (class, href, src, style, target)
@@ -97,11 +96,7 @@ update msg model =
                 Ok entry ->
                     ( { model | mainContent = LoadedEntry entry }, Cmd.none )
 
-                Err error ->
-                    let
-                        _ =
-                            log "error: " error
-                    in
+                Err _ ->
                     ( { model | mainContent = Failure "Failed to load file as entry" }, Cmd.none )
 
         ShowMenuListFor shape ->
@@ -201,6 +196,18 @@ viewKellyMenuList =
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02.json") ]
             [ a [] [ text "Jackson Stars KE-TN02" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02-2007-gf-ltd.json") ]
+            [ a [] [ text "Jackson Stars KE-TN02 LTD \"Ghost Flame\" (2007 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02-2007-swirl-ltd.json") ]
+            [ a [] [ text "Jackson Stars KE-TN02 LTD \"Swirl\" (2007 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02stb-emg-flame.json") ]
+            [ a [] [ text "Jackson Stars KE-TN02STB/EMG FLAME (2009 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-ke-tn02stb-emg-quilt.json") ]
+            [ a [] [ text "Jackson Stars KE-TN02STB/EMG QUILT (2009 Limited)" ] ]
         ]
 
 
@@ -228,6 +235,12 @@ viewKingVMenuList =
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-tn02.json") ]
             [ a [] [ text "Jackson Stars KV-TN02" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-tn02-2007-pd-ltd.json") ]
+            [ a [] [ text "Jackson Stars KV-TN02 LTD \"Polka Dots\" (2007 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-kv-tn02-2007-gf-ltd.json") ]
+            [ a [] [ text "Jackson Stars KV-TN02 LTD \"Ghost Flame\" (2007 Limited)" ] ]
         ]
 
 
@@ -257,10 +270,22 @@ viewRhoadsMenuList =
             [ a [] [ text "Jackson Stars RR-TN02STB" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02 LTD (2007)" ] ]
+            [ a [] [ text "Jackson Stars RR-TN02 LTD (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars RR-TN02STB LTD (2007)" ] ]
+            [ a [] [ text "Jackson Stars RR-TN02STB LTD (2007 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-2007-swirl-ltd.json") ]
+            [ a [] [ text "Jackson Stars RR-TN02STB LTD \"Swirl\" (2007 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-ash.json") ]
+            [ a [] [ text "Jackson Stars RR-TN02STB ASH (2009 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-wal.json") ]
+            [ a [] [ text "Jackson Stars RR-TN02STB WALNUT (2009 Limited)" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-rr-tn02stb-quilt-fc.json") ]
+            [ a [] [ text "Jackson Stars RR-TN02STB QUILT FC (2009 Limited)" ] ]
         ]
 
 
@@ -281,16 +306,16 @@ viewSoloistMenuList =
             [ a [] [ text "Jackson Stars SL-TN01" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-asl-tn01-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars ASL-TN01 (2007)" ] ]
+            [ a [] [ text "Jackson Stars ASL-TN01 (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn01-2007-ltd.json") ]
-            [ a [] [ text "Jackson Stars SL-TN01 (2007)" ] ]
+            [ a [] [ text "Jackson Stars SL-TN01 (2007 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn01-2008-ltd.json") ]
-            [ a [] [ text "Jackson Stars SL-TN01 (2008)" ] ]
+            [ a [] [ text "Jackson Stars SL-TN01 (2008 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn01-quilt.json") ]
-            [ a [] [ text "Jackson Stars SL-TN01 Quilt (2008)" ] ]
+            [ a [] [ text "Jackson Stars SL-TN01 Quilt (2008 Limited)" ] ]
         , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/jackson-stars-sl-tn02.json") ]
             [ a [] [ text "Jackson Stars SL-TN02" ] ]
@@ -388,7 +413,7 @@ viewNeckSpecs neck =
         ]
     , p []
         [ strong [] [ text "Binding: " ]
-        , text neck.binding.colour
+        , text (neck.binding |> Maybe.map .colour |> Maybe.withDefault "None")
         ]
     , p []
         [ strong [] [ text "Fret count: " ]
@@ -585,42 +610,47 @@ viewBridgeConfiguration config =
             p [] [ strong [] [ text "Bridge: " ] ] :: List.map viewVariants complex
 
 
-viewPrice : Price -> Html msg
-viewPrice price =
-    let
-        viewValue : String -> Html msg
-        viewValue value =
-            text value
+viewPrice : Maybe Price -> Html msg
+viewPrice maybePrice =
+    case maybePrice of
+        Nothing ->
+            div [] []
 
-        viewVariants : Variants String -> Html msg
-        viewVariants variants_ =
-            case variants_ of
-                SingleVariant { variant, value } ->
-                    p []
-                        [ i [] [ text (variant ++ ": ") ]
-                        , viewValue value
+        Just price ->
+            let
+                viewValue : String -> Html msg
+                viewValue value =
+                    text value
+
+                viewVariants : Variants String -> Html msg
+                viewVariants variants_ =
+                    case variants_ of
+                        SingleVariant { variant, value } ->
+                            p []
+                                [ i [] [ text (variant ++ ": ") ]
+                                , viewValue value
+                                ]
+
+                        MultipleVariants { variants, value } ->
+                            p []
+                                [ i [] [ variants |> List.intersperse ", " |> String.concat |> (\s -> s ++ ": ") |> text ]
+                                , viewValue value
+                                ]
+            in
+            case price of
+                SimplePrice { value, year, source } ->
+                    div [ style "margin-top" "2rem" ]
+                        [ h2 [ class "title is-4" ] [ text "Price" ]
+                        , p [] [ strong [] [ text ("Source: " ++ source) ] ]
+                        , p [] [ viewValue value ]
                         ]
 
-                MultipleVariants { variants, value } ->
-                    p []
-                        [ i [] [ variants |> List.intersperse ", " |> String.concat |> (\s -> s ++ ": ") |> text ]
-                        , viewValue value
-                        ]
-    in
-    case price of
-        SimplePrice { value, year, source } ->
-            div [ style "margin-top" "2rem" ]
-                [ h2 [ class "title is-4" ] [ text "Price" ]
-                , p [] [ strong [] [ text ("Source: " ++ source) ] ]
-                , p [] [ viewValue value ]
-                ]
-
-        ComplexPrice { values, year, source } ->
-            div [ style "margin-top" "2rem" ]
-                (h2 [ class "title is-4" ] [ text "Price" ]
-                    :: p [] [ strong [] [ text ("Source: " ++ source) ] ]
-                    :: List.map viewVariants values
-                )
+                ComplexPrice { values, year, source } ->
+                    div [ style "margin-top" "2rem" ]
+                        (h2 [ class "title is-4" ] [ text "Price" ]
+                            :: p [] [ strong [] [ text ("Source: " ++ source) ] ]
+                            :: List.map viewVariants values
+                        )
 
 
 viewNotes : Maybe (List String) -> Html msg
@@ -645,31 +675,28 @@ viewLinks maybeLinks =
 
         Just links ->
             let
-                catalogueLinksTitle =
+                catalogueLinks =
                     case links.catalogues of
                         [] ->
                             []
 
                         _ ->
-                            [ h2 [ class "title is-4" ] [ text "Catalog Links" ] ]
+                            [ div [ style "margin-top" "2rem" ]
+                                (h2 [ class "title is-4" ] [ text "Catalog Links" ] :: List.map viewLink links.catalogues)
+                            ]
 
-                reverbListingsTitle =
+                reverbListings =
                     case links.reverbListings of
                         [] ->
                             []
 
                         _ ->
-                            [ h2 [ class "title is-4" ] [ text "Past Reverb Listings" ] ]
+                            [ div [ style "margin-top" "2rem" ]
+                                (h2 [ class "title is-4" ] [ text "Past Reverb Listings" ] :: List.map viewLink links.reverbListings)
+                            ]
             in
-            div [ style "margin-top" "2rem" ]
-                (List.concat
-                    [ catalogueLinksTitle
-                    , List.map viewLink links.catalogues
-                    , [ br [] [] ]
-                    , reverbListingsTitle
-                    , List.map viewLink links.reverbListings
-                    ]
-                )
+            div []
+                (List.concat [ catalogueLinks, reverbListings ])
 
 
 viewLink : Link -> Html msg

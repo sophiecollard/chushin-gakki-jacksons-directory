@@ -1,6 +1,6 @@
 {
     "brand": "Jackson Stars",
-    "model": "RR-TN02STB LTD (2007 Limited Series)",
+    "model": "RR-TN02STB LTD \"Swirl\" (2007 Limited Series)",
     "tags": [
         {
             "colour": "dark",
@@ -28,7 +28,7 @@
             "nut_width": "1.6875\"",
             "fretboard": {
                 "material": "Striped Ebony",
-                "fret_count": 22
+                "fret_count": 24
             },
             "inlays": {
                 "material": "Pearloid",
@@ -56,11 +56,12 @@
             }
         },
         "hardware": {
-            "colour": "Gold",
+            "colour": "Chrome",
             "bridge_configuration": "Tune-o-matic Gotoh bridge with string-through-body"
         },
         "finishes": [
-            "BLK (Black)"
+            "BS (Blue Swirl)",
+            "CS (Crimson Swirl)"
         ]
     },
     "price": {
@@ -69,7 +70,12 @@
         "value": "JPY 168,000"
     },
     "notes": null,
-    "pictures" : null,
+    "pictures" : {
+        "mugshot": {
+            "label": "RR-TN02STB LTD in BS",
+            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-tn02-stb-ltd-bs.jpg"
+        }
+    },
     "links": {
         "catalogues": [
             {
@@ -77,11 +83,6 @@
                 "url": "http://www.vintaxe.com/catalogs_pages/catalogs_american_jackson_stars_2008.php"
             }
         ],
-        "reverb_listings": [
-            {
-                "label": "RR-TN02STB LTD",
-                "url": "https://reverb.com/uk/item/86320149-2008-jackson-stars-randy-rhoads-limited-edition-rr-tn02stb-ltd-neck-thru-v-near-mint-w-tags-japan"
-            }
-        ]
+        "reverb_listings": []
     }
 }
