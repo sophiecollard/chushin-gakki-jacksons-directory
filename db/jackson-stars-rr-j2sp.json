@@ -56,29 +56,39 @@
             "bridge_configuration": "Schaller tremolo (recessed)"
         },
         "finishes": [
-            "Black",
-            "Black with Yellow Bevels",
-            "Black with Gold Pinstripes"
+            "BK (Black)",
+            "BK/BV YL (Black w/ Yellow Bevels)",
+            "BK/BV PN GD (Black w/ Gold Pinstripes)"
         ]
     },
     "price": {
         "year": 2005,
-        "source": "Unknown",
+        "source": "2005 Jackson Stars Ad",
         "values": [
             {
-                "variant": "Black",
-                "value": "JPY 165,000"
+                "variant": "In BLK",
+                "value": "JPY 173,250"
             },
             {
-                "variant": "Black with Yellow Bevels",
-                "value": "JPY 215,000"
-            },
-            {
-                "variant": "Black with Gold Pinstripes",
-                "value": "JPY 215,000"
+                "variant": "In BK/BV YL or BK/BV PN GD",
+                "value": "JPY 225,750"
             }
         ]
     },
     "notes": null,
-    "links": null
+    "pictures" : {
+        "mugshot": {
+            "label": "RR-J2SP",
+            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-j2sp.png"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "2005 Jackson Stars Ad",
+                "url": "https://i.imgur.com/X2W7nia.png"
+            }
+        ],
+        "reverb_listings": []
+    }
 }

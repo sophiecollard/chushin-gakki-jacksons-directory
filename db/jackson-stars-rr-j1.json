@@ -128,6 +128,12 @@
     "notes": [
         "The Kahler equipped models (RR-J1K and RR-J1EK) only became available from 2005"
     ],
+    "pictures" : {
+        "mugshot": {
+            "label": "RR-J1BE in TRS",
+            "url": "https://jackson.ams3.digitaloceanspaces.com/mugshots/jackson-stars-rr-j1be.png"
+        }
+    },
     "links": {
         "catalogues": [
             {

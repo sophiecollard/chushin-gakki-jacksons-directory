@@ -10,8 +10,8 @@ module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
 import Browser
 import Debug exposing (log)
 import Decoders exposing (entryDecoder)
-import Html exposing (Html, a, br, div, h1, h2, h3, i, li, p, span, strong, text, ul)
-import Html.Attributes exposing (class, href, style)
+import Html exposing (Html, a, br, div, h1, h2, h3, i, img, li, p, span, strong, text, ul)
+import Html.Attributes exposing (class, href, src, style)
 import Html.Events exposing (onClick)
 import Http
 import Model exposing (..)
@@ -169,10 +169,16 @@ view model =
                 LoadedEntry entry ->
                     [ h1 [ class "title is-2" ] [ text (printBrand entry.brand ++ " " ++ entry.model) ]
                     , viewTags entry.tags
-                    , viewSpecs entry.specs
-                    , viewPrice entry.price
-                    , viewNotes entry.notes
-                    , viewLinks entry.links
+                    , div [ class "columns" ]
+                        [ div [ class "column is-9" ]
+                            [ viewSpecs entry.specs
+                            , viewPrice entry.price
+                            , viewNotes entry.notes
+                            , viewLinks entry.links
+                            ]
+                        , div [ class "column is-3" ]
+                            (viewMugshot entry.pictures)
+                        ]
                     ]
     in
     div [ class "container", style "margin-top" "20px" ]
@@ -689,3 +695,20 @@ viewLinks maybeLinks =
 viewLink : Link -> Html msg
 viewLink link =
     p [] [ a [ href link.url ] [ text link.label ] ]
+
+
+viewMugshot : Maybe Pictures -> List (Html msg)
+viewMugshot maybePictures =
+    case maybePictures of
+        Nothing ->
+            []
+
+        Just pictures ->
+            case pictures.mugshot of
+                Nothing ->
+                    []
+
+                Just mugshot ->
+                    [ img [ src mugshot.url ] []
+                    , i [ style "text-align" "center" ] [ p [] [ text mugshot.label ] ]
+                    ]

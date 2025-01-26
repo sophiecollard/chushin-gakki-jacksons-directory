@@ -5,10 +5,10 @@ type alias Entry =
     { brand : Brand
     , model : String
     , tags : List Tag
-    , variants : Maybe (List String)
     , specs : Specs
     , price : Price
     , notes : Maybe (List String)
+    , pictures : Maybe Pictures
     , links : Maybe Links
     }
 
@@ -139,6 +139,17 @@ type BridgeConfiguration
 type Price
     = SimplePrice { value : String, year : Int, source : String }
     | ComplexPrice { values : List (Variants String), year : Int, source : String }
+
+
+type alias Pictures =
+    { mugshot : Maybe Mugshot
+    }
+
+
+type alias Mugshot =
+    { label : String
+    , url : String
+    }
 
 
 type alias Links =

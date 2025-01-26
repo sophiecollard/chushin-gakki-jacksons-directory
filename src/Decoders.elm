@@ -10,10 +10,10 @@ entryDecoder =
         (field "brand" brandDecoder)
         (field "model" string)
         (field "tags" (list tagDecoder))
-        (field "variants" (maybe (list string)))
         (field "specs" specsDecoder)
         (field "price" priceDecoder)
         (field "notes" (maybe (list string)))
+        (field "pictures" (maybe picturesDecoder))
         (field "links" (maybe linksDecoder))
 
 
@@ -292,6 +292,19 @@ priceDecoder =
             (field "year" int)
             (field "source" string)
         ]
+
+
+picturesDecoder : Decoder Pictures
+picturesDecoder =
+    map Pictures
+        (field "mugshot" (maybe mugshotDecoder))
+
+
+mugshotDecoder : Decoder Mugshot
+mugshotDecoder =
+    map2 Mugshot
+        (field "label" string)
+        (field "url" string)
 
 
 linksDecoder : Decoder Links

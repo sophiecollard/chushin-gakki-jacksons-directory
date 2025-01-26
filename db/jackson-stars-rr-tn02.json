@@ -83,7 +83,7 @@
         "source": "2008 Jackson Stars Catalog",
         "values": [
             {
-                "variant": "RR-TN02 (in BLR or DMR finish)",
+                "variant": "RR-TN02 (in BLK or DMR finish)",
                 "value": "JPY 178,500"
             },
             {
@@ -91,7 +91,7 @@
                 "value": "JPY 189,000"
             },
             {
-                "variant": "RR-TN02EMG (in BLR or DMR finish)",
+                "variant": "RR-TN02EMG (in BLK or DMR finish)",
                 "value": "JPY 183,750"
             },
             {
@@ -101,6 +101,7 @@
         ]
     },
     "notes": null,
+    "pictures" : null,
     "links": {
         "catalogues": [
             {
