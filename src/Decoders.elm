@@ -11,10 +11,10 @@ entryDecoder =
         (field "model" string)
         (field "tags" (list tagDecoder))
         (field "specs" specsDecoder)
-        (field "price" (maybe priceDecoder))
-        (field "notes" (maybe (list string)))
-        (field "pictures" (maybe picturesDecoder))
-        (field "links" (maybe linksDecoder))
+        (optionalField "price" priceDecoder)
+        (optionalField "notes" (list string))
+        (optionalField "pictures" picturesDecoder)
+        (optionalField "links" linksDecoder)
 
 
 brandDecoder : Decoder Brand
@@ -108,7 +108,7 @@ neckSpecsDecoder =
         (field "nut_width" nutWidthDecoder)
         (field "fretboard" fretboardSpecsDecoder)
         (field "inlays" inlaysSpecsDecoder)
-        (field "binding" (maybe bindingSpecsDecoder))
+        (optionalField "binding" bindingSpecsDecoder)
 
 
 fretboardSpecsDecoder : Decoder FretboardSpecs
@@ -239,8 +239,8 @@ bodySpecsDecoder : Decoder BodySpecs
 bodySpecsDecoder =
     map3 BodySpecs
         (field "material" string)
-        (field "top" (maybe string))
-        (field "binding" (maybe bindingSpecsDecoder))
+        (optionalField "top" string)
+        (optionalField "binding" bindingSpecsDecoder)
 
 
 electronicsSpecsDecoder : Decoder ElectronicsSpecs
@@ -268,18 +268,10 @@ pickupConfigurationDecoder =
 pickupConfigurationValueDecoder : Decoder PickupConfigurationValue
 pickupConfigurationValueDecoder =
     map4 PickupConfigurationValue
-        (field "neck" (maybe string))
-        (maybeFieldDecoder "middle" string)
+        (optionalField "neck" string)
+        (optionalField "middle" string)
         (field "bridge" string)
-        (maybeFieldDecoder "active_electronics" string)
-
-
-maybeFieldDecoder : String -> Decoder a -> Decoder (Maybe a)
-maybeFieldDecoder fieldName decoder =
-    oneOf
-        [ field fieldName (maybe decoder)
-        , succeed Nothing
-        ]
+        (optionalField "active_electronics" string)
 
 
 bridgeConfigurationDecoder : Decoder BridgeConfiguration
@@ -307,7 +299,7 @@ priceDecoder =
 picturesDecoder : Decoder Pictures
 picturesDecoder =
     map Pictures
-        (field "mugshot" (maybe mugshotDecoder))
+        (optionalField "mugshot" mugshotDecoder)
 
 
 mugshotDecoder : Decoder Mugshot
@@ -342,4 +334,12 @@ variantsDecoder decoderA =
             (\variants value -> MultipleVariants { variants = variants, value = value })
             (field "variants" (list string))
             (field "value" decoderA)
+        ]
+
+
+optionalField : String -> Decoder a -> Decoder (Maybe a)
+optionalField fieldName decoder =
+    oneOf
+        [ field fieldName (maybe decoder)
+        , succeed Nothing
         ]
