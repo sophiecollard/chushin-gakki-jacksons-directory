@@ -294,8 +294,17 @@ viewGroverJacksonSoloistMenuList =
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-sl.json") ]
             [ a [] [ text "Soloist" ] ]
         , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-sl-jr.json") ]
+            [ a [] [ text "Soloist Jr" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-sl-standard.json") ]
+            [ a [] [ text "Soloist Standard" ] ]
+        , li
             [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-sl-custom.json") ]
             [ a [] [ text "Soloist Custom" ] ]
+        , li
+            [ onClick (GetEntry "https://jackson.ams3.digitaloceanspaces.com/db/grover-jackson-sl-special-custom.json") ]
+            [ a [] [ text "Soloist Special Custom" ] ]
         ]
 
 

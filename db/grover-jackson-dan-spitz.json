@@ -53,7 +53,7 @@
         },
         "hardware": {
             "colour": "Gold",
-            "bridge_configuration": "Schaller Tremolo (top-mounted, w/ cavity)"
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted, w/ cavity)"
         },
         "finishes": [
             "Black"
@@ -78,6 +78,27 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "1992 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/6434814-jackson-dan-spitz-professional-free-shipping"
+            },
+            {
+                "label": "1992 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/33505791-jackson-randy-rhoads-dan-spitz-professional-1992-black"
+            },
+            {
+                "label": "1993 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/43819798-1993-jackson-professional-randy-rhoads-pro-electric-guitar-with-ohsc-black"
+            },
+            {
+                "label": "1994 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/86478299-grover-jackson-dan-spitz-signature-rhoads-rr-professional-1994-black"
+            },
+            {
+                "label": "1994 Dan Spitz Professional",
+                "url": "https://reverb.com/uk/item/13922631-grover-jackson-dan-spitz-signature-rhoads-rr-professional-1994-black"
+            }
+        ]
     }
 }

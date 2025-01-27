@@ -6,7 +6,7 @@
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "2005-2006"
+            "rightContent": "2005-2007"
         },
         {
             "leftColour": "light",
@@ -91,16 +91,12 @@
         ],
         "reverb_listings": [
             {
-                "label": "RR-J2SP in BK",
+                "label": "2006 RR-J2SP in Black",
                 "url": "https://reverb.com/item/84653077-jackson-jackson-stars-rr-j2sp-gloss-black-2006-made-in-japan-alexi-laiho-sig-model"
             },
             {
-                "label": "RR-J2SP in BK/BV YL",
+                "label": "2007 RR-J2SP in Black w/ Yellow Bevels",
                 "url": "https://reverb.com/item/85047946-jackson-stars-j2sp-2007-alexi-wild-child-laiho-model-minty-condition"
-            },
-            {
-                "label": "RR-J2SP in BK/BV YL",
-                "url": "https://reverb.com/uk/item/83364217-jackson-stars-rr-j2sp-japan"
             }
         ]
     }

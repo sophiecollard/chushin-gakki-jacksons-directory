@@ -1,12 +1,12 @@
 {
     "brand": "Grover Jackson",
-    "model": "Kelly Custom",
+    "model": "Soloist Jr",
     "tags": [
         {
             "leftColour": "light",
             "leftContent": "Years of Production",
             "rightColour": "primary",
-            "rightContent": "1992-1994"
+            "rightContent": "1990-1991"
         },
         {
             "leftColour": "light",
@@ -15,12 +15,11 @@
             "rightContent": "Japan"
         }
     ],
-    "variants": null,
     "specs": {
         "neck": {
             "material": "Quarter Sawn Maple",
             "construction": "neck_through",
-            "scale_length": "25.5\"",
+            "scale_length": "24.75\"",
             "nut_width": "1.6875\"",
             "fretboard": {
                 "material": "Ebony",
@@ -28,7 +27,7 @@
             },
             "inlays": {
                 "material": "Mother of Pearl",
-                "type": "Sharkfins"
+                "type": "Reverse Sharkfins"
             },
             "binding": {
                 "colour": "Ivory"
@@ -45,10 +44,12 @@
             "binding": null
         },
         "electronics": {
-            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "controls": "1x Volume, 1x Mid Boost, 3-Way Toggle Switch",
             "pickup_configuration": {
-                "neck": "J-50BC",
-                "bridge": "J-90C"
+                "neck": "J-200",
+                "middle": null,
+                "bridge": "J-50B",
+                "active_electronics": "JE-1200 Mid Boost"
             }
         },
         "hardware": {
@@ -56,30 +57,29 @@
             "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted, w/ cavity)"
         },
         "finishes": [
-            "MB (Metallic Black)",
-            "PBW (Pearl Blue White)",
-            "AL (Aluminium)"
+            "Metallic Black",
+            "Pearl Blue White"
         ]
     },
     "price": {
-        "year": 1993,
-        "source": "1993 Jackson & Charvel Catalog (Japan)",
-        "value": "JPY 200,000"
+        "year": 1991,
+        "source": "1991 Charvel & Grover Jackson Catalog (Japan)",
+        "value": "JPY 170,000"
     },
     "notes": null,
-    "pictures": {
-        "mugshot": {
-            "label": "Kelly Custom in MB",
-            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-ke-custom.png"
-        }
-    },
+    "pictures": null,
     "links": {
         "catalogues": [
             {
-                "label": "1993 Jackson & Charvel Catalog (Japan)",
-                "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
+                "label": "1991 Charvel & Grover Jackson Catalog (Japan)",
+                "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_13.html"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "1990 Soloist Jr in Metallic Black",
+                "url": "https://reverb.com/uk/item/29814405-grover-jackson-soloist-jr-1990-metallic-black-short-scale"
+            }
+        ]
     }
 }

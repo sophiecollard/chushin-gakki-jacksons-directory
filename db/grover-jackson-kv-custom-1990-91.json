@@ -65,7 +65,7 @@
         },
         "hardware": {
             "colour": "Black",
-            "bridge_configuration": "Schaller Tremolo (top-mounted, w/ cavity)"
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted, w/ cavity)"
         },
         "finishes": [
             "MB (Metallic Black)",
@@ -89,6 +89,15 @@
                 "url": "https://guitar-catalog.com/guitar-and-amp/groverjackson/1991/en_15.html"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "1991 King V Custom in Pearl Red",
+                "url": "https://reverb.com/uk/item/33984926-grover-jackson-king-v-custom-kv-mij-1991-pearl-red"
+            },
+            {
+                "label": "1991 King V Custom in Metallic Black",
+                "url": "https://reverb.com/uk/item/64258890-grover-jackson-king-v-custom-metallic-black-s-n-j101486-12-21"
+            }
+        ]
     }
 }

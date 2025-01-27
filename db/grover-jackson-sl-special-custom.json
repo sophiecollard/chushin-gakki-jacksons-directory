@@ -1,6 +1,6 @@
 {
     "brand": "Grover Jackson",
-    "model": "Kelly Custom",
+    "model": "Soloist Special Custom",
     "tags": [
         {
             "leftColour": "light",
@@ -40,25 +40,25 @@
             "logo_material": "Decal"
         },
         "body": {
-            "material": "Yellow Poplar",
+            "material": "Ash",
             "top": null,
             "binding": null
         },
         "electronics": {
-            "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
+            "controls": "1x Volume, 1x Parametric EQ/Mid Boost, 1x Mode Select Mini Switch, 5-Way Switch",
             "pickup_configuration": {
-                "neck": "J-50BC",
-                "bridge": "J-90C"
+                "neck": "J-200 & S-6F",
+                "bridge": "J-95",
+                "active_electronics": "JE-1550"
             }
         },
         "hardware": {
-            "colour": "Black",
+            "colour": "Gold",
             "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted, w/ cavity)"
         },
         "finishes": [
-            "MB (Metallic Black)",
-            "PBW (Pearl Blue White)",
-            "AL (Aluminium)"
+            "TPB (Trans Prim Black)",
+            "TPBL (Trans Prim Blue)"
         ]
     },
     "price": {
@@ -69,8 +69,8 @@
     "notes": null,
     "pictures": {
         "mugshot": {
-            "label": "Kelly Custom in MB",
-            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-ke-custom.png"
+            "label": "Soloist Special Custom in TPBL",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-sl-special-custom.png"
         }
     },
     "links": {

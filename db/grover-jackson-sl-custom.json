@@ -68,7 +68,7 @@
         },
         "hardware": {
             "colour": "Black",
-            "bridge_configuration": "Schaller Tremolo (top-mounted, w/ cavity)"
+            "bridge_configuration": "Jackson-branded Schaller Tremolo (top-mounted, w/ cavity)"
         },
         "finishes": [
             "MB (Metallic Black)",
@@ -84,7 +84,12 @@
         "value": "JPY 185,000"
     },
     "notes": null,
-    "pictures": null,
+    "pictures": {
+        "mugshot": {
+            "label": "Soloist Custom HH in WB",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-sl-custom-hh.png"
+        }
+    },
     "links": {
         "catalogues": [
             {
@@ -92,6 +97,19 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "1994 Soloist Custom SSH in Wizard Blue",
+                "url": "https://reverb.com/uk/item/38336253-jackson-soloist-custom-wizard-blue"
+            },
+            {
+                "label": "1994 Soloist Custom HH in Wizard Blue",
+                "url": "https://reverb.com/uk/item/30684058-jackson-grover-jackson-1994-iceberg"
+            },
+            {
+                "label": "199X Soloist Custom in Metallic Black",
+                "url": "https://reverb.com/uk/item/82853999-1990s-grover-jackson-soloist-custom-hh-metallic-black-japan"
+            }
+        ]
     }
 }

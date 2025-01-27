@@ -1,6 +1,6 @@
 {
     "brand": "Grover Jackson",
-    "model": "Kelly Custom",
+    "model": "Soloist Standard",
     "tags": [
         {
             "leftColour": "light",
@@ -23,7 +23,7 @@
             "scale_length": "25.5\"",
             "nut_width": "1.6875\"",
             "fretboard": {
-                "material": "Ebony",
+                "material": "Rosewood",
                 "fret_count": 24
             },
             "inlays": {
@@ -36,7 +36,7 @@
         },
         "headstock": {
             "type": "regular",
-            "finish": "Black",
+            "finish": "Matching",
             "logo_material": "Decal"
         },
         "body": {
@@ -46,10 +46,23 @@
         },
         "electronics": {
             "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
-            "pickup_configuration": {
-                "neck": "J-50BC",
-                "bridge": "J-90C"
-            }
+            "pickup_configuration": [
+                {
+                    "variant": "HH Configuration",
+                    "value": {
+                        "neck": "J-50N",
+                        "bridge": "J-80"
+                    }
+                },
+                {
+                    "variant": "SSH Configuration",
+                    "value": {
+                        "neck": "J-100",
+                        "middle": "J-100",
+                        "bridge": "J-80"
+                    }
+                }
+            ]
         },
         "hardware": {
             "colour": "Black",
@@ -58,19 +71,29 @@
         "finishes": [
             "MB (Metallic Black)",
             "PBW (Pearl Blue White)",
-            "AL (Aluminium)"
+            "CB (Candy Blue)",
+            "BV (Black Violet)"
         ]
     },
     "price": {
         "year": 1993,
         "source": "1993 Jackson & Charvel Catalog (Japan)",
-        "value": "JPY 200,000"
+        "values": [
+            {
+                "variant": "HH Configuration",
+                "value": "JPY 120,000"
+            },
+            {
+                "variant": "SSH Configuration",
+                "value": "JPY 125,000"
+            }
+        ]
     },
     "notes": null,
     "pictures": {
         "mugshot": {
-            "label": "Kelly Custom in MB",
-            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-ke-custom.png"
+            "label": "Soloist Standard HH in BV",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/grover-jackson-sl-standard-hh.png"
         }
     },
     "links": {
@@ -80,6 +103,19 @@
                 "url": "https://assets.ctfassets.net/4jcppgetbqrc/54C6GyN9W8wYuGOekKMgoe/c181e59f1da5f4158123dc1d77044774/JacksonCharvel-1993GJ-Japan-catalog.pdf"
             }
         ],
-        "reverb_listings": []
+        "reverb_listings": [
+            {
+                "label": "1993 Soloist Standard HH in Pearl Blue White",
+                "url": "https://reverb.com/uk/item/40877401-grover-jackson-soloist-standard-hh-1993-professional-pvw"
+            },
+            {
+                "label": "1993 Soloist standard SSH in Metallic Black",
+                "url": "https://reverb.com/uk/item/84251306-1993-grover-jackson-soloist-standard-ssh-vintage-neck-through-guitar-metallic-black-w-floyd-rose"
+            },
+            {
+                "label": "1994 Soloist Standard SSH in Candy Blue",
+                "url": "https://reverb.com/uk/item/66307279-grover-jackson-soloist-standard-cb-sn-j402474-02-27"
+            }
+        ]
     }
 }
