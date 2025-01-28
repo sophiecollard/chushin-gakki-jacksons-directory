@@ -1,0 +1,84 @@
+{
+    "brand": "Jackson",
+    "model": "RR24",
+    "specs": {
+        "neck": {
+            "material": "Maple",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 24
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Sharkfins"
+            },
+            "binding": {
+                "colour": "Black"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Matching",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Alder",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume",
+            "pickup_configuration": {
+                "bridge": "EMG 81"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Floyd Rose Original (recessed)"
+        },
+        "finishes": [
+            "Snow White w/ Black Bevels",
+            "Black w/ Yellow Bevels",
+            "Black w/ Blood Red Bevels",
+            "Gold w/ Black Bevels (limited edition)"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "RR24 in Black w/ Blood Red Bevels",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-rr24-black-red.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "2008 Jackson Guitars Price List",
+                "url": "https://guitar-compare.com/wp-content/uploads/2019/12/Jackson-Price-List-2008.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2007 RR24 in Snow White w/ Black Bevels",
+                "url": "https://reverb.com/uk/item/25275518-jackson-rr24-rhoads-pro-2007-snow-white-with-black-bevels-owned-by-matt-drake-from-evile?show_sold=true"
+            },
+            {
+                "label": "2008 RR24 in Gold w/ Black Bevels",
+                "url": "https://reverb.com/uk/item/45240187-jackson-pro-series-rr24-rhoads-2009-limited-edition-gold-with-black-bevels-mij-neck-through-ohsc?show_sold=true"
+            },
+            {
+                "label": "2009 RR24 in Black w/ Blood Red Bevels",
+                "url": "https://reverb.com/uk/item/66604549-jackson-pro-series-rr24-rhoads-2009-black-w-blood-red-bevels-made-in-japan-neck-through-floyd-rose-emg-81-ohsc?show_sold=true"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide_excl_japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2011
+        }
+    }
+}

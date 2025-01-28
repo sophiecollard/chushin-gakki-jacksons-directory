@@ -1,25 +1,6 @@
 {
     "brand": "Jackson Stars",
     "model": "KE-TN02 LTD \"Swirl\" (2007 Limited Series)",
-    "tags": [
-        {
-            "colour": "dark",
-            "text": "2007 Limited Series"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Years of Production",
-            "rightColour": "primary",
-            "rightContent": "2007-2008"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Availability",
-            "rightColour": "danger",
-            "rightContent": "Japan"
-        }
-    ],
-    "variants": null,
     "specs": {
         "neck": {
             "material": "Maple",
@@ -57,7 +38,7 @@
         },
         "hardware": {
             "colour": "Chrome",
-            "bridge_configuration": "FRT-O 1000 (recessed)"
+            "bridge_configuration": "Floyd Rose FRT-O 1000 (recessed)"
         },
         "finishes": [
             "BS (Blue Swirl)",
@@ -69,7 +50,6 @@
         "source": "2008 Jackson Stars Catalog",
         "value": "JPY 189,000"
     },
-    "notes": null,
     "pictures" : null,
     "links": {
         "catalogues": [
@@ -84,5 +64,13 @@
                 "url": "https://reverb.com/ca/item/66093779-2008-jackson-stars-kelly-ke-tn02-ltd-cobalt-blue-swirl-w-seymour-duncans-floyd-rose-japan"
             }
         ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2008
+        },
+        "limited_series": "2007 Limited Series"
     }
 }

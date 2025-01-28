@@ -1,25 +1,6 @@
 {
     "brand": "Jackson Stars",
     "model": "SL-TN01 Quilt (2008 Limited Series)",
-    "tags": [
-        {
-            "colour": "dark",
-            "text": "2008 Limited Series"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Years of Production",
-            "rightColour": "primary",
-            "rightContent": "2008"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Availability",
-            "rightColour": "danger",
-            "rightContent": "Japan"
-        }
-    ],
-    "variants": null,
     "specs": {
         "neck": {
             "material": "Maple",
@@ -72,7 +53,6 @@
         "source": "2008 Jackson Stars Catalog",
         "value": "JPY 304,500"
     },
-    "notes": null,
     "pictures" : null,
     "links": {
         "catalogues": [
@@ -87,5 +67,12 @@
                 "url": "https://reverb.com/uk/item/13086405-jackson-stars-2008-limited-sl-tn01-nat"
             }
         ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2008
+        },
+        "limited_series": "2008 Limited Series"
     }
 }

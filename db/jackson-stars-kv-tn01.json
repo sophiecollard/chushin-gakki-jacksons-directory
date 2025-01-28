@@ -1,24 +1,6 @@
 {
     "brand": "Jackson Stars",
     "model": "KV-TN01",
-    "tags": [
-        {
-            "leftColour": "light",
-            "leftContent": "Years of Production",
-            "rightColour": "primary",
-            "rightContent": "2007-2009"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Availability",
-            "rightColour": "danger",
-            "rightContent": "Japan"
-        }
-    ],
-    "variants": [
-        "KV-TN01",
-        "KV-TN01EMG"
-    ],
     "specs": {
         "neck": {
             "material": "Maple",
@@ -88,7 +70,6 @@
             }
         ]
     },
-    "notes": null,
     "pictures" : null,
     "links": {
         "catalogues": [
@@ -102,6 +83,17 @@
                 "label": "2008 KV-TN01 in Black (mislabelled as 2007)",
                 "url": "https://reverb.com/item/82833258-jackson-stars-king-v-series-kv-tn01-black-2007-w-hardshell-case"
             }
+        ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2009
+        },
+        "variants": [
+            "KV-TN01",
+            "KV-TN01EMG"
         ]
     }
 }

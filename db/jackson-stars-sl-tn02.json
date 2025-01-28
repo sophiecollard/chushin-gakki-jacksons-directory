@@ -1,24 +1,6 @@
 {
     "brand": "Jackson Stars",
     "model": "SL-TN02",
-    "tags": [
-        {
-            "leftColour": "light",
-            "leftContent": "Years of Production",
-            "rightColour": "primary",
-            "rightContent": "2007-2009"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Availability",
-            "rightColour": "danger",
-            "rightContent": "Japan"
-        }
-    ],
-    "variants": [
-        "SL-TN02",
-        "SL-TN02EMG"
-    ],
     "specs": {
         "neck": {
             "material": "Maple",
@@ -39,12 +21,12 @@
         },
         "headstock": {
             "type": "regular",
-            "finish": "Matching (on solid finishes) or black (on transparent finishes)",
+            "finish": "Matching (on solid finishes) or Black (on transparent finishes)",
             "logo_material": "Decal"
         },
         "body": {
             "material": "Alder",
-            "top": "Flame maple veneer on transparent finishes",
+            "top": "Flame Maple Veneer on transparent finishes",
             "binding": null
         },
         "electronics": {
@@ -68,7 +50,7 @@
         },
         "hardware": {
             "colour": "Black",
-            "bridge_configuration": "FRT-O 2000 (recessed)"
+            "bridge_configuration": "Floyd Rose FRT-O 2000 (recessed)"
         },
         "finishes": [
             "BLK (Black)",
@@ -100,7 +82,6 @@
             }
         ]
     },
-    "notes": null,
     "pictures" : null,
     "links": {
         "catalogues": [
@@ -110,5 +91,16 @@
             }
         ],
         "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2009
+        },
+        "variants": [
+            "SL-TN02",
+            "SL-TN02EMG"
+        ]
     }
 }

@@ -1,25 +1,6 @@
 {
     "brand": "Jackson Stars",
     "model": "KV-TN02 LTD \"Polka Dots\" (2007 Limited Series)",
-    "tags": [
-        {
-            "colour": "dark",
-            "text": "2007 Limited Series"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Years of Production",
-            "rightColour": "primary",
-            "rightContent": "2007-2008"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Availability",
-            "rightColour": "danger",
-            "rightContent": "Japan"
-        }
-    ],
-    "variants": null,
     "specs": {
         "neck": {
             "material": "Maple",
@@ -57,7 +38,7 @@
         },
         "hardware": {
             "colour": "Chrome",
-            "bridge_configuration": "FRT-O 1000 (recessed)"
+            "bridge_configuration": "Floyd Rose FRT-O 1000 (recessed)"
         },
         "finishes": [
             "Black w/ White Polka Dots"
@@ -68,7 +49,6 @@
         "source": "2008 Jackson Stars Catalog",
         "value": "JPY 231,000"
     },
-    "notes": null,
     "pictures": null,
     "links": {
         "catalogues": [
@@ -78,5 +58,13 @@
             }
         ],
         "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2008
+        },
+        "limited_series": "2007 Limited Series"
     }
 }

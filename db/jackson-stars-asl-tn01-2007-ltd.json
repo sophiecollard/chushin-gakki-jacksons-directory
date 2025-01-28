@@ -1,25 +1,6 @@
 {
     "brand": "Jackson Stars",
     "model": "ASL-TN01 (2007 Limited Series)",
-    "tags": [
-        {
-            "colour": "dark",
-            "text": "2007 Limited Series"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Years of Production",
-            "rightColour": "primary",
-            "rightContent": "2007-2008"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Availability",
-            "rightColour": "danger",
-            "rightContent": "Japan"
-        }
-    ],
-    "variants": null,
     "specs": {
         "neck": {
             "material": "Maple",
@@ -46,7 +27,9 @@
         "body": {
             "material": "Mahogany",
             "top": "1/8\" flame maple top",
-            "binding": null
+            "binding": {
+                "colour": "Natural"
+            }
         },
         "electronics": {
             "controls": "1x Volume, 1x Tone, 3-Way Toggle Switch",
@@ -71,7 +54,6 @@
         "source": "2008 Jackson Stars Catalog",
         "value": "JPY 304,500"
     },
-    "notes": null,
     "pictures" : null,
     "links": {
         "catalogues": [
@@ -94,5 +76,13 @@
                 "url": "https://reverb.com/item/72191332-jackson-asl-tn01-ltd-see-through-blue-used"
             }
         ]
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2008
+        },
+        "limited_series": "2007 Limited Series"
     }
 }

@@ -1,24 +1,6 @@
 {
     "brand": "Jackson Stars",
     "model": "SL-TN01",
-    "tags": [
-        {
-            "leftColour": "light",
-            "leftContent": "Years of Production",
-            "rightColour": "primary",
-            "rightContent": "2007-2009"
-        },
-        {
-            "leftColour": "light",
-            "leftContent": "Availability",
-            "rightColour": "danger",
-            "rightContent": "Japan"
-        }
-    ],
-    "variants": [
-        "SL-TN01",
-        "SL-TN01EMG"
-    ],
     "specs": {
         "neck": {
             "material": "Maple",
@@ -99,7 +81,6 @@
             }
         ]
     },
-    "notes": null,
     "pictures" : null,
     "links": {
         "catalogues": [
@@ -109,5 +90,16 @@
             }
         ],
         "reverb_listings": []
+    },
+    "misc": {
+        "availability": "japan",
+        "years_of_manufacture": {
+            "from": 2007,
+            "until": 2009
+        },
+        "variants": [
+            "SL-TN01",
+            "SL-TN01EMG"
+        ]
     }
 }

@@ -1,0 +1,82 @@
+{
+    "brand": "Jackson",
+    "model": "Kevin Bond Rhoads",
+    "specs": {
+        "neck": {
+            "material": "Three-piece Mahogany",
+            "construction": "neck_through",
+            "scale_length": "25.5\"",
+            "nut_width": "1.6875\"",
+            "fretboard": {
+                "material": "Ebony",
+                "fret_count": 22
+            },
+            "inlays": {
+                "material": "Pearloid",
+                "type": "Pentagrams"
+            },
+            "binding": {
+                "colour": "Ivory"
+            }
+        },
+        "headstock": {
+            "type": "regular",
+            "finish": "Black",
+            "logo_material": "Decal"
+        },
+        "body": {
+            "material": "Mahogany",
+            "top": null,
+            "binding": null
+        },
+        "electronics": {
+            "controls": "1x Volume",
+            "pickup_configuration": {
+                "bridge": "Seymour Duncan Tony Iommi SH-TI1B"
+            }
+        },
+        "hardware": {
+            "colour": "Black",
+            "bridge_configuration": "Tune-o-matic w/ Schaller fine-tuning tailpiece"
+        },
+        "finishes": [
+            "Black w/ Blood Red Bevels",
+            "Black w/ Fluorescent Green Bevels"
+        ]
+    },
+    "pictures": {
+        "mugshot": {
+            "label": "Kevin Bond Rhoads in Black w/ Blood Red Bevels",
+            "url": "https://jackson.ams3.cdn.digitaloceanspaces.com/mugshots/jackson-kevin-bond-red.jpg"
+        }
+    },
+    "links": {
+        "catalogues": [
+            {
+                "label": "2005 Jackson Guitars Catalog",
+                "url": "https://assets.ctfassets.net/4jcppgetbqrc/26TlCxR15qWwgU2k6oaAie/ac34b65ff4852be22c1485563b4745be/Jackson-2005-catalog.pdf"
+            }
+        ],
+        "reverb_listings": [
+            {
+                "label": "2005 Kevin Bond Rhoads in Black w/ Fluorescent Green Bevels",
+                "url": "https://reverb.com/item/37487922-jackson-stars-kevin-bond-signature-rrv-used-superjoint-ritual-made-in-japan?show_sold=true"
+            }
+        ]
+    },
+    "misc": {
+        "availability": "worldwide",
+        "years_of_manufacture": {
+            "from": 2004,
+            "until": 2008
+        },
+        "additional_sections": [
+            {
+                "title": "Misc Information",
+                "contents": [
+                    "In Japan, this model was sold under the brand \"Jackson Stars\"."
+                ]
+            }
+        ]
+    }
+}
