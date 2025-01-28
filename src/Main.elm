@@ -1,10 +1,3 @@
--- Make a GET request to load a book called "Public Opinion"
---
--- Read how it works:
---   https://guide.elm-lang.org/effects/http.html
---
-
-
 module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
 
 import Browser
@@ -171,7 +164,7 @@ viewHeader =
                 [ div [ class "container" ]
                     [ div [ class "navbar-brand" ]
                         [ div [ class "navbar-item" ]
-                            [ h1 [ class "title is-4" ] [ text "Chushin Gakki Jacksons Directory" ]
+                            [ h1 [ class "title is-4" ] [ text "Chushin Gakki Jacksons Index" ]
                             ]
                         ]
                     , div [ class "navbar-menu" ]
@@ -185,7 +178,7 @@ viewHeader =
                             [ span [ class "navbar-item" ]
                                 [ a
                                     [ class "button is-link is-outlined"
-                                    , href "https://github.com/sophiecollard/chushin-gakki-jacksons-directory"
+                                    , href "https://github.com/sophiecollard/chushin-gakki-jacksons-index"
                                     , target "blank"
                                     ]
                                     [ span [ class "icon" ]
